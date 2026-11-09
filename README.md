@@ -1,76 +1,81 @@
-# 🌐 MakerSpell Community Hub & Hardware Documentation
+# 🌐 MakerSpell Community Hub & Kullanıcı Kılavuzları
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![MakerSpell](https://img.shields.io/badge/MakerSpell-Ecosystem-indigo.svg)](https://www.makerspell.com)
 [![Status: Active](https://img.shields.io/badge/Status-Live%20Hub-emerald.svg)](https://github.com/MakerSpell/MakerSpell-Community-Hub)
 
-Welcome to the **MakerSpell Community Hub** — the official, open-source repository for community-driven 3D printer profiles, hardware integration guides, OrcaSlicer configurations, and platform documentation.
+Welcome to the **MakerSpell Community Hub** — the official, open-source repository for community-driven 3D printer profiles, user guides for desktop/mobile and web platforms, and ecosystem documentation.
 
 > **One platform, every 3D model, direct to your printer.**  
 > MakerSpell connects 26 model repositories, cloud & local slicing engines, and multi-brand 3D printers into a unified workspace.
 
 ---
 
-## 📚 What's Inside This Repository
+## 📚 Dokümantasyon ve Kullanım Rehberleri Ağacı
 
-- **📖 Hardware Guides:** Step-by-step setup guides for Klipper/Moonraker, CrealityOS, Snapmaker, OctoPrint, Bambu Lab, and Prusa devices.
-- **🖨️ Community Printer Profiles:** Declarative JSON definitions for community hardware (bed sizes, extrusion capabilities, network discovery contracts, and G-code flavors).
-- **⚙️ Slicer Core Documentation:** OrcaSlicer engine integration details, filament presets, and multi-color toolchange matrices.
-- **🛡️ Hardware Safety Protocol:** Zero-risk hardware control standards, physical safety rules, and sandboxed safe-mode specifications.
+Tüm dokümanlar, Web sitesi ve Flutter masaüstü/mobil uygulaması içerisindeki "Dokümantasyon Görüntüleyici" tarafından dinamik olarak okunup kullanıcıya sunulacak şekilde yapılandırılmıştır.
+
+Dokümantasyon indeks ve hiyerarşisi [`docs/manifest.json`](docs/manifest.json) dosyası üzerinden yönetilir.
+
+```text
+community-hub/
+├── docs/
+│   ├── manifest.json                  # Multilingual Navigation Index (en / tr)
+│   ├── assets/                        # Shared Screenshots & Architecture Graphics
+│   │   └── screenshots/               # app/ and web/ screenshots
+│   ├── en/                            # English Documentation (Default & Global)
+│   │   ├── app-guide/                 # Desktop & Mobile App User Guides (12 docs)
+│   │   ├── web-guide/                 # Web Platform User Guides (7 docs)
+│   │   ├── printers/                  # 3D Printer Connectivity & Protocols (5 docs)
+│   │   ├── schemas/                   # Declarative JSON Driver Schema v2 (2 docs)
+│   │   └── guides/                    # Developer, Contributor & Governance Guides (3 docs)
+│   ├── tr/                            # Türkçe Dokümantasyon (Yerel Kılavuzlar)
+│   │   ├── app-guide/                 # Masaüstü & Mobil Uygulama Kullanım Kılavuzları (12 doküman)
+│   │   ├── web-guide/                 # Web Platformu Kullanım Kılavuzları (7 doküman)
+│   │   ├── printers/                  # 3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri (5 doküman)
+│   │   ├── schemas/                   # Açık Topluluk JSON Sürücü Şeması v2 (2 doküman)
+│   │   └── guides/                    # Geliştirici & Topluluk Rehberleri (3 doküman)
+│   └── examples/                      # Example Printer Driver Profiles (Creality K1, Snapmaker U1)
+```
 
 ---
 
-## 🖨️ Supported Hardware Compatibility Matrix
+## 🖨️ Desteklenen Donanım Uyumluluk Matrisi (Hardware Matrix)
 
-| Hardware / Protocol | Status | Control Mode | Telemetry | Firmware Requirement |
+| Donanım / Protokol | Durum | Kontrol Modu | Telemetri | Bellenim Gereksinimi |
 | :--- | :--- | :--- | :--- | :--- |
-| **Creality K1 / K1 Max / K1C** | 🟢 **Verified** | Full Bi-directional | Live Temps, Chamber, LiDAR, Camera | CrealityOS / Moonraker |
-| **Creality Ender-3 V3 (CoreXZ)** | 🟢 **Verified** | Full Bi-directional | Live Status, Stage tracking | CrealityOS / Moonraker |
-| **Snapmaker U1 / Artisan** | 🟢 **Verified** | Full Bi-directional | 4-Toolchanger Telemetry, MQTT | Snapmaker Extended FW |
-| **Moonraker / Klipper Ecosystem** | 🟢 **Verified** | Full Bi-directional | Full WebSocket / REST Telemetry | Klipper / Moonraker |
-| **OctoPrint v1 Ecosystem** | 🟢 **Verified** | Full Bi-directional | MJPEG Webcam, REST API v1 | OctoPrint 1.8+ |
+| **Creality K1 / K1 Max / K1C** | 🟢 **Verified** | Tam İki Yönlü | Canlı Sıcaklık, Hazne, LiDAR, Kamera | CrealityOS / Moonraker |
+| **Creality Ender-3 V3 (CoreXZ)** | 🟢 **Verified** | Tam İki Yönlü | Canlı Durum, Aşama Takibi | CrealityOS / Moonraker |
+| **Creality Hi / Hi Combo** | 🟢 **Verified** | Tam İki Yönlü | 4-Renk CFS Telemetrisi, Kamera | CrealityOS v2 |
+| **Snapmaker U1 / Artisan** | 🟢 **Verified** | Tam İki Yönlü | Takım Değiştirme Telemetrisi, MQTT | Snapmaker Extended FW |
+| **Moonraker / Klipper Ekosistemi** | 🟢 **Verified** | Tam İki Yönlü | Tam WebSocket / REST Telemetrisi | Klipper / Moonraker |
+| **OctoPrint v1 / v2 Ekosistemi** | 🟢 **Verified** | Tam İki Yönlü | MJPEG Webcam, REST API | OctoPrint 1.8+ |
 | **Prusa MK4 / XL / MINI** | 🟡 **Community** | Safe-Mode Print | PrusaLink REST / Digest Auth | Firmware 5.0+ |
-| **Bambu Lab (P1, X1, A1 Series)** | 🟡 **Community** | **Upload-Only (Safe-Mode)** | Local MQTT Broker (No Cloud) | Local Mode (auto_start=false) |
-| **Elegoo / Anycubic / Voron** | 🟡 **Community** | **Upload-Only (Safe-Mode)** | Discovery & Staging | Standard Firmware |
+| **Bambu Lab (P1, X1, A1 Serisi)** | 🟡 **Community** | **Upload-Only (Safe-Mode)** | Yerel MQTT Broker (Bulutsuz) | Yerel Mod (`auto_start=false`) |
+| **Elegoo / Anycubic / Voron** | 🟡 **Community** | **Upload-Only (Safe-Mode)** | Keşif & Hazırlık | Standart Firmware |
 
 > [!IMPORTANT]
-> **Community Hardware Safety Rule:** All unverified or community-contributed printer profiles default strictly to **Safe-Mode (`UPLOAD_ONLY`)**. MakerSpell will transfer sliced print files to the printer's local storage, but the physical heating and print start must be initiated on the machine by the operator.
+> **Topluluk Donanım Güvenlik Kuralı:** Doğrulanmamış veya topluluk tarafından eklenen tüm yazıcı profilleri katı bir biçimde **Safe-Mode (`UPLOAD_ONLY`)** kuralına tabidir. Dilimlenen dosyalar yazıcı hafızasına aktarılır; ancak ısıtma ve baskı başlatma fiziksel olarak cihaz başındaki operatör tarafından yapılmalıdır.
 
 ---
 
-## 🤝 How to Contribute a Printer Profile
+## 🤝 Katkıda Bulunma & Yeni Yazıcı Ekleme
 
-We welcome community-tested profiles for all 3D printers!
-
-1. Fork this repository: `https://github.com/MakerSpell/MakerSpell-Community-Hub`
-2. Create a new profile file under `profiles/printers/<brand>/<model>.json`:
-   ```json
-   {
-     "id": "my_printer_id",
-     "brand": "MyBrand",
-     "model": "Model X1",
-     "protocol": "moonraker",
-     "buildVolume": { "x": 250, "y": 250, "z": 250 },
-     "heatedBedMax": 110,
-     "nozzleMax": 300,
-     "defaultPort": 7125,
-     "safeModeOnly": true
-   }
-   ```
-3. Submit a Pull Request. Once reviewed, it will be validated and automatically synchronized with the MakerSpell app and [makerspell.com/community-printers](https://www.makerspell.com/community-printers).
+Topluluk tarafından test edilmiş yeni yazıcı profillerini memnuniyetle karşılıyoruz!
+Ayrıntılı adımlar için [Yeni Yazıcı Ekleme Kılavuzunu](docs/guides/adding-new-printer.md) inceleyebilirsiniz.
 
 ---
 
-## 🔗 Official Ecosystem Links
+## 🔗 Resmi Ekosistem Bağlantıları
 
-- **Web Platform:** [makerspell.com](https://www.makerspell.com)
-- **Community Printers Hub:** [makerspell.com/community-printers](https://www.makerspell.com/community-printers)
-- **3D Deals & Coupons:** [makerspell.com/deals](https://www.makerspell.com/deals)
-- **Pricing & Membership:** [makerspell.com/pricing](https://www.makerspell.com/pricing)
+- **Web Platformu:** [makerspell.com](https://www.makerspell.com)
+- **Topluluk Yazıcıları:** [makerspell.com/community-printers](https://www.makerspell.com/community-printers)
+- **3D İndirimler & Kuponlar:** [makerspell.com/deals](https://www.makerspell.com/deals)
+- **Fiyatlandırma & Üyelik:** [makerspell.com/pricing](https://www.makerspell.com/pricing)
 - **Discord Topluluğu & Destek:** [makerspell.com/contact](https://www.makerspell.com/contact)
 
 ---
 
-## ⚖️ License
+## ⚖️ Lisans
 
-Distributed under the **MIT License**. See `LICENSE` for details.
+Bu proje **MIT Lisansı** ile dağıtılmaktadır. Detaylar için `LICENSE` dosyasına bakınız.
