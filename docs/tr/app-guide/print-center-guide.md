@@ -2,6 +2,8 @@
 
 Baskı Merkezi, birden fazla 3D yazıcı kullanan makerlar ve atölyeler için tasarlanmış merkezi operasyon ekranıdır.
 
+![Baskı Merkezi ve Filo Takibi Ekranı](../../assets/screenshots/app/app-print-center.png)
+
 ---
 
 ## 📌 1. Baskı Merkezi Başlığı ve Özet Sayaçları

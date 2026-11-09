@@ -2,6 +2,8 @@
 
 Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Panosu**, masaüstünde 2 kolonlu optimize edilmiş bir kumanda masası sunar.
 
+![Cihaz Denetim Panosu ve Canlı Kamera](../../assets/screenshots/app/app-printer-controls.png)
+
 ---
 
 ## 📌 1. Sol Kolon: Canlı İzleme ve Görüntü

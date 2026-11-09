@@ -2,6 +2,8 @@
 
 The **Print Center** is designed for makers, print farm operators, and workshops managing multiple 3D printers simultaneously.
 
+![Print Center and Fleet Telemetry](../../assets/screenshots/app/app-print-center.png)
+
 ---
 
 ## 📌 1. Metric Badges

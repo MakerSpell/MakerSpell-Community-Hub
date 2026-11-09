@@ -2,6 +2,8 @@
 
 Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard**, optimized for 1100px+ displays (and responsive single-column on mobile).
 
+![Device Control Panel and Live Camera](../../assets/screenshots/app/app-printer-controls.png)
+
 ---
 
 ## 📌 1. Left Column: Telemetry & Visual Monitoring
