@@ -3,7 +3,10 @@
   "title": "MakerSpell Community Hub Documentation Manifest",
   "version": "2.0.0",
   "defaultLocale": "en",
-  "supportedLocales": ["en", "tr"],
+  "supportedLocales": [
+    "en",
+    "tr"
+  ],
   "lastUpdated": "2026-11-10T00:30:00+03:00",
   "locales": {
     "en": {
@@ -19,84 +22,150 @@
               "title": "App Overview & Features",
               "path": "docs/en/app-guide/README.md",
               "summary": "General introduction, fleet control capabilities, and supported hardware.",
-              "tags": ["app", "desktop", "mobile", "overview", "getting-started"]
+              "tags": [
+                "app",
+                "desktop",
+                "mobile",
+                "overview",
+                "getting-started"
+              ]
             },
             {
               "id": "app-connecting-printers",
               "title": "Connecting & Discovering Network Printers",
               "path": "docs/en/app-guide/connecting-printers.md",
               "summary": "Automatic local network scanning and manual IP/port configuration.",
-              "tags": ["printer", "network", "connect", "discovery", "setup"]
+              "tags": [
+                "printer",
+                "network",
+                "connect",
+                "discovery",
+                "setup"
+              ]
             },
             {
               "id": "app-print-center",
               "title": "Print Center & Fleet Monitoring",
               "path": "docs/en/app-guide/print-center-guide.md",
               "summary": "Real-time dashboard for active prints, stage progress, and fleet status.",
-              "tags": ["print-center", "jobs", "monitoring", "status"]
+              "tags": [
+                "print-center",
+                "jobs",
+                "monitoring",
+                "status"
+              ]
             },
             {
               "id": "app-gcode-sending",
               "title": "G-code Transfer & Slicing Integration",
               "path": "docs/en/app-guide/gcode-sending.md",
               "summary": "Wireless file transfer, Safe-Mode rules, and starting remote prints.",
-              "tags": ["gcode", "slicing", "upload", "safe-mode", "print"]
+              "tags": [
+                "gcode",
+                "slicing",
+                "upload",
+                "safe-mode",
+                "print"
+              ]
             },
             {
               "id": "app-printer-controls",
               "title": "Device Control Panel (Camera, Temps, Axes)",
               "path": "docs/en/app-guide/printer-controls.md",
               "summary": "Two-column dashboard for thermal targets, fans, camera, and XYZ motion.",
-              "tags": ["controls", "temperature", "fan", "axes", "camera", "motion"]
+              "tags": [
+                "controls",
+                "temperature",
+                "fan",
+                "axes",
+                "camera",
+                "motion"
+              ]
             },
             {
               "id": "app-multicolor",
               "title": "Multi-Color Printing & Material Management",
               "path": "docs/en/app-guide/multicolor-printing.md",
               "summary": "Reading filament bays, color matching for CFS/AMS, and external spool fallback.",
-              "tags": ["filament", "cfs", "ams", "multicolor", "slots"]
+              "tags": [
+                "filament",
+                "cfs",
+                "ams",
+                "multicolor",
+                "slots"
+              ]
             },
             {
               "id": "app-model-viewer",
               "title": "3D Model Viewer & Color Painting Tool",
               "path": "docs/en/app-guide/model-viewer.md",
               "summary": "Inspecting 3D models, plate transformation, scaling, and multi-color painting.",
-              "tags": ["viewer", "3d", "painting", "scale", "rotate"]
+              "tags": [
+                "viewer",
+                "3d",
+                "painting",
+                "scale",
+                "rotate"
+              ]
             },
             {
               "id": "app-slicing-preferences",
               "title": "Slicing Settings & Slicer Preferences",
               "path": "docs/en/app-guide/slicing-and-preferences.md",
               "summary": "Integrated OrcaSlicer profiles, infill density, and tree supports.",
-              "tags": ["slicing", "orcaslicer", "infill", "supports"]
+              "tags": [
+                "slicing",
+                "orcaslicer",
+                "infill",
+                "supports"
+              ]
             },
             {
               "id": "app-library-downloads",
               "title": "Model Library & Download Manager",
               "path": "docs/en/app-guide/library-and-downloads.md",
               "summary": "Organizing downloaded STL/3MF files, custom collections, and archives.",
-              "tags": ["library", "downloads", "collections", "archive"]
+              "tags": [
+                "library",
+                "downloads",
+                "collections",
+                "archive"
+              ]
             },
             {
               "id": "app-shop-hub-orders",
               "title": "Shop Hub & E-Commerce Production Orders",
               "path": "docs/en/app-guide/shop-hub-orders.md",
               "summary": "Managing store orders and dispatching jobs to idle farm printers.",
-              "tags": ["shop-hub", "ecommerce", "orders", "production"]
+              "tags": [
+                "shop-hub",
+                "ecommerce",
+                "orders",
+                "production"
+              ]
             },
             {
               "id": "app-printer-profiles-manager",
               "title": "Community Profiles & Custom Driver Editor",
               "path": "docs/en/app-guide/printer-profiles-manager.md",
               "summary": "Downloading verified drivers and editing custom hardware profiles.",
-              "tags": ["profiles", "editor", "custom-hardware"]
+              "tags": [
+                "profiles",
+                "editor",
+                "custom-hardware"
+              ]
             },
             {
               "id": "app-settings-accounts",
               "title": "App Preferences, Alerts & Accounts",
               "path": "docs/en/app-guide/settings-and-accounts.md",
               "summary": "Polling rates, camera video quality, theme modes, and sound alarms.",
-              "tags": ["settings", "notifications", "theme", "language"]
+              "tags": [
+                "settings",
+                "notifications",
+                "theme",
+                "language"
+              ]
             }
           ]
         },
@@ -111,49 +180,83 @@
               "title": "Web Platform Overview",
               "path": "docs/en/web-guide/README.md",
               "summary": "Introduction to the 26-platform search engine and ecosystem features.",
-              "tags": ["web", "overview", "makerspell"]
+              "tags": [
+                "web",
+                "overview",
+                "makerspell"
+              ]
             },
             {
               "id": "web-model-search",
               "title": "26-Platform 3D Model Search & Filters",
               "path": "docs/en/web-guide/model-search.md",
               "summary": "Searching millions of open-source and commercial designs in one place.",
-              "tags": ["search", "models", "stl", "browse", "filters"]
+              "tags": [
+                "search",
+                "models",
+                "stl",
+                "browse",
+                "filters"
+              ]
             },
             {
               "id": "web-deals",
               "title": "3D Deals, Filament & Printer Coupons",
               "path": "docs/en/web-guide/deals-and-coupons.md",
               "summary": "Tracking verified hardware sales and redeeming discount coupon codes.",
-              "tags": ["deals", "coupons", "discounts", "printers", "filaments"]
+              "tags": [
+                "deals",
+                "coupons",
+                "discounts",
+                "printers",
+                "filaments"
+              ]
             },
             {
               "id": "web-contests",
               "title": "Community Design Contests & Prizes",
               "path": "docs/en/web-guide/community-contests.md",
               "summary": "Global calendar tracking active 3D competitions, deadlines, and prizes.",
-              "tags": ["contests", "competitions", "prizes", "community"]
+              "tags": [
+                "contests",
+                "competitions",
+                "prizes",
+                "community"
+              ]
             },
             {
               "id": "web-pricing-founder",
               "title": "Pricing, Memberships & Founder's Pass",
               "path": "docs/en/web-guide/pricing-and-founder.md",
               "summary": "Free, Maker Pro, Shop Pro, and lifetime founder membership tiers.",
-              "tags": ["pricing", "founder", "membership", "pro"]
+              "tags": [
+                "pricing",
+                "founder",
+                "membership",
+                "pro"
+              ]
             },
             {
               "id": "web-community-printers",
               "title": "Community Hardware Drivers Portal",
               "path": "docs/en/web-guide/community-printers-portal.md",
               "summary": "Online showcase of community-vetted JSON printer drivers and telemetry.",
-              "tags": ["community-printers", "hardware", "drivers"]
+              "tags": [
+                "community-printers",
+                "hardware",
+                "drivers"
+              ]
             },
             {
               "id": "web-roadmap-manifesto",
               "title": "Live Product Roadmap & Open Manifesto",
               "path": "docs/en/web-guide/roadmap-and-manifesto.md",
               "summary": "Upcoming product milestones and the open-ecosystem mission statement.",
-              "tags": ["roadmap", "manifesto", "open-ecosystem"]
+              "tags": [
+                "roadmap",
+                "manifesto",
+                "open-ecosystem"
+              ]
             }
           ]
         },
@@ -168,35 +271,61 @@
               "title": "Printer Connectivity Architecture",
               "path": "docs/en/printers/README.md",
               "summary": "Overview of hybrid transport adapters and hardware lifecycle.",
-              "tags": ["printers", "overview", "hardware", "protocols"]
+              "tags": [
+                "printers",
+                "overview",
+                "hardware",
+                "protocols"
+              ]
             },
             {
               "id": "printers-safe-mode",
               "title": "Safe-Mode Hardware Safety Protocol",
               "path": "docs/en/printers/safe-mode-protocol.md",
               "summary": "Verified vs. community hardware and mandatory UPLOAD_ONLY mode.",
-              "tags": ["safety", "hardware", "safe-mode", "upload-only"]
+              "tags": [
+                "safety",
+                "hardware",
+                "safe-mode",
+                "upload-only"
+              ]
             },
             {
               "id": "printers-discovery",
               "title": "Network Discovery & Stable Hardware ID",
               "path": "docs/en/printers/network-discovery.md",
               "summary": "Resolving dynamic DHCP swaps and preventing fleet metadata collisions.",
-              "tags": ["network", "discovery", "mdns", "stableId"]
+              "tags": [
+                "network",
+                "discovery",
+                "mdns",
+                "stableId"
+              ]
             },
             {
               "id": "printers-transports",
               "title": "Transport Adapters & Network Protocols",
               "path": "docs/en/printers/transport-adapters.md",
               "summary": "Moonraker, Creality Local, OctoPrint v2, Bambu LAN, and Elegoo SDCP.",
-              "tags": ["transports", "moonraker", "creality", "octoprint", "bambu"]
+              "tags": [
+                "transports",
+                "moonraker",
+                "creality",
+                "octoprint",
+                "bambu"
+              ]
             },
             {
               "id": "printers-cfs-ams",
               "title": "Multi-Color Systems (CFS / AMS)",
               "path": "docs/en/printers/filament-ams-cfs.md",
               "summary": "Multi-slot telemetry, model material mapping, and error isolation.",
-              "tags": ["filament", "cfs", "ams", "multi-color"]
+              "tags": [
+                "filament",
+                "cfs",
+                "ams",
+                "multi-color"
+              ]
             }
           ]
         },
@@ -211,14 +340,26 @@
               "title": "profile-v2 JSON Schema Overview",
               "path": "docs/en/schemas/README.md",
               "summary": "Dynamic driver distribution, runtime sandbox, and permission model.",
-              "tags": ["schema", "json", "v2", "driver"]
+              "tags": [
+                "schema",
+                "json",
+                "v2",
+                "driver"
+              ]
             },
             {
               "id": "schemas-v2-spec",
               "title": "profile-v2 Full Specification",
               "path": "docs/en/schemas/profile-v2-specification.md",
               "summary": "Comprehensive reference of channels, operations, state, and UI blocks.",
-              "tags": ["spec", "reference", "json-schema", "channels", "operations", "ui"]
+              "tags": [
+                "spec",
+                "reference",
+                "json-schema",
+                "channels",
+                "operations",
+                "ui"
+              ]
             }
           ]
         },
@@ -233,21 +374,36 @@
               "title": "How to Add and Test a New Printer Profile",
               "path": "docs/en/guides/adding-new-printer.md",
               "summary": "Step-by-step guide to importing, schema validation, live connectivity testing, and activating driver profiles in-app.",
-              "tags": ["guide", "contribution", "new-printer"]
+              "tags": [
+                "guide",
+                "contribution",
+                "new-printer"
+              ]
             },
             {
               "id": "guides-agent-sync",
               "title": "AI Agent Documentation Governance Rule",
               "path": "docs/en/guides/agent-documentation-sync.md",
               "summary": "Zero code leakage policy and mandatory user guide synchronization.",
-              "tags": ["agent", "governance", "documentation-sync", "zero-code-leakage"]
+              "tags": [
+                "agent",
+                "governance",
+                "documentation-sync",
+                "zero-code-leakage"
+              ]
             },
             {
               "id": "guides-screenshots",
               "title": "Automated Screenshot Capture Pipeline",
               "path": "docs/en/guides/screenshot-capture-pipeline.md",
               "summary": "Automated pixel-perfect headless screenshots for Flutter and Web.",
-              "tags": ["agent", "screenshots", "flutter-test", "puppeteer", "pipeline"]
+              "tags": [
+                "agent",
+                "screenshots",
+                "flutter-test",
+                "puppeteer",
+                "pipeline"
+              ]
             }
           ]
         }
@@ -266,84 +422,150 @@
               "title": "Uygulama Genel Bakış ve Özellikler",
               "path": "docs/tr/app-guide/README.md",
               "summary": "Masaüstü ve mobil uygulamanın genel tanıtımı, öne çıkan özellikler ve desteklenen cihazlar.",
-              "tags": ["app", "desktop", "mobile", "overview", "getting-started"]
+              "tags": [
+                "app",
+                "desktop",
+                "mobile",
+                "overview",
+                "getting-started"
+              ]
             },
             {
               "id": "app-connecting-printers",
               "title": "Yazıcıları Ağa Bağlama ve Eşleştirme",
               "path": "docs/tr/app-guide/connecting-printers.md",
               "summary": "Otomatik ağ taraması ile veya manuel IP/port girerek yazıcı ekleme adımları.",
-              "tags": ["printer", "network", "connect", "discovery", "setup"]
+              "tags": [
+                "printer",
+                "network",
+                "connect",
+                "discovery",
+                "setup"
+              ]
             },
             {
               "id": "app-print-center",
               "title": "Baskı Merkezi (Print Center) Kullanımı",
               "path": "docs/tr/app-guide/print-center-guide.md",
               "summary": "Tüm yazıcıların aktif işlerini, kalan sürelerini ve durumlarını tek ekrandan izleme.",
-              "tags": ["print-center", "jobs", "monitoring", "status"]
+              "tags": [
+                "print-center",
+                "jobs",
+                "monitoring",
+                "status"
+              ]
             },
             {
               "id": "app-gcode-sending",
               "title": "G-code Gönderme & Dilimleme Entegrasyonu",
               "path": "docs/tr/app-guide/gcode-sending.md",
               "summary": "Dilimlenen modelleri yazıcıya aktarma, Safe-Mode güvenlik kuralları ve baskı başlatma.",
-              "tags": ["gcode", "slicing", "upload", "safe-mode", "print"]
+              "tags": [
+                "gcode",
+                "slicing",
+                "upload",
+                "safe-mode",
+                "print"
+              ]
             },
             {
               "id": "app-printer-controls",
               "title": "Cihaz Denetim Panosu (Kamera, Sıcaklık, Eksenler)",
               "path": "docs/tr/app-guide/printer-controls.md",
               "summary": "Nozul ve tabla sıcaklıklarını ayarlama, fan hızları, kamera izleme ve eksen hareketi.",
-              "tags": ["controls", "temperature", "fan", "axes", "camera", "motion"]
+              "tags": [
+                "controls",
+                "temperature",
+                "fan",
+                "axes",
+                "camera",
+                "motion"
+              ]
             },
             {
               "id": "app-multicolor",
               "title": "Çok Renkli Baskı ve Filament (CFS / AMS) Yönetimi",
               "path": "docs/tr/app-guide/multicolor-printing.md",
               "summary": "Çok renkli sistemlerde bobin yuvalarını görme, model renkleriyle eşleştirme ve harici makara.",
-              "tags": ["filament", "cfs", "ams", "multicolor", "slots"]
+              "tags": [
+                "filament",
+                "cfs",
+                "ams",
+                "multicolor",
+                "slots"
+              ]
             },
             {
               "id": "app-model-viewer",
               "title": "3D Model Görüntüleyici & Boyama Aracı",
               "path": "docs/tr/app-guide/model-viewer.md",
               "summary": "3D modelleri inceleme, tabla yerleşimi, döndürme, ölçekleme ve çok renkli boyama fırçası.",
-              "tags": ["viewer", "3d", "painting", "scale", "rotate"]
+              "tags": [
+                "viewer",
+                "3d",
+                "painting",
+                "scale",
+                "rotate"
+              ]
             },
             {
               "id": "app-slicing-preferences",
               "title": "Dilimleme Ayarları & Tercihler Kılavuzu",
               "path": "docs/tr/app-guide/slicing-and-preferences.md",
               "summary": "OrcaSlicer profil ayarları, dolgu desenleri ve ağaç destek yapılandırması.",
-              "tags": ["slicing", "orcaslicer", "infill", "supports"]
+              "tags": [
+                "slicing",
+                "orcaslicer",
+                "infill",
+                "supports"
+              ]
             },
             {
               "id": "app-library-downloads",
               "title": "Model Kütüphanesi & İndirme Yöneticisi",
               "path": "docs/tr/app-guide/library-and-downloads.md",
               "summary": "İndirilen 3D modelleri organize etme, koleksiyonlar ve arşiv ayıklama.",
-              "tags": ["library", "downloads", "collections", "archive"]
+              "tags": [
+                "library",
+                "downloads",
+                "collections",
+                "archive"
+              ]
             },
             {
               "id": "app-shop-hub-orders",
               "title": "Pazaryeri Sipariş Merkezi (Shop Hub)",
               "path": "docs/tr/app-guide/shop-hub-orders.md",
               "summary": "Trendyol ve pazaryeri siparişlerini takip etme ve tek tıkla yazıcıya gönderme.",
-              "tags": ["shop-hub", "ecommerce", "orders", "production"]
+              "tags": [
+                "shop-hub",
+                "ecommerce",
+                "orders",
+                "production"
+              ]
             },
             {
               "id": "app-printer-profiles-manager",
               "title": "Topluluk Yazıcı Profili Yöneticisi & Düzenleyici",
               "path": "docs/tr/app-guide/printer-profiles-manager.md",
               "summary": "Hazır sürücü profillerini indirme, düzenleme ve özel donanım tanımlama.",
-              "tags": ["profiles", "editor", "custom-hardware"]
+              "tags": [
+                "profiles",
+                "editor",
+                "custom-hardware"
+              ]
             },
             {
               "id": "app-settings-accounts",
               "title": "Uygulama Ayarları, Bildirimler & Hesaplar",
               "path": "docs/tr/app-guide/settings-and-accounts.md",
               "summary": "Tarama aralığı, kamera kalitesi, dil seçimi, tema ve baskı bitti bildirimleri.",
-              "tags": ["settings", "notifications", "theme", "language"]
+              "tags": [
+                "settings",
+                "notifications",
+                "theme",
+                "language"
+              ]
             }
           ]
         },
@@ -358,49 +580,83 @@
               "title": "Web Platformu Genel Tanıtımı",
               "path": "docs/tr/web-guide/README.md",
               "summary": "makerspell.com ekosistemine genel bakış ve sunulan ana hizmetler.",
-              "tags": ["web", "overview", "makerspell"]
+              "tags": [
+                "web",
+                "overview",
+                "makerspell"
+              ]
             },
             {
               "id": "web-model-search",
               "title": "26 Platformda 3D Model Arama & Filtreleme",
               "path": "docs/tr/web-guide/model-search.md",
               "summary": "Tüm platformlardaki milyonlarca 3D modeli tek arama çubuğundan bulma ve filtreleme.",
-              "tags": ["search", "models", "stl", "browse", "filters"]
+              "tags": [
+                "search",
+                "models",
+                "stl",
+                "browse",
+                "filters"
+              ]
             },
             {
               "id": "web-deals",
               "title": "3D İndirimler, Filament & Yazıcı Kuponları",
               "path": "docs/tr/web-guide/deals-and-coupons.md",
               "summary": "3D yazıcı ve filament fırsatlarını yakalama ve indirim kuponlarını kullanma.",
-              "tags": ["deals", "coupons", "discounts", "printers", "filaments"]
+              "tags": [
+                "deals",
+                "coupons",
+                "discounts",
+                "printers",
+                "filaments"
+              ]
             },
             {
               "id": "web-contests",
               "title": "Topluluk Tasarım Yarışmaları & Ödüller",
               "path": "docs/tr/web-guide/community-contests.md",
               "summary": "Küresel 3D model yarışmalarını, ödül havuzlarını ve başvuru tarihlerini takip etme.",
-              "tags": ["contests", "competitions", "prizes", "community"]
+              "tags": [
+                "contests",
+                "competitions",
+                "prizes",
+                "community"
+              ]
             },
             {
               "id": "web-pricing-founder",
               "title": "Fiyatlandırma, Kurucu Üyelik & Paketler",
               "path": "docs/tr/web-guide/pricing-and-founder.md",
               "summary": "Free, Maker Pro, Shop Pro ve ilk 200 kişiye özel Lifetime Founder's Pass avantajları.",
-              "tags": ["pricing", "founder", "membership", "pro"]
+              "tags": [
+                "pricing",
+                "founder",
+                "membership",
+                "pro"
+              ]
             },
             {
               "id": "web-community-printers",
               "title": "Açık Protokol Donanım Sürücüleri Portalı",
               "path": "docs/tr/web-guide/community-printers-portal.md",
               "summary": "Klipper, Creality, Bambu, Snapmaker sürücü vitrini ve topluluk oylamaları.",
-              "tags": ["community-printers", "hardware", "drivers"]
+              "tags": [
+                "community-printers",
+                "hardware",
+                "drivers"
+              ]
             },
             {
               "id": "web-roadmap-manifesto",
               "title": "Canlı Yol Haritası & Açık Ekosistem Manifestosu",
               "path": "docs/tr/web-guide/roadmap-and-manifesto.md",
               "summary": "Açık ekosistem felsefesi ve canlı ürün geliştirme yol haritası.",
-              "tags": ["roadmap", "manifesto", "open-ecosystem"]
+              "tags": [
+                "roadmap",
+                "manifesto",
+                "open-ecosystem"
+              ]
             }
           ]
         },
@@ -415,35 +671,61 @@
               "title": "Yazıcı Entegrasyon Mimarisi Genel Bakış",
               "path": "docs/tr/printers/README.md",
               "summary": "MakerSpell bağlantı katmanları ve desteklenen donanım ekosistemi.",
-              "tags": ["printers", "overview", "hardware", "protocols"]
+              "tags": [
+                "printers",
+                "overview",
+                "hardware",
+                "protocols"
+              ]
             },
             {
               "id": "printers-safe-mode",
               "title": "Safe-Mode Donanım Güvenlik Protokolü",
               "path": "docs/tr/printers/safe-mode-protocol.md",
               "summary": "Doğrulanmış vs topluluk donanımları, UPLOAD_ONLY zorunluluğu ve fiziksel güvenlik.",
-              "tags": ["safety", "hardware", "safe-mode", "upload-only"]
+              "tags": [
+                "safety",
+                "hardware",
+                "safe-mode",
+                "upload-only"
+              ]
             },
             {
               "id": "printers-discovery",
               "title": "Ağ Keşfi & Kararlı Kimlik Mantığı",
               "path": "docs/tr/printers/network-discovery.md",
               "summary": "Dinamik IP değişimlerinde yazıcıların kararlı kimlikle hatırlanması ve izolasyon.",
-              "tags": ["network", "discovery", "mdns", "stableId"]
+              "tags": [
+                "network",
+                "discovery",
+                "mdns",
+                "stableId"
+              ]
             },
             {
               "id": "printers-transports",
               "title": "Taşıma Katmanları (Transports) & Protokoller",
               "path": "docs/tr/printers/transport-adapters.md",
               "summary": "Moonraker, Creality Local, OctoPrint v2 Bridge, Bambu LAN ve Elegoo SDCP protokolleri.",
-              "tags": ["transports", "moonraker", "creality", "octoprint", "bambu"]
+              "tags": [
+                "transports",
+                "moonraker",
+                "creality",
+                "octoprint",
+                "bambu"
+              ]
             },
             {
               "id": "printers-cfs-ams",
               "title": "Çok Renkli Sistemler (Creality CFS, Snapmaker AMS)",
               "path": "docs/tr/printers/filament-ams-cfs.md",
               "summary": "Çok renkli filament yuvaları, malzeme eşleştirme ve hata yönetimi.",
-              "tags": ["filament", "cfs", "ams", "multi-color"]
+              "tags": [
+                "filament",
+                "cfs",
+                "ams",
+                "multi-color"
+              ]
             }
           ]
         },
@@ -458,14 +740,26 @@
               "title": "profile-v2 JSON Şeması Genel Bakış",
               "path": "docs/tr/schemas/README.md",
               "summary": "Dinamik sürücü yapısı, yetki modeli ve çalışma zamanı güvenlik sınırları.",
-              "tags": ["schema", "json", "v2", "driver"]
+              "tags": [
+                "schema",
+                "json",
+                "v2",
+                "driver"
+              ]
             },
             {
               "id": "schemas-v2-spec",
               "title": "profile-v2 Tam Şema Spesifikasyonu",
               "path": "docs/tr/schemas/profile-v2-specification.md",
               "summary": "Açık JSON sürücü dosyasında yer alan tüm blokların detaylı referansı.",
-              "tags": ["spec", "reference", "json-schema", "channels", "operations", "ui"]
+              "tags": [
+                "spec",
+                "reference",
+                "json-schema",
+                "channels",
+                "operations",
+                "ui"
+              ]
             }
           ]
         },
@@ -480,21 +774,36 @@
               "title": "Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi",
               "path": "docs/tr/guides/adding-new-printer.md",
               "summary": "Uygulama üzerinden profil seçme, otomatik şema doğrulama, canlı cihaz testi ve etkinleştirme adımları.",
-              "tags": ["guide", "contribution", "new-printer"]
+              "tags": [
+                "guide",
+                "contribution",
+                "new-printer"
+              ]
             },
             {
               "id": "guides-agent-sync",
               "title": "Ajanlar İçin Kullanıcı Dokümantasyonu Kuralı",
               "path": "docs/tr/guides/agent-documentation-sync.md",
               "summary": "Sıfır kod ifşası kuralı ve her yeni özellikte kullanıcı kılavuzu ekleme zorunluluğu.",
-              "tags": ["agent", "governance", "documentation-sync", "zero-code-leakage"]
+              "tags": [
+                "agent",
+                "governance",
+                "documentation-sync",
+                "zero-code-leakage"
+              ]
             },
             {
               "id": "guides-screenshots",
               "title": "Ajanlar İçin Otomatik Ekran Görüntüsü Alma Rehberi",
               "path": "docs/tr/guides/screenshot-capture-pipeline.md",
               "summary": "Flutter ve Web arayüzlerinin ekran görüntülerini otomatik alma ve dokümana ekleme.",
-              "tags": ["agent", "screenshots", "flutter-test", "puppeteer", "pipeline"]
+              "tags": [
+                "agent",
+                "screenshots",
+                "flutter-test",
+                "puppeteer",
+                "pipeline"
+              ]
             }
           ]
         }
