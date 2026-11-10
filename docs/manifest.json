@@ -166,6 +166,18 @@
                 "theme",
                 "language"
               ]
+            },
+            {
+              "id": "app-community-forum",
+              "title": "Community Forum & Technical Support",
+              "path": "docs/en/app-guide/community-forum.md",
+              "summary": "Accessing the integrated forum, categories, bug reports, and feature ideas.",
+              "tags": [
+                "forum",
+                "community",
+                "troubleshooting",
+                "support"
+              ]
             }
           ]
         },
@@ -540,6 +552,18 @@
                 "notifications",
                 "theme",
                 "language"
+              ]
+            },
+            {
+              "id": "app-community-forum",
+              "title": "Topluluk Forumu ve Teknik Destek",
+              "path": "docs/tr/app-guide/community-forum.md",
+              "summary": "Entegre foruma mobil erişim, kategoriler, hata bildirimi ve özellik talepleri.",
+              "tags": [
+                "forum",
+                "topluluk",
+                "destek",
+                "hata-bildirimi"
               ]
             }
           ]
