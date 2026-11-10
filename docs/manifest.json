@@ -230,9 +230,9 @@
           "pages": [
             {
               "id": "guides-adding-printer",
-              "title": "How to Add a New Printer Profile",
+              "title": "How to Add and Test a New Printer Profile",
               "path": "docs/en/guides/adding-new-printer.md",
-              "summary": "Step-by-step guide to authoring and verifying a custom profile-v2 driver.",
+              "summary": "Step-by-step guide to importing, schema validation, live connectivity testing, and activating driver profiles in-app.",
               "tags": ["guide", "contribution", "new-printer"]
             },
             {
@@ -477,9 +477,9 @@
           "pages": [
             {
               "id": "guides-adding-printer",
-              "title": "Yeni Bir Yazıcı Profili Ekleme Rehberi",
+              "title": "Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi",
               "path": "docs/tr/guides/adding-new-printer.md",
-              "summary": "Sıfırdan açık JSON profili hazırlama ve test etme adımları.",
+              "summary": "Uygulama üzerinden profil seçme, otomatik şema doğrulama, canlı cihaz testi ve etkinleştirme adımları.",
               "tags": ["guide", "contribution", "new-printer"]
             },
             {

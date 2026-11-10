@@ -1,81 +1,62 @@
-# 🛠️ Yeni Bir Yazıcı Profili Ekleme Rehberi
+# 🛠️ Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi
 
-Bu rehber, MakerSpell ekosistemine yeni bir 3D yazıcı modelini JSON sürücüsü (`profile-v2`) olarak eklemek isteyen geliştiriciler ve topluluk üyeleri için hazırlanmıştır.
-
----
-
-## 📌 1. Hazırlık ve Gereksinimler
-
-1. **Yazıcının Ağ Detayları:**
-   - Yazıcının yerel IP adresi.
-   - Kullandığı servis portları (Web: 80, Klipper/Moonraker: 7125, Creality: 9999, OctoPrint: 80/5000 vb.).
-   - mDNS servis adı (`_moonraker._tcp.local`, `_printer._tcp.local` vb.).
-2. **JSON Şeması:**
-   Hazırlayacağınız dosya [profile-v2.schema.json](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2.schema.json) kurallarına %100 uymalıdır.
+MakerSpell, farklı marka ve modeldeki 3D yazıcıları sisteme dahil etmek için açık ve deklaratif bir sürücü profili (`profile-v2`) mimarisi kullanır. Bu rehber; yeni bir yazıcı modelini MakerSpell Masaüstü veya Mobil uygulaması üzerinden **herhangi bir kodlama veya geliştirici aracına ihtiyaç duymadan**, doğrudan uygulama arayüzünden nasıl içe aktaracağınızı, test edeceğinizi ve kullanıma alacağınızı adım adım açıklamaktadır.
 
 ---
 
-## 📌 2. Adım Adım Profil Oluşturma
+## 📌 1. Hazırlık: Profil Dosyası (.json)
 
-### Adım 1: Dosyayı Oluşturun
-`community-hub/docs/examples/` veya `makersync_app/assets/community_printers/profiles/` altında yeni bir dosya açın:
-Örn: `mybrand-modelx-v2.json`.
+Yazıcınızı tanıtan profil, standart bir `.json` metin dosyasıdır. Dosya içerisinde temel olarak şu bilgiler yer alır:
 
-### Adım 2: Temel Kimlik ve İzinleri Tanımlayın
-```json
-{
-  "$schema": "../schemas/profile-v2.schema.json",
-  "schemaVersion": 2,
-  "id": "community.mybrand-modelx.v2",
-  "version": "1.0.0",
-  "identity": {
-    "name": "MyBrand Model X",
-    "models": ["Model X", "Model X Pro"],
-    "status": "community"
-  },
-  "permissions": [
-    "statusRead",
-    "fileListRead",
-    "fileUpload",
-    "cameraRead"
-    // DİKKAT: Cihaz laboratuvar doğrulanmış değilse "printStart" eklemeyiniz (Safe-Mode)!
-  ]
-}
-```
+1. **Yazıcı Kimliği (Identity):** Marka adı, desteklenen model isimleri ve profil kimlik numarası (örn: `community.mybrand-modelx.v2`).
+2. **Ağ Kanalları (Channels):** Yazıcının yerel ağda dinlediği bağlantı protokolü ve servis portu (Örn: HTTP / WebSocket portu `80`, `7125` veya `9999`).
+3. **İşlemler (Operations):** Yazıcıdan durum bilgisi almak veya dosya transfer etmek için kullanılan endpoint yolları (Örn: `/api/status`, `/printer/info`).
+4. **Telemetri Haritalaması (State):** Nozul ve tabla sıcaklıkları gibi canlı değerlerin JSON yanıtından okunacağı anahtarlar.
 
-### Adım 3: Kanalları ve Operasyonları Belirleyin
-Yazıcının telemetri okuması için gerekli HTTP veya WebSocket kanallarını ekleyin. [Creality K1 Örneği](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/examples/creality-k1-v2.json) veya [Snapmaker U1 Örneği](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/examples/snapmaker-u1-v2.json) dosyalarını şablon alabilirsiniz.
-
-### Adım 4: Telemetri (state) Eşleştirmesini Yapın
-Yazıcının döndüğü sıcaklık ve durum anahtarlarını JSONPath ile eşleştirin:
-```json
-"state": {
-  "temperature": {
-    "hotendActual": "$.temperature.tool0.actual",
-    "hotendTarget": "$.temperature.tool0.target",
-    "bedActual": "$.temperature.bed.actual",
-    "bedTarget": "$.temperature.bed.target"
-  }
-}
-```
+> [!TIP]
+> Profilinizin yapısını oluştururken [profile-v2 Şartnamesi](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md) sayfasındaki açık şemayı ve örnek profilleri inceleyebilirsiniz.
 
 ---
 
-## 📌 3. Yerel Test ve Doğrulama
+## 📌 2. Adım Adım Uygulama İçi İçe Aktarma ve Doğrulama
 
-JSON dosyanızın doğruluğunu Flutter test suite üzerinden kontrol edin:
+### Adım 1: Sürücü Yönetim Ekranını Açın
+1. MakerSpell uygulamasını (Masaüstü veya Mobil) başlatın.
+2. Sol menüden veya üst çubuktan **Ayarlar** (`Settings`) bölümüne gidin.
+3. **"3D Yazıcı Sürücüleri ve Bağlantı Kuralları"** (`Printer Connection & Interface Rules`) seçeneğini açın.
 
-```powershell
-cd makersync_app
-flutter test test/community_printer_driver_v2_test.dart
-```
+### Adım 2: JSON Profil Dosyasını Seçin
+1. Ekranın sağ üst köşesinde yer alan **"Profil İçe Aktar (.json)"** (klasör/dosya simgesi) butonuna dokunun.
+2. Açılan yerel dosya penceresinden (Windows Gezgini, macOS Finder veya Mobil Dosyalar) hazırladığınız `.json` profil dosyasını seçin.
 
-Tüm testler yeşil yandığında profiliniz MakerSpell uygulaması tarafından hatasız yorumlanabilir demektir.
+### Adım 3: Otomatik Şema ve Güvenlik Denetimi
+Dosya seçildiği anda MakerSpell doğrulama motoru devreye girer:
+- **Şema Doğrulaması:** Dosyanın sözdizimi, zorunlu alanları ve kanal tanımları saniyeler içinde taranır. Eğer eksik veya hatalı bir alan varsa hata ayrıntısı net bir uyarı kutusuyla gösterilir.
+- **Safe-Mode (Fiziksel Donanım Güvenliği):** Henüz laboratuvarımızda fiziksel stres testlerinden geçmemiş tüm topluluk donanımları için otomatik olarak **"Güvenli Mod (Safe-Mode)"** rozeti aktif edilir. Bu modda dosya transferi yapılabilir; ancak donanım güvenliğiniz için baskının fiziksel olarak başlatılması makine panelinden operatör onayına bırakılır.
 
 ---
 
-## 📌 4. Pull Request Gönderme
+## 📌 3. Canlı Cihaz Bağlantı Testi (In-App Connectivity Test)
 
-1. Profilinizi `community-hub` deposunda bir dal (branch) açarak ekleyin.
-2. Cihazınızla yaptığınız test ekran görüntüsünü PR açıklamasına ekleyin.
-3. Ekip ve topluluk incelemesinin ardından profil resmi kataloğa dahil edilecektir.
+Doğrulama penceresi açıkken profili sisteme kaydetmeden önce yazıcınızla canlı olarak test edebilirsiniz:
+
+1. Penceredeki **"Yazıcı IP / Hostname"** alanına yazıcınızın yerel ağdaki IP adresini girin (örn: `192.168.1.120`). Eğer ağda bağlı bir yazıcınız varsa IP adresi otomatik doldurulur.
+2. **"Bağlantıyı Test Et"** (`Test Connection`) butonuna tıklayın.
+3. Uygulama, profilinizde tanımlı servis portuna ve durum endpoint'ine doğrudan test isteği gönderir:
+   - ✅ **Yeşil Onay Rozeti:** Yazıcıdan başarılı yanıt alındığında ağ gecikmesi (örn: `42 ms`) ve bağlantı durumu yeşil onay işaretiyle raporlanır.
+   - ❌ **Kırmızı Hata Uyarısı:** Eğer IP adresi hatalıysa, port kapalıysa veya yanıt alınamadıysa bağlantı hatası ekranda listelenir.
+
+---
+
+## 📌 4. Profili Etkinleştirme veya Düzenleme
+
+- **Doğrudan Kullanım:** Test başarılı olduğunda pencerenin altındaki **"Yükle ve Etkinleştir"** (`Install & Activate`) butonuna basarak profili anında cihazınıza kaydedebilir ve yazıcınızla iletişim kurmaya başlayabilirsiniz.
+- **Dahili Görsel Editörle Özelleştirme:** İsterseniz penceredeki **"Editörde Aç"** (`Open in Editor`) seçeneğini kullanarak butonları, göstergeleri, kamera akışını veya özel kontrol panellerini MakerSpell'in dahili Form ve Görsel Önizleme editöründen düzenleyebilirsiniz.
+
+---
+
+## 📌 5. Topluluk Kataloğuna Katkıda Bulunma (Opsiyonel)
+
+Hazırladığınız ve cihazınızda başarıyla test ettiğiniz profilin diğer kullanıcıların da erişimine açılmasını isterseniz:
+1. Profilinizi [MakerSpell Community Hub](https://github.com/MakerSpell/MakerSpell-Community-Hub) deposuna Pull Request olarak iletebilirsiniz.
+2. Topluluk incelemesinin ardından sürücünüz resmi kataloğa dahil edilerek tüm küresel kullanıcılara sunulur.
