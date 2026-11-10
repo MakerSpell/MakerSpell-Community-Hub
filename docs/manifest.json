@@ -379,31 +379,6 @@
                 "contribution",
                 "new-printer"
               ]
-            },
-            {
-              "id": "guides-agent-sync",
-              "title": "AI Agent Documentation Governance Rule",
-              "path": "docs/en/guides/agent-documentation-sync.md",
-              "summary": "Zero code leakage policy and mandatory user guide synchronization.",
-              "tags": [
-                "agent",
-                "governance",
-                "documentation-sync",
-                "zero-code-leakage"
-              ]
-            },
-            {
-              "id": "guides-screenshots",
-              "title": "Automated Screenshot Capture Pipeline",
-              "path": "docs/en/guides/screenshot-capture-pipeline.md",
-              "summary": "Automated pixel-perfect headless screenshots for Flutter and Web.",
-              "tags": [
-                "agent",
-                "screenshots",
-                "flutter-test",
-                "puppeteer",
-                "pipeline"
-              ]
             }
           ]
         }
@@ -778,31 +753,6 @@
                 "guide",
                 "contribution",
                 "new-printer"
-              ]
-            },
-            {
-              "id": "guides-agent-sync",
-              "title": "Ajanlar İçin Kullanıcı Dokümantasyonu Kuralı",
-              "path": "docs/tr/guides/agent-documentation-sync.md",
-              "summary": "Sıfır kod ifşası kuralı ve her yeni özellikte kullanıcı kılavuzu ekleme zorunluluğu.",
-              "tags": [
-                "agent",
-                "governance",
-                "documentation-sync",
-                "zero-code-leakage"
-              ]
-            },
-            {
-              "id": "guides-screenshots",
-              "title": "Ajanlar İçin Otomatik Ekran Görüntüsü Alma Rehberi",
-              "path": "docs/tr/guides/screenshot-capture-pipeline.md",
-              "summary": "Flutter ve Web arayüzlerinin ekran görüntülerini otomatik alma ve dokümana ekleme.",
-              "tags": [
-                "agent",
-                "screenshots",
-                "flutter-test",
-                "puppeteer",
-                "pipeline"
               ]
             }
           ]
