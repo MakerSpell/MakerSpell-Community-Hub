@@ -269,6 +269,19 @@
                 "manifesto",
                 "open-ecosystem"
               ]
+            },
+            {
+              "id": "web-wiki-portal",
+              "title": "MakerSpell Wiki Knowledge Portal",
+              "path": "docs/en/web-guide/wiki-subdomain-portal.md",
+              "summary": "Dedicated 3-column knowledge portal on wiki.makerspell.com for 3D printers, CFS/AMS, and hardware guides.",
+              "tags": [
+                "wiki",
+                "subdomain",
+                "knowledge-hub",
+                "guides",
+                "hardware"
+              ]
             }
           ]
         },
@@ -655,6 +668,19 @@
                 "roadmap",
                 "manifesto",
                 "open-ecosystem"
+              ]
+            },
+            {
+              "id": "web-wiki-portal",
+              "title": "MakerSpell Wiki Bilgi Portalı",
+              "path": "docs/tr/web-guide/wiki-subdomain-portal.md",
+              "summary": "wiki.makerspell.com üzerinde 3D yazıcılar, CFS/AMS sistemleri ve donanım rehberleri için özel 3 kolonlu portal.",
+              "tags": [
+                "wiki",
+                "subdomain",
+                "bilgi-portali",
+                "rehberler",
+                "donanim"
               ]
             }
           ]
