@@ -1,10 +1,10 @@
-# 🛠️ Topluluk Yazıcı Profili Yöneticisi & Profil Düzenleyici
+# Topluluk Yazıcı Profili Yöneticisi & Profil Düzenleyici
 
 MakerSpell'in dinamik sürücü altyapısı sayesinde, yeni bir yazıcı satın aldığınızda uygulamanın yeni bir sürümünü beklemeniz gerekmez.
 
 ---
 
-## 📌 1. Profil Kataloğu ve İndirme
+## 1. Profil Kataloğu ve İndirme
 
 - **Ağ Kataloğu:** Topluluk ve geliştiriciler tarafından test edilmiş yüzlerce hazır yazıcı profili listelenir.
 - **Tek Tıkla Kurulum:** Yazıcınızın marka ve modelini aratarak en güncel profili anında cihazınıza yükleyebilirsiniz.
@@ -12,7 +12,7 @@ MakerSpell'in dinamik sürücü altyapısı sayesinde, yeni bir yazıcı satın 
 
 ---
 
-## 📌 2. Dahili Profil Düzenleyici (Profile Editor)
+## 2. Dahili Profil Düzenleyici (Profile Editor)
 
 Özel veya modifiye edilmiş bir 3D yazıcınız varsa:
 - Uygulama içindeki **Profil Düzenleyici** formunu açabilirsiniz.

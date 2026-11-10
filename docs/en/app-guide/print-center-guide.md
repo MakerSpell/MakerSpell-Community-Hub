@@ -1,4 +1,4 @@
-# 🗂️ Print Center & Multi-Printer Monitoring
+# Print Center & Multi-Printer Monitoring
 
 The **Print Center** is designed for makers, print farm operators, and workshops managing multiple 3D printers simultaneously.
 
@@ -6,7 +6,7 @@ The **Print Center** is designed for makers, print farm operators, and workshops
 
 ---
 
-## 📌 1. Metric Badges
+## 1. Metric Badges
 
 At the top of the Print Center, live badges summarize your fleet status:
 - **Active Jobs:** The number of printers currently preheating, calibrating, or laying down plastic.
@@ -15,7 +15,7 @@ At the top of the Print Center, live badges summarize your fleet status:
 
 ---
 
-## 📌 2. Real-Time Printer Cards
+## 2. Real-Time Printer Cards
 
 Each printer card provides instant telemetry:
 

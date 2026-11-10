@@ -1,4 +1,4 @@
-# 🏷️ 3D Deals, Filament & Printer Coupons
+# 3D Deals, Filament & Printer Coupons
 
 MakerSpell Deals ([makerspell.com/deals](https://www.makerspell.com/deals)) gathers the best discounts, verified coupon codes, and bundle promotions across the 3D printing industry.
 
@@ -6,7 +6,7 @@ MakerSpell Deals ([makerspell.com/deals](https://www.makerspell.com/deals)) gath
 
 ---
 
-## 📌 1. Browsing and Filtering Deals
+## 1. Browsing and Filtering Deals
 
 - **Category Filters:**
   - **3D Printers (FDM & Resin):** New releases, refurbished bargains, and seasonal sales.

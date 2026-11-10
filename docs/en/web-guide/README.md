@@ -1,4 +1,4 @@
-# 🌐 MakerSpell Web Platform Overview
+# MakerSpell Web Platform Overview
 
 The MakerSpell Web Platform ([makerspell.com](https://www.makerspell.com)) connects 26 major 3D model repositories into a single search engine, curates deals on hardware and filament, and monitors global design contests.
 
@@ -6,7 +6,7 @@ The MakerSpell Web Platform ([makerspell.com](https://www.makerspell.com)) conne
 
 ---
 
-## 🌟 Core Platform Modules
+## Core Platform Modules
 
 1. **🔎 Federated 3D Search (`/browse`):**
    Search millions of STL/3MF models across Printables, Thingiverse, MakerWorld, Cults3D, Thangs, and 20+ other platforms in one unified search bar.

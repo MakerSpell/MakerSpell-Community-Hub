@@ -6,7 +6,7 @@ MakerSpell, her seviyedeki üretici için adil ve esnek üyelik planları sunar.
 
 ---
 
-## 📌 1. Üyelik Seviyeleri
+## 1. Üyelik Seviyeleri
 
 - **Ücretsiz Plan (Free):**
   - 26 model platformunda sınırsız arama ve temel filtreleme.
@@ -23,7 +23,7 @@ MakerSpell, her seviyedeki üretici için adil ve esnek üyelik planları sunar.
 
 ---
 
-## 📌 2. Sınırlı Sayıda "Lifetime Founder's Pass" (Kurucu Üye)
+## 2. Sınırlı Sayıda "Lifetime Founder's Pass" (Kurucu Üye)
 
 Erken aşamada projemize güvenen ilk 200 destekçiye özel tek seferlik ömür boyu lisans:
 - Aylık veya yıllık abonelik ödemesi yok; bir kere ödeyip ömür boyu Pro özelliklerine sahip olun.

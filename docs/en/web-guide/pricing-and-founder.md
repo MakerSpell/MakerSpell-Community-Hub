@@ -1,4 +1,4 @@
-# 💎 Pricing, Memberships & Lifetime Founder's Pass
+# Pricing, Memberships & Lifetime Founder's Pass
 
 MakerSpell offers flexible membership tiers tailored to hobbyists, makers, and production print farms.
 
@@ -6,7 +6,7 @@ MakerSpell offers flexible membership tiers tailored to hobbyists, makers, and p
 
 ---
 
-## 📌 1. Membership Tiers
+## 1. Membership Tiers
 
 - **Free Tier:**
   - Unlimited multi-platform search across 26 repositories.
@@ -23,7 +23,7 @@ MakerSpell offers flexible membership tiers tailored to hobbyists, makers, and p
 
 ---
 
-## 📌 2. Limited "Lifetime Founder's Pass"
+## 2. Limited "Lifetime Founder's Pass"
 
 Exclusively available to our first 200 early backers:
 - One-time payment with **lifetime Maker Pro access** (no recurring subscriptions).

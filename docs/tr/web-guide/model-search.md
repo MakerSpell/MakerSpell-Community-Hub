@@ -6,7 +6,7 @@ MakerSpell Arama Motoru, internetteki onlarca farklı model platformu arasında 
 
 ---
 
-## 📌 1. Nasıl Arama Yapılır?
+## 1. Nasıl Arama Yapılır?
 
 1. [makerspell.com/browse](https://www.makerspell.com/browse) adresine gidin veya ana sayfadaki arama çubuğunu kullanın.
 2. Aramak istediğiniz modeli yazın (Örn: *phone stand*, *articulated dragon*, *organizer*).
@@ -14,7 +14,7 @@ MakerSpell Arama Motoru, internetteki onlarca farklı model platformu arasında 
 
 ---
 
-## 📌 2. Akıllı Filtreler ve Sıralama
+## 2. Akıllı Filtreler ve Sıralama
 
 - **Ücretsiz / Ücretli Filtresi:** Yalnızca ücretsiz indirilebilir STL dosyalarını veya ticari modelleri listelemek için filtre haplarını kullanabilirsiniz.
 - **Platform Seçimi:** İstediğiniz platformları (Örn: Yalnızca *Printables* ve *Thingiverse*) seçebilir veya hepsinde aynı anda arama yapabilirsiniz.

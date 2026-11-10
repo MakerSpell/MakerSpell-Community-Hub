@@ -1,10 +1,10 @@
-# 📐 profile-v2 Tam Şema Spesifikasyonu (Full Specification)
+# profile-v2 Tam Şema Spesifikasyonu (Full Specification)
 
 MakerSpell deklaratif yazıcı sürücüsü `profile-v2`, JSON Schema Draft 2020-12 standartlarına uygun olarak tasarlanmıştır. Bu doküman, profil dosyasındaki tüm anahtar ve nesnelerin ayrıntılı teknik spesifikasyonunu içerir.
 
 ---
 
-## 📌 1. Kök Düzey Alanlar (Root Fields)
+## 1. Kök Düzey Alanlar (Root Fields)
 
 | Alan | Tip | Zorunlu? | Açıklama |
 | :--- | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ MakerSpell deklaratif yazıcı sürücüsü `profile-v2`, JSON Schema Draft 2020
 
 ---
 
-## 📌 2. `identity` Bloğu
+## 2. `identity` Bloğu
 
 Yazıcının marka, model ve delegasyon detaylarını tanımlar:
 
@@ -56,7 +56,7 @@ Yazıcının marka, model ve delegasyon detaylarını tanımlar:
 
 ---
 
-## 📌 3. `permissions` Dizisi
+## 3. `permissions` Dizisi
 
 Uygulamanın bu profile tanıyacağı yetkileri kısıtlar. İzin verilmeyen işlemler çalışma zamanında engellenir:
 
@@ -75,7 +75,7 @@ Uygulamanın bu profile tanıyacağı yetkileri kısıtlar. İzin verilmeyen iş
 
 ---
 
-## 📌 4. `discovery` Bloğu
+## 4. `discovery` Bloğu
 
 Ağ keşfi sırasında cihazın nasıl taranacağını ve hangi probe isteğiyle doğrulanacağını tanımlar:
 
@@ -96,7 +96,7 @@ Ağ keşfi sırasında cihazın nasıl taranacağını ve hangi probe isteğiyle
 
 ---
 
-## 📌 5. `channels` Bloğu
+## 5. `channels` Bloğu
 
 Farklı protokollerde haberleşmek için açılacak soket ve HTTP kanallarını belirler:
 
@@ -126,7 +126,7 @@ Farklı protokollerde haberleşmek için açılacak soket ve HTTP kanallarını 
 
 ---
 
-## 📌 6. `operations` Bloğu
+## 6. `operations` Bloğu
 
 Yazıcıya gönderilecek istekleri ve beklenen yanıtları tanımlar:
 
@@ -173,7 +173,7 @@ Yazıcıya gönderilecek istekleri ve beklenen yanıtları tanımlar:
 
 ---
 
-## 📌 7. `state` Bloğu (Telemetri Eşleştirme)
+## 7. `state` Bloğu (Telemetri Eşleştirme)
 
 Yazıcının kendine özgü JSON çıktısını MakerSpell'in ortak telemetri modeline dönüştürür (JSONPath desteği ile):
 
@@ -200,7 +200,7 @@ Yazıcının kendine özgü JSON çıktısını MakerSpell'in ortak telemetri mo
 
 ---
 
-## 📌 8. `ui` Bloğu (Masaüstü & Mobil Yerleşim)
+## 8. `ui` Bloğu (Masaüstü & Mobil Yerleşim)
 
 Yazıcı denetim sayfasında bileşenlerin hangi kolonda ve hangi sırada gösterileceğini deklaratif olarak belirler:
 

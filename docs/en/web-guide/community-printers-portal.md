@@ -1,4 +1,4 @@
-# 🖨️ Community Printer Drivers & Hardware Portal
+# Community Printer Drivers & Hardware Portal
 
 [makerspell.com/community-printers](https://www.makerspell.com/community-printers) is the web-accessible showcase for community-contributed 3D printer drivers.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 1. Web Portal Features
+## 1. Web Portal Features
 
 - **Live Driver Matrix:** View verified driver profiles for Creality, Snapmaker, Bambu Lab, Klipper/Moonraker, Prusa, and Elegoo hardware.
 - **Community Vetting:** Track community vote tallies, verified badges, and test feedback.

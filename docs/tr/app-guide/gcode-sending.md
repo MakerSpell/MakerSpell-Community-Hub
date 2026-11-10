@@ -1,10 +1,10 @@
-# 🚀 G-code Gönderme & Dilimleme Entegrasyonu Kılavuzu
+# G-code Gönderme & Dilimleme Entegrasyonu Kılavuzu
 
 MakerSpell üzerinden dilimlediğiniz (veya dışarıdan aktardığınız) 3D modelleri yazıcınıza aktarmak son derece kolay ve güvenlidir.
 
 ---
 
-## 📌 1. Baskı Gönderme Adımları
+## 1. Baskı Gönderme Adımları
 
 1. 3D modelinizi hazırlayıp **"Dilimle"** butonuna basın.
 2. Dilimleme tamamlandığında otomatik olarak **"G-code Gönder"** penceresi açılır.
@@ -20,7 +20,7 @@ MakerSpell üzerinden dilimlediğiniz (veya dışarıdan aktardığınız) 3D mo
 
 ---
 
-## 📌 2. Safe-Mode Koruması Nedir?
+## 2. Safe-Mode Koruması Nedir?
 
 Eğer seçtiğiniz yazıcı henüz laboratuvarımız tarafından tam test edilmemiş bir model ise (örneğin Bambu Lab LAN modu veya özel Klipper kurulumları), sistem sizi korumak için **Safe-Mode** moduna geçer:
 

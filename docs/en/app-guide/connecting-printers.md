@@ -1,10 +1,10 @@
-# 🌐 Connecting & Discovering Network Printers
+# Connecting & Discovering Network Printers
 
 MakerSpell leverages zero-configuration local network discovery to automatically find your 3D printers without tedious manual setup.
 
 ---
 
-## 📌 1. Automatic Discovery
+## 1. Automatic Discovery
 
 ![Network Printers Screen](../../assets/screenshots/app/sample-widget.png)
 
@@ -17,7 +17,7 @@ MakerSpell leverages zero-configuration local network discovery to automatically
 
 ---
 
-## 📌 2. Adding a Printer Manually via IP
+## 2. Adding a Printer Manually via IP
 
 If your router blocks multicast traffic (mDNS) or your printer is on a different subnet:
 
@@ -34,6 +34,6 @@ If your router blocks multicast traffic (mDNS) or your printer is on a different
 
 ---
 
-## 📌 3. Dynamic IP Changes (DHCP Stability)
+## 3. Dynamic IP Changes (DHCP Stability)
 
 If your router reassigns IP addresses after a reboot, MakerSpell’s **Stable Hardware ID** architecture retains your printer configuration. The app tracks the hardware identity (MAC/UUID) in the background and transparently reconnects as soon as the printer appears on its new IP address.

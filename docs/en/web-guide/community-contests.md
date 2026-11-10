@@ -1,4 +1,4 @@
-# 🏆 Community 3D Design Contests & Prizes
+# Community 3D Design Contests & Prizes
 
 MakerSpell Contests ([makerspell.com/contests](https://www.makerspell.com/contests)) is a global calendar tracking active 3D design competitions across Printables, CrealityCloud, MakerWorld, and other repositories.
 
@@ -6,7 +6,7 @@ MakerSpell Contests ([makerspell.com/contests](https://www.makerspell.com/contes
 
 ---
 
-## 📌 1. Contest Information Cards
+## 1. Contest Information Cards
 
 Every competition card displays:
 - **Theme & Title:** (e.g., *Desk Organization*, *Halloween Props*, *Functional Gears*).
@@ -16,7 +16,7 @@ Every competition card displays:
 
 ---
 
-## 📌 2. Participation & Submission Rules
+## 2. Participation & Submission Rules
 
 Clicking a competition card reveals:
 - Full participation criteria, licensing rules, and jury guidelines.

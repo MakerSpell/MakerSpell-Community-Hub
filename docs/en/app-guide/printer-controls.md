@@ -1,4 +1,4 @@
-# 🕹️ Device Control Panel (Camera, Temperatures & Motion)
+# Device Control Panel (Camera, Temperatures & Motion)
 
 Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard**, optimized for 1100px+ displays (and responsive single-column on mobile).
 
@@ -6,7 +6,7 @@ Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard
 
 ---
 
-## 📌 1. Left Column: Telemetry & Visual Monitoring
+## 1. Left Column: Telemetry & Visual Monitoring
 
 - **Live Camera Stream:**
   Low-latency video preview from onboard cameras (CrealityOS MJPEG / WebRTC / Moonraker). Inspect the critical first layer without walking across your workshop.
@@ -17,7 +17,7 @@ Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard
 
 ---
 
-## 📌 2. Right Column: Manual Overrides & Hardware Commands
+## 2. Right Column: Manual Overrides & Hardware Commands
 
 - **Thermal Controls:**
   - **Hotend:** Quick presets (PLA 200°C, PETG 240°C, ABS 260°C) or custom target input.

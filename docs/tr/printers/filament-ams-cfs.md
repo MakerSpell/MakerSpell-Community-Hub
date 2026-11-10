@@ -1,10 +1,10 @@
-# 🎨 Çok Renkli Sistemler (Creality CFS, Snapmaker AMS) Entegrasyonu
+# Çok Renkli Sistemler (Creality CFS, Snapmaker AMS) Entegrasyonu
 
 Modern 3D yazıcılar çok renkli ve çok malzemeli baskı yeteneklerine (AMS - Automatic Material System, CFS - Creality Filament System vb.) sahiptir. MakerSpell, bu sistemlerin yuva (slot) durumlarını, malzeme türlerini, renk kodlarını ve eşleştirmelerini dinamik olarak yönetir.
 
 ---
 
-## 📌 1. Filament Yuvası Parametreleri
+## 1. Filament Yuvası Parametreleri
 
 Kullanıcı arayüzünde her bir filament bobini aşağıdaki bilgilerle görselleştirilir:
 - **Yuva Numarası:** `Slot 1`, `Slot 2`, `Slot 3`, `Slot 4`.
@@ -16,7 +16,7 @@ Kullanıcı arayüzünde her bir filament bobini aşağıdaki bilgilerle görsel
 
 ---
 
-## 📌 2. Dilimleme & G-code Gönderiminde Filament Eşleştirme
+## 2. Dilimleme & G-code Gönderiminde Filament Eşleştirme
 
 Bir 3D model dilimlendiğinde, dilimleyici (OrcaSlicer) çıktısında modelin hangi renk/malzeme ile basılması gerektiği belirtilir (Örn: `Filament 1: PLA Siyah`, `Filament 2: PLA Kırmızı`).
 
@@ -38,7 +38,7 @@ flowchart LR
 
 ---
 
-## 📌 3. Hata Yönetimi ve İzolasyon
+## 3. Hata Yönetimi ve İzolasyon
 
 - **CFS Okuma Hatası:** Eğer yazıcı açık ancak CFS/AMS ünitesi kapalı veya bağlantı kopuksa, tüm arayüz kilitlenmez. Sadece filament eşleştirme kartında `"Could not read CFS slots from <ip>"` uyarısı ve bir `Retry` butonu gösterilir.
 - **Harici Makara Desteği (Spool Holder):** CFS/AMS olmayan cihazlarda veya doğrudan harici makaradan basılacak işlerde sistem tekli yuva (`slotLabel: "External spool"`) moduna düşer.

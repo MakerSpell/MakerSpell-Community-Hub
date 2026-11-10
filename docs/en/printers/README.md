@@ -1,10 +1,10 @@
-# 🖨️ 3D Printer Connectivity & Integration Architecture
+# 3D Printer Connectivity & Integration Architecture
 
 The MakerSpell ecosystem features a modular, hybrid connection architecture designed to discover, monitor, and stream G-code to hundreds of 3D printer models across all major manufacturers.
 
 ---
 
-## 📌 1. Architectural Layers
+## 1. Architectural Layers
 
 ```mermaid
 flowchart TD
@@ -55,7 +55,7 @@ flowchart TD
 
 ---
 
-## 📌 2. Documentation Directory
+## 2. Documentation Directory
 
 - [Safe-Mode Hardware Safety Protocol](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/safe-mode-protocol.md)
 - [Network Discovery & Stable Hardware Identity](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/network-discovery.md)

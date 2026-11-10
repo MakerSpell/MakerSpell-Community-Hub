@@ -6,7 +6,7 @@ MakerSpell Contests ([makerspell.com/contests](https://www.makerspell.com/contes
 
 ---
 
-## 📌 1. Yarışma Kartlarını İnceleme
+## 1. Yarışma Kartlarını İnceleme
 
 Her yarışma kartında aşağıdaki kritik bilgiler yer alır:
 - **Yarışmanın Teması ve Başlığı:** (Örn: *Desk Organization*, *Halloween Props*).
@@ -16,7 +16,7 @@ Her yarışma kartında aşağıdaki kritik bilgiler yer alır:
 
 ---
 
-## 📌 2. Katılım ve Detaylar
+## 2. Katılım ve Detaylar
 
 Bir yarışmaya katılmak veya kurallarını görmek için karta tıkladığınızda:
 - Yarışmanın detaylı katılım şartları, lisans kuralları ve jüri kriterleri listelenir.

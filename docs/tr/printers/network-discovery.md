@@ -1,4 +1,4 @@
-# 🌐 Ağ Keşfi & Kararlı Kimlik (stableId) Mantığı
+# Ağ Keşfi & Kararlı Kimlik (stableId) Mantığı
 
 Ev ve atölye ortamlarında 3D yazıcılar genellikle DHCP üzerinden dinamik IP adresi alır. Cihazlar veya modem kapatılıp açıldığında IP adresleri yer değiştirebilir (örneğin daha önce K1'in kullandığı `192.168.1.105` adresi, bir sonraki açılışta Snapmaker U1'e atanabilir).
 
@@ -6,7 +6,7 @@ MakerSpell, bu durumun cihaz karışıklığına yol açmasını engellemek içi
 
 ---
 
-## 📌 1. Kararlı Kimlik (`stableId`) Nedir?
+## 1. Kararlı Kimlik (`stableId`) Nedir?
 
 `stableId`, bir yazıcının ağ üzerindeki IP adresinden bağımsız olarak sahip olduğu fiziksel kimlik kodudur.
 
@@ -34,7 +34,7 @@ flowchart TD
 
 ---
 
-## 📌 2. Dinamik IP Değişimi & Çakışma Yönetimi
+## 2. Dinamik IP Değişimi & Çakışma Yönetimi
 
 ### Sorun Senaryosu:
 Dün `192.168.1.105` adresinde **Snapmaker U1** vardı. Bugün modem kapatılıp açıldı ve `192.168.1.105` adresini **Creality K1** aldı. Snapmaker ise `192.168.1.111` adresine geçti.
@@ -49,7 +49,7 @@ Dün `192.168.1.105` adresinde **Snapmaker U1** vardı. Bugün modem kapatılıp
 
 ---
 
-## 📌 3. Desteklenen Keşif Protokolleri
+## 3. Desteklenen Keşif Protokolleri
 
 1. **mDNS (Multicast DNS / Zeroconf):**
    - `_moonraker._tcp.local` (Klipper / Voron / RatRig)

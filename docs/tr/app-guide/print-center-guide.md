@@ -1,4 +1,4 @@
-# 🗂️ Baskı Merkezi (Print Center) Kullanım Kılavuzu
+# Baskı Merkezi (Print Center) Kullanım Kılavuzu
 
 Baskı Merkezi, birden fazla 3D yazıcı kullanan makerlar ve atölyeler için tasarlanmış merkezi operasyon ekranıdır.
 
@@ -6,7 +6,7 @@ Baskı Merkezi, birden fazla 3D yazıcı kullanan makerlar ve atölyeler için t
 
 ---
 
-## 📌 1. Baskı Merkezi Başlığı ve Özet Sayaçları
+## 1. Baskı Merkezi Başlığı ve Özet Sayaçları
 
 Ekranın üst kısmında yer alan mavi bilgi panosunda atölyenizin anlık özeti gösterilir:
 - **Aktif İşler:** Şu anda tablaya baskı yapan veya ısınan cihaz sayısı.
@@ -15,7 +15,7 @@ Ekranın üst kısmında yer alan mavi bilgi panosunda atölyenizin anlık özet
 
 ---
 
-## 📌 2. Yazıcı Durum Kartları
+## 2. Yazıcı Durum Kartları
 
 Listedeki her bir cihaz kartı üzerinde şu bilgiler canlı olarak güncellenir:
 

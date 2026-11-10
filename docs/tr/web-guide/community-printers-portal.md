@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 1. Web Portalının Sağladığı İmkânlar
+## 1. Web Portalının Sağladığı İmkânlar
 
 - **Canlı Sürücü Kataloğu:** Creality, Snapmaker, Bambu Lab, Klipper/Moonraker, Prusa ve Anycubic modelleri için hazırlanmış açık JSON sürücülerini inceleyebilirsiniz.
 - **Topluluk Doğrulaması:** Hangi sürücünün kaç kullanıcı tarafından onaylandığını ve güvenilirlik puanını görebilirsiniz.

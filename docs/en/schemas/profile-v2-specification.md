@@ -1,10 +1,10 @@
-# 📐 profile-v2 Full Driver Specification
+# profile-v2 Full Driver Specification
 
 MakerSpell’s declarative printer driver specification `profile-v2` complies with the JSON Schema Draft 2020-12 standard. This document defines all schema keys, data types, and runtime validation rules.
 
 ---
 
-## 📌 1. Root Fields
+## 1. Root Fields
 
 | Field | Type | Required? | Description |
 | :--- | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ MakerSpell’s declarative printer driver specification `profile-v2` complies wi
 
 ---
 
-## 📌 2. `permissions` Array
+## 2. `permissions` Array
 
 Limits driver capabilities at runtime. Unlisted actions are strictly rejected:
 
@@ -40,7 +40,7 @@ Limits driver capabilities at runtime. Unlisted actions are strictly rejected:
 
 ---
 
-## 📌 3. `discovery` Block
+## 3. `discovery` Block
 
 Defines how the driver discovers and probes matching hardware:
 
@@ -57,7 +57,7 @@ Defines how the driver discovers and probes matching hardware:
 
 ---
 
-## 📌 4. `channels` & `operations` Blocks
+## 4. `channels` & `operations` Blocks
 
 Declares network communication endpoints and message payloads:
 
@@ -96,7 +96,7 @@ Declares network communication endpoints and message payloads:
 
 ---
 
-## 📌 5. `state` Telemetry Block
+## 5. `state` Telemetry Block
 
 Maps raw manufacturer payloads into standard MakerSpell telemetry using JSONPath:
 

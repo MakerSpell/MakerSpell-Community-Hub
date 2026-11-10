@@ -1,10 +1,10 @@
-# 🛠️ Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi
+# Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi
 
 MakerSpell, farklı marka ve modeldeki 3D yazıcıları sisteme dahil etmek için açık ve deklaratif bir sürücü profili (`profile-v2`) mimarisi kullanır. Bu rehber; yeni bir yazıcı modelini MakerSpell Masaüstü veya Mobil uygulaması üzerinden **herhangi bir kodlama veya geliştirici aracına ihtiyaç duymadan**, doğrudan uygulama arayüzünden nasıl içe aktaracağınızı, test edeceğinizi ve kullanıma alacağınızı adım adım açıklamaktadır.
 
 ---
 
-## 📌 1. Hazırlık: Profil Dosyası (.json)
+## 1. Hazırlık: Profil Dosyası (.json)
 
 Yazıcınızı tanıtan profil, standart bir `.json` metin dosyasıdır. Dosya içerisinde temel olarak şu bilgiler yer alır:
 
@@ -18,7 +18,7 @@ Yazıcınızı tanıtan profil, standart bir `.json` metin dosyasıdır. Dosya i
 
 ---
 
-## 📌 2. Adım Adım Uygulama İçi İçe Aktarma ve Doğrulama
+## 2. Adım Adım Uygulama İçi İçe Aktarma ve Doğrulama
 
 ### Adım 1: Sürücü Yönetim Ekranını Açın
 1. MakerSpell uygulamasını (Masaüstü veya Mobil) başlatın.
@@ -36,7 +36,7 @@ Dosya seçildiği anda MakerSpell doğrulama motoru devreye girer:
 
 ---
 
-## 📌 3. Canlı Cihaz Bağlantı Testi (In-App Connectivity Test)
+## 3. Canlı Cihaz Bağlantı Testi (In-App Connectivity Test)
 
 Doğrulama penceresi açıkken profili sisteme kaydetmeden önce yazıcınızla canlı olarak test edebilirsiniz:
 
@@ -48,14 +48,14 @@ Doğrulama penceresi açıkken profili sisteme kaydetmeden önce yazıcınızla 
 
 ---
 
-## 📌 4. Profili Etkinleştirme veya Düzenleme
+## 4. Profili Etkinleştirme veya Düzenleme
 
 - **Doğrudan Kullanım:** Test başarılı olduğunda pencerenin altındaki **"Yükle ve Etkinleştir"** (`Install & Activate`) butonuna basarak profili anında cihazınıza kaydedebilir ve yazıcınızla iletişim kurmaya başlayabilirsiniz.
 - **Dahili Görsel Editörle Özelleştirme:** İsterseniz penceredeki **"Editörde Aç"** (`Open in Editor`) seçeneğini kullanarak butonları, göstergeleri, kamera akışını veya özel kontrol panellerini MakerSpell'in dahili Form ve Görsel Önizleme editöründen düzenleyebilirsiniz.
 
 ---
 
-## 📌 5. Topluluk Kataloğuna Katkıda Bulunma (Opsiyonel)
+## 5. Topluluk Kataloğuna Katkıda Bulunma (Opsiyonel)
 
 Hazırladığınız ve cihazınızda başarıyla test ettiğiniz profilin diğer kullanıcıların da erişimine açılmasını isterseniz:
 1. Profilinizi [MakerSpell Community Hub](https://github.com/MakerSpell/MakerSpell-Community-Hub) deposuna Pull Request olarak iletebilirsiniz.

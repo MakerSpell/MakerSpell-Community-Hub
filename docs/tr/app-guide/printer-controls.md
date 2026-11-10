@@ -1,4 +1,4 @@
-# 🕹️ Cihaz Denetim Panosu (Kamera, Sıcaklık ve Eksenler)
+# Cihaz Denetim Panosu (Kamera, Sıcaklık ve Eksenler)
 
 Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Panosu**, masaüstünde 2 kolonlu optimize edilmiş bir kumanda masası sunar.
 
@@ -6,7 +6,7 @@ Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Pa
 
 ---
 
-## 📌 1. Sol Kolon: Canlı İzleme ve Görüntü
+## 1. Sol Kolon: Canlı İzleme ve Görüntü
 
 - **Canlı Kamera Yayını:**
   Yazıcınızın dahili kamerası varsa akış otomatik başlar. Gecikmesiz video üzerinden ilk katman yapışmasını ve baskı sürecini izleyebilirsiniz.
@@ -17,7 +17,7 @@ Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Pa
 
 ---
 
-## 📌 2. Sağ Kolon: Manuel Kontroller ve Donanım Ayarları
+## 2. Sağ Kolon: Manuel Kontroller ve Donanım Ayarları
 
 - **Sıcaklık Ayarları:**
   - **Nozul Sıcaklığı:** Hızlı ön ısıtma hazır ayarları (PLA 200°C, PETG 240°C, ABS 260°C) veya manuel derece girişi.

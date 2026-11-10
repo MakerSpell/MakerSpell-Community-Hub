@@ -1,4 +1,4 @@
-# 📋 JSON Driver & Profile Schema (v2) Overview
+# JSON Driver & Profile Schema (v2) Overview
 
 The core of MakerSpell's dynamic printer driver architecture is the **`profile-v2.schema.json`** specification.
 
@@ -6,7 +6,7 @@ This open specification empowers the community to define communication protocols
 
 ---
 
-## 📌 1. Why Declarative JSON Drivers?
+## 1. Why Declarative JSON Drivers?
 
 Traditional slicers and 3D printing software (Creality Print, Bambu Studio, Cura) require modifying and recompiling C++/Dart code to support new printer models.
 
@@ -17,7 +17,7 @@ In MakerSpell:
 
 ---
 
-## 📌 2. Slices of a Driver Profile
+## 2. Slices of a Driver Profile
 
 | Block | Role |
 | :--- | :--- |
@@ -33,7 +33,7 @@ In MakerSpell:
 
 ---
 
-## 📌 3. Official References
+## 3. Official References
 
 - [Full profile-v2 Specification Guide](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/schemas/profile-v2-specification.md)
 - [Official JSON Schema File (`profile-v2.schema.json`)](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2.schema.json)

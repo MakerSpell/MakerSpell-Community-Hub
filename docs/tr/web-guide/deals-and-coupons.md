@@ -6,7 +6,7 @@ MakerSpell Deals ([makerspell.com/deals](https://www.makerspell.com/deals)), 3D 
 
 ---
 
-## 📌 1. Fırsatları İnceleme ve Filtreleme
+## 1. Fırsatları İnceleme ve Filtreleme
 
 - **Kategori Filtreleri:** 
   - **3D Yazıcılar (FDM & Reçine):** Yeni çıkan ve indirimdeki cihazlar.

@@ -1,10 +1,10 @@
-# 📱 MakerSpell Desktop & Mobile App User Guide
+# MakerSpell Desktop & Mobile App User Guide
 
 The MakerSpell desktop (Windows, macOS, Linux) and mobile (Android, iOS) client—**MakerSync**—is a unified control cockpit designed to connect, manage, and monitor all your 3D printers, slice models, and stream G-code directly over your local network.
 
 ---
 
-## 🌟 Key Capabilities
+## Key Capabilities
 
 - **🔍 Automatic Local Discovery:** Instantly discovers Creality K1, Snapmaker U1, Voron, Ender (Klipper/Moonraker), and OctoPrint devices on your local Wi-Fi or Ethernet.
 - **🗂️ Print Center:** Real-time multi-printer dashboard showing active prints, stage progress, and time estimates at a single glance.
@@ -15,7 +15,7 @@ The MakerSpell desktop (Windows, macOS, Linux) and mobile (Android, iOS) client�
 
 ---
 
-## 🧭 Guide Navigation
+## Guide Navigation
 
 1. [Connecting & Discovering Network Printers](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/app-guide/connecting-printers.md)
 2. [Print Center & Multi-Printer Monitoring](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/app-guide/print-center-guide.md)

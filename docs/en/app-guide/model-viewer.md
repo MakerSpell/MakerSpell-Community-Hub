@@ -1,10 +1,10 @@
-# 🧊 3D Model Viewer, Plate Layout & Color Painting
+# 3D Model Viewer, Plate Layout & Color Painting
 
 The MakerSpell desktop and mobile client features a high-performance 3D canvas supporting STL, 3MF, and OBJ files.
 
 ---
 
-## 📌 1. Navigation & Camera Controls
+## 1. Navigation & Camera Controls
 
 - **Orbit (Rotate):** Left-click and drag (or one-finger drag on mobile) to inspect your model from any angle.
 - **Pan:** Right-click and drag to move the model across the virtual build plate.
@@ -13,7 +13,7 @@ The MakerSpell desktop and mobile client features a high-performance 3D canvas s
 
 ---
 
-## 📌 2. Transforming & Plate Placement
+## 2. Transforming & Plate Placement
 
 - **Auto-Center:** Quickly centers the model on the build volume.
 - **Scaling:** Scale uniformly by percentage (`100%`) or enter exact millimeter dimensions for X, Y, or Z.
@@ -21,7 +21,7 @@ The MakerSpell desktop and mobile client features a high-performance 3D canvas s
 
 ---
 
-## 📌 3. Multi-Color Painting Tool
+## 3. Multi-Color Painting Tool
 
 For multi-material setups:
 - Select the **"Paint"** brush from the top toolbar.

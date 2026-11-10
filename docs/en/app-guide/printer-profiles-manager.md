@@ -1,10 +1,10 @@
-# 🛠️ Community Printer Profiles & Custom Driver Editor
+# Community Printer Profiles & Custom Driver Editor
 
 Thanks to MakerSpell’s declarative JSON driver architecture, you never need to wait for a software release to use a newly released printer.
 
 ---
 
-## 📌 1. Community Driver Registry
+## 1. Community Driver Registry
 
 - **Online Profile Catalog:** Browse hundreds of community-verified driver profiles for Creality, Snapmaker, Bambu, Voron, and Klipper machines.
 - **One-Click Installation:** Search your model name and apply verified settings instantly.
@@ -12,7 +12,7 @@ Thanks to MakerSpell’s declarative JSON driver architecture, you never need to
 
 ---
 
-## 📌 2. In-App Profile Editor
+## 2. In-App Profile Editor
 
 For custom modifications, custom toolheads, or DIY printers:
 - Open the built-in **Profile Editor**.

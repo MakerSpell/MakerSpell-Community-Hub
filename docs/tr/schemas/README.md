@@ -1,4 +1,4 @@
-# 📋 JSON Sürücü & Profil Şeması (v2) Genel Bakış
+# JSON Sürücü & Profil Şeması (v2) Genel Bakış
 
 MakerSpell'in dinamik yazıcı sürücü mimarisinin temel taşı **`profile-v2.schema.json`** spesifikasyonudur.
 
@@ -6,7 +6,7 @@ Bu şema, herhangi bir 3D yazıcının haberleşme protokolünü, ağ keşif kur
 
 ---
 
-## 📌 1. Neden Kod Yerine JSON Sürücüsü?
+## 1. Neden Kod Yerine JSON Sürücüsü?
 
 Geleneksel 3D baskı yazılımlarında (Creality Print, Bambu Studio, Cura vb.) yeni bir yazıcı eklemek için kaynak kodun değiştirilmesi, derlenmesi ve tüm kullanıcılara yeni bir masaüstü/mobil sürüm dağıtılması gerekir.
 
@@ -17,7 +17,7 @@ MakerSpell'de ise:
 
 ---
 
-## 📌 2. Sürücü Dosyasının Ana Blokları
+## 2. Sürücü Dosyasının Ana Blokları
 
 Bir `profile-v2` dosyası aşağıdaki temel bloklardan oluşur:
 
@@ -35,7 +35,7 @@ Bir `profile-v2` dosyası aşağıdaki temel bloklardan oluşur:
 
 ---
 
-## 📌 3. Belgeler ve Referanslar
+## 3. Belgeler ve Referanslar
 
 - [Tam profile-v2 Spesifikasyon Kılavuzu](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md)
 - [Resmi JSON Şema Dosyası (`profile-v2.schema.json`)](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2.schema.json)

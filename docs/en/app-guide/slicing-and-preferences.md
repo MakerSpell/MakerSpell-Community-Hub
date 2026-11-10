@@ -1,10 +1,10 @@
-# ⚙️ Slicing Settings & Slicer Preferences
+# Slicing Settings & Slicer Preferences
 
 MakerSpell integrates the industry-standard open-source **OrcaSlicer** engine directly into the desktop workspace.
 
 ---
 
-## 📌 1. Preset Quality Profiles
+## 1. Preset Quality Profiles
 
 Choose from curated quality presets in the right sidebar:
 - **Fine Detail (0.12 mm / 0.16 mm):** Ideal for tabletop miniatures and high-tolerance mechanical assemblies.
@@ -13,7 +13,7 @@ Choose from curated quality presets in the right sidebar:
 
 ---
 
-## 📌 2. Infill Density & Patterns
+## 2. Infill Density & Patterns
 
 - **Density:** Adjust internal structure volume from `10%` to `100%` (`15%` is recommended for general aesthetic prints).
 - **Patterns:**
@@ -23,7 +23,7 @@ Choose from curated quality presets in the right sidebar:
 
 ---
 
-## 📌 3. Support Structures
+## 3. Support Structures
 
 For steep overhangs exceeding 45°:
 - **Tree Supports:** Organic branches that wrap around models, minimize contact scarring, and snap off cleanly.

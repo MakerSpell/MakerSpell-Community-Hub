@@ -1,10 +1,10 @@
-# 📱 MakerSpell Masaüstü & Mobil Uygulama Kullanım Kılavuzu
+# MakerSpell Masaüstü & Mobil Uygulama Kullanım Kılavuzu
 
 MakerSpell masaüstü (Windows, macOS, Linux) ve mobil (Android, iOS) uygulaması; tüm 3D yazıcılarınızı tek bir ekrandan kontrol etmenizi, baskılarınızı gerçek zamanlı izlemenizi ve dilimlenen modellerinizi doğrudan yazıcınıza göndermenizi sağlayan modern bir kontrol merkezidir.
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
 - **🔍 Otomatik Ağ Keşfi:** Yerel ağınızdaki (Wi-Fi / Ethernet) Creality K1, Snapmaker U1, Voron, Ender (Klipper/Moonraker) ve OctoPrint cihazlarını otomatik olarak bulur.
 - **🗂️ Baskı Merkezi (Print Center):** Atölyenizdeki veya evinizdeki tüm yazıcıların anlık durumunu, aktif baskılarını ve kalan sürelerini tek bakışta gösterir.
@@ -15,7 +15,7 @@ MakerSpell masaüstü (Windows, macOS, Linux) ve mobil (Android, iOS) uygulamas�
 
 ---
 
-## 🧭 Kılavuz Başlıkları
+## Kılavuz Başlıkları
 
 1. [Yazıcıları Ağa Bağlama ve Eşleştirme](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/connecting-printers.md)
 2. [Baskı Merkezi (Print Center) Kullanımı](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/print-center-guide.md)

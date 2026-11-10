@@ -6,7 +6,7 @@ MakerSpell Web platformu ([makerspell.com](https://www.makerspell.com)), dünyad
 
 ---
 
-## 🌟 Web Platformunun Temel Modülleri
+## Web Platformunun Temel Modülleri
 
 1. **🔎 Ortak Model Arama Motoru (`/browse`):**
    Printables, Thingiverse, MakerWorld, Cults3D, Thangs ve 20+ platformdaki milyonlarca modeli aynı anda arayın, ücretsiz/ücretli durumuna göre filtreleyin.

@@ -1,10 +1,10 @@
-# 🎨 Multi-Color Systems Integration (Creality CFS, Snapmaker AMS)
+# Multi-Color Systems Integration (Creality CFS, Snapmaker AMS)
 
 Modern 3D printers incorporate multi-color and multi-material handling systems. MakerSpell normalizes slot states, material tags, and color values into a unified UI experience.
 
 ---
 
-## 📌 1. Filament Slot Attributes
+## 1. Filament Slot Attributes
 
 In the user interface, each loaded filament spool displays:
 - **Slot Identifier:** `Slot 1`, `Slot 2`, `Slot 3`, `Slot 4`.
@@ -16,7 +16,7 @@ In the user interface, each loaded filament spool displays:
 
 ---
 
-## 📌 2. Sliced Model Matching & Error Handling
+## 2. Sliced Model Matching & Error Handling
 
 - **Automatic Matching:** When preparing a multi-color print, MakerSpell automatically cross-checks sliced tool requirements with loaded printer slots.
 - **Fault Isolation:** If a printer’s CFS/AMS module is offline or disconnected, the main printer telemetry continues seamlessly; an isolated *"Could not read CFS slots"* warning appears with an inline Retry button.

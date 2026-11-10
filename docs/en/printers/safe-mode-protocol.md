@@ -1,11 +1,11 @@
-# 🛡️ Safe-Mode Hardware Safety Protocol
+# Safe-Mode Hardware Safety Protocol
 
 > [!CAUTION]
 > **Physical Safety Priority:** 3D printers reach temperatures above 300°C and execute high-speed mechanical motions. An unintended network command could result in collisions or fire hazards. MakerSpell enforces a strict "Safety-First" architecture.
 
 ---
 
-## 📌 1. Verified Hardware vs. Community Hardware
+## 1. Verified Hardware vs. Community Hardware
 
 | Hardware Fleet | Status | Control Mode | Telemetry | Firmware Requirement |
 | :--- | :--- | :--- | :--- | :--- |
@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 2. Mandatory Safe-Mode (`UPLOAD_ONLY`)
+## 2. Mandatory Safe-Mode (`UPLOAD_ONLY`)
 
 For all unverified or community-contributed models:
 

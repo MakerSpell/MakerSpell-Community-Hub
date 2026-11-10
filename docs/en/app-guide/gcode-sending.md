@@ -1,10 +1,10 @@
-# 🚀 G-code Transfer & Slicing Integration
+# G-code Transfer & Slicing Integration
 
 Sending sliced 3D models to your hardware in MakerSpell is fast, wireless, and protected by physical safety checks.
 
 ---
 
-## 📌 1. Sending Print Jobs Step-by-Step
+## 1. Sending Print Jobs Step-by-Step
 
 1. Prepare your 3D model on the virtual build plate and click **"Slice"**.
 2. Once slicing finishes, the **"Send G-code"** modal opens automatically.
@@ -20,7 +20,7 @@ Sending sliced 3D models to your hardware in MakerSpell is fast, wireless, and p
 
 ---
 
-## 📌 2. The Safe-Mode Hardware Shield
+## 2. The Safe-Mode Hardware Shield
 
 If the selected printer is an unverified community model (e.g. third-party Klipper boards, Bambu LAN mode, or custom DIY rigs):
 

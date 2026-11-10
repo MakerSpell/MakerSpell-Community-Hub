@@ -4,7 +4,7 @@ MakerSpell uygulaması, yerel ağınızda açık olan yazıcıları bulmak için
 
 ---
 
-## 📌 1. Otomatik Ağ Taraması ile Yazıcı Ekleme
+## 1. Otomatik Ağ Taraması ile Yazıcı Ekleme
 
 ![Ağ Yazıcıları Ekranı](../../assets/screenshots/app/sample-widget.png)
 
@@ -17,7 +17,7 @@ MakerSpell uygulaması, yerel ağınızda açık olan yazıcıları bulmak için
 
 ---
 
-## 📌 2. Manuel IP ile Yazıcı Ekleme
+## 2. Manuel IP ile Yazıcı Ekleme
 
 Eğer modeminiz ağ içi cihaz keşif paketlerini (mDNS) kısıtlıyorsa, cihazınızı doğrudan IP adresiyle ekleyebilirsiniz:
 
@@ -34,7 +34,7 @@ Eğer modeminiz ağ içi cihaz keşif paketlerini (mDNS) kısıtlıyorsa, cihaz�
 
 ---
 
-## 📌 3. Dinamik IP Değişimi Durumunda Ne Olur?
+## 3. Dinamik IP Değişimi Durumunda Ne Olur?
 
 Modeminiz veya yazıcınız yeniden başlatıldığında IP adresi değişse bile, MakerSpell cihazınızı donanım kimliği (MAC / UUID) üzerinden hatırlar. Cihazınız yeni bir IP aldığında uygulama bunu arka planda otomatik algılar ve kontrolü kesintisiz sürdürür.
 

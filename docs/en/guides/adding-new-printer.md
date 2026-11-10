@@ -1,10 +1,10 @@
-# 🛠️ How to Add and Test a New Printer Profile
+# How to Add and Test a New Printer Profile
 
 MakerSpell uses an open, declarative driver specification (`profile-v2`) to connect with hundreds of 3D printer models across different manufacturers. This guide walks you through importing, verifying, and testing a custom driver profile **directly from the MakerSpell Desktop or Mobile app**—with zero coding or terminal tools required.
 
 ---
 
-## 📌 1. Prerequisites: Driver Profile File (.json)
+## 1. Prerequisites: Driver Profile File (.json)
 
 A printer driver profile is a standard `.json` configuration file that contains:
 
@@ -18,7 +18,7 @@ A printer driver profile is a standard `.json` configuration file that contains:
 
 ---
 
-## 📌 2. In-App Profile Import & Automatic Verification
+## 2. In-App Profile Import & Automatic Verification
 
 ### Step 1: Open the Driver Rules Screen
 1. Launch the MakerSpell application (Desktop or Mobile).
@@ -36,7 +36,7 @@ Upon file selection, the built-in validation engine immediately checks the confi
 
 ---
 
-## 📌 3. Live Device Connectivity Test
+## 3. Live Device Connectivity Test
 
 Before saving the driver to your active setup, you can test communication against your physical printer:
 
@@ -48,14 +48,14 @@ Before saving the driver to your active setup, you can test communication agains
 
 ---
 
-## 📌 4. Activating or Customizing the Profile
+## 4. Activating or Customizing the Profile
 
 - **Immediate Activation:** When testing passes, click **"Install & Activate"** to bind the profile to your printer. It becomes immediately available in the Print Center.
 - **In-App Visual Customization:** You can also click **"Open in Editor"** to adjust dashboard cards, camera widgets, filament slot mappings, or custom action buttons using MakerSpell's built-in Form and Visual Preview editor.
 
 ---
 
-## 📌 5. Contributing to the Community Catalog (Optional)
+## 5. Contributing to the Community Catalog (Optional)
 
 Once your profile is tested and working reliably with your printer, you can share it with the broader 3D printing community:
 1. Submit your JSON profile as a Pull Request to the [MakerSpell Community Hub](https://github.com/MakerSpell/MakerSpell-Community-Hub) repository.

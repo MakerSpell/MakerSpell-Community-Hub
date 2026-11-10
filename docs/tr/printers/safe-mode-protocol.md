@@ -1,11 +1,11 @@
-# 🛡️ Safe-Mode Donanım Güvenlik Protokolü (Hardware Safety Standard)
+# Safe-Mode Donanım Güvenlik Protokolü (Hardware Safety Standard)
 
 > [!CAUTION]
 > **Fiziksel Güvenlik Önceliği:** 3D yazıcılar yüksek sıcaklıklara (300°C+ nozul, 100°C+ tabla) ulaşan ve yüksek hızlı mekanik hareketlere sahip fiziksel cihazlardır. Hatalı bir ağ komutu, yangın veya mekanik hasar riski doğurabilir. MakerSpell mimarisi "Önce Güvenlik" (Safety First) prensibiyle tasarlanmıştır.
 
 ---
 
-## 📌 1. Doğrulanmış Donanım (Verified Hardware)
+## 1. Doğrulanmış Donanım (Verified Hardware)
 
 Geliştirici ekibi tarafından fiziksel olarak bizzat test edilen ve iki yönlü tam kontrol yetkisi verilen donanımlar şunlardır:
 
@@ -19,7 +19,7 @@ Bu cihazlar haricindeki **tüm marka ve modeller varsayılan olarak "Topluluk / 
 
 ---
 
-## 📌 2. Topluluk Donanımlarında Zorunlu Safe-Mode (`UPLOAD_ONLY`)
+## 2. Topluluk Donanımlarında Zorunlu Safe-Mode (`UPLOAD_ONLY`)
 
 Bambu Lab, Anycubic, Voron, Elegoo, Prusa ve genel Klipper yazıcılar topluluk profili ile eklendiğinde **Safe-Mode** devreye girer:
 
@@ -41,7 +41,7 @@ flowchart LR
 
 ---
 
-## 📌 3. JSON Profilinde Safe-Mode Bildirimi
+## 3. JSON Profilinde Safe-Mode Bildirimi
 
 Bir profilin Safe-Mode kapsamında kalması için `permissions` dizisinde `printStart` izni yer almamalı veya `verification` bloğunda `safeMode: true` belirtilmelidir:
 
@@ -69,7 +69,7 @@ Bir profilin Safe-Mode kapsamında kalması için `permissions` dizisinde `print
 
 ---
 
-## 📌 4. Topluluk Onayı (Community Verification) Süreci
+## 4. Topluluk Onayı (Community Verification) Süreci
 
 Topluluk tarafından sağlanan bir profilin `communityVerified` seviyesine yükseltilebilmesi için:
 - En az **5 bağımsız kullanıcı** tarafından başarılı baskı teyidi verilmelidir.

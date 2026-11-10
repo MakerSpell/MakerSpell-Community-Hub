@@ -1,10 +1,10 @@
-# 🎨 Multi-Color Printing & Material Management (CFS / AMS)
+# Multi-Color Printing & Material Management (CFS / AMS)
 
 MakerSpell delivers first-class support for multi-color, multi-material extrusion systems including Creality CFS and Snapmaker AMS.
 
 ---
 
-## 📌 1. Filament Slot Visualization
+## 1. Filament Slot Visualization
 
 The device dashboard and print dialog display every loaded spool:
 - **Color Swatches:** Accurate hex color representations for each loaded spool.
@@ -13,7 +13,7 @@ The device dashboard and print dialog display every loaded spool:
 
 ---
 
-## 📌 2. Sliced Model to Physical Slot Mapping
+## 2. Sliced Model to Physical Slot Mapping
 
 When preparing a multi-material print:
 1. The G-code sender analyzes the model's required filaments.
@@ -23,7 +23,7 @@ When preparing a multi-material print:
 
 ---
 
-## 📌 3. External Spool Mode
+## 3. External Spool Mode
 
 For single-material prints using a generic side-mounted spool holder:
 - The system automatically transitions to **"External Spool"** mode.

@@ -1,10 +1,10 @@
-# 🗺️ Live Product Roadmap & Open Ecosystem Manifesto
+# Live Product Roadmap & Open Ecosystem Manifesto
 
 MakerSpell’s mission, principles, and upcoming features are shared openly with the maker community.
 
 ---
 
-## 📌 1. Live Roadmap (`/roadmap`)
+## 1. Live Roadmap (`/roadmap`)
 
 Track feature development across three transparent milestones:
 - **In Active Development:** Advanced CFS/AMS multi-color mapping, local zero-cloud network bridging.
@@ -13,7 +13,7 @@ Track feature development across three transparent milestones:
 
 ---
 
-## 📌 2. Open Ecosystem Manifesto (`/manifesto`)
+## 2. Open Ecosystem Manifesto (`/manifesto`)
 
 - **Respect for Maker Data & Hardware:** Resisting manufacturer closed-cloud locks; championing local-first, offline-capable control.
 - **Community-Driven Longevity:** All printer drivers are open-source JSON schemas, ensuring printers remain functional even after manufacturers end support.

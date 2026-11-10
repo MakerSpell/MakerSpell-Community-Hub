@@ -1,10 +1,10 @@
-# 🖨️ 3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri Mimarisi
+# 3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri Mimarisi
 
 MakerSpell ekosistemi, farklı marka ve üreticilere ait yüzlerce 3D yazıcı modelini tek bir merkezden keşfetmek, telemetrisini izlemek, dosyalarını yönetmek ve baskı süreçlerini güvenle yürütmek üzere tasarlanmış **hibrit ve genişletilebilir bir bağlantı mimarisine** sahiptir.
 
 ---
 
-## 📌 1. Temel Mimari Prensipleri
+## 1. Temel Mimari Prensipleri
 
 MakerSpell'in yazıcı entegrasyonu iki katmandan oluşur:
 
@@ -57,7 +57,7 @@ flowchart TD
 
 ---
 
-## 📌 2. Bağlantı Yaşam Döngüsü
+## 2. Bağlantı Yaşam Döngüsü
 
 Bir yazıcı MakerSpell ağına dahil olduğunda şu aşamalardan geçer:
 
@@ -70,7 +70,7 @@ Bir yazıcı MakerSpell ağına dahil olduğunda şu aşamalardan geçer:
 
 ---
 
-## 📌 3. Doküman Bölümleri
+## 3. Doküman Bölümleri
 
 - [Safe-Mode Güvenlik Protokolü](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/safe-mode-protocol.md)
 - [Ağ Keşfi ve Kararlı Kimlik (stableId) Mantığı](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/network-discovery.md)
