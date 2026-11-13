@@ -503,6 +503,32 @@
                 "painting",
                 "surface"
               ]
+            },
+            {
+              "id": "guides-volume-types",
+              "title": "Volume Types: Parts, Negative Parts, Modifiers and Support Zones",
+              "path": "docs/en/guides/volume-types.md",
+              "summary": "The five volume types and what each does to the print, adding volumes and changing types, the refusal rules, and the Beta limit that types do not yet survive a project save.",
+              "tags": [
+                "guide",
+                "editor",
+                "volume-types",
+                "negative-part",
+                "modifier"
+              ]
+            },
+            {
+              "id": "guides-height-range",
+              "title": "Height Range: Applying Settings to a Z Band",
+              "path": "docs/en/guides/height-range.md",
+              "summary": "Object-level Z bands with their own slicer settings: adding Min Z / Max Z ranges, the four refusal rules, overlap handling, and the session-only limit on saving ranges.",
+              "tags": [
+                "guide",
+                "editor",
+                "height-range",
+                "settings",
+                "z-band"
+              ]
             }
           ]
         }
@@ -512,15 +538,15 @@
       "categories": [
         {
           "id": "app-guide",
-          "title": "MasaÃ¼stÃ¼ & Mobil Uygulama KullanÄ±m KÄ±lavuzu",
+          "title": "Masaüstü & Mobil Uygulama Kullanım Kılavuzu",
           "icon": "smartphone",
-          "description": "MakerSpell masaÃ¼stÃ¼ ve mobil uygulamasÄ±nÄ±n nasÄ±l kullanÄ±lacaÄŸÄ±nÄ± adÄ±m adÄ±m anlatan rehberler.",
+          "description": "MakerSpell masaüstü ve mobil uygulamasının nasıl kullanılacağını adım adım anlatan rehberler.",
           "pages": [
             {
               "id": "app-overview",
-              "title": "Uygulama Genel BakÄ±ÅŸ ve Ã–zellikler",
+              "title": "Uygulama Genel Bakış ve Özellikler",
               "path": "docs/tr/app-guide/README.md",
-              "summary": "MasaÃ¼stÃ¼ ve mobil uygulamanÄ±n genel tanÄ±tÄ±mÄ±, Ã¶ne Ã§Ä±kan Ã¶zellikler ve desteklenen cihazlar.",
+              "summary": "Masaüstü ve mobil uygulamanın genel tanıtımı, öne çıkan özellikler ve desteklenen cihazlar.",
               "screenshots": [
                 "assets/screenshots/app/app-overview-desktop.png",
                 "assets/screenshots/app/app-overview-tablet.png",
@@ -536,9 +562,9 @@
             },
             {
               "id": "app-connecting-printers",
-              "title": "YazÄ±cÄ±larÄ± AÄŸa BaÄŸlama ve EÅŸleÅŸtirme",
+              "title": "Yazıcıları Ağa Bağlama ve Eşleştirme",
               "path": "docs/tr/app-guide/connecting-printers.md",
-              "summary": "Otomatik aÄŸ taramasÄ± ile veya manuel IP/port girerek yazÄ±cÄ± ekleme adÄ±mlarÄ±.",
+              "summary": "Otomatik ağ taraması ile veya manuel IP/port girerek yazıcı ekleme adımları.",
               "screenshots": [
                 "assets/screenshots/app/app-connecting-printers-desktop.png",
                 "assets/screenshots/app/app-connecting-printers-tablet.png",
@@ -554,9 +580,9 @@
             },
             {
               "id": "app-print-center",
-              "title": "BaskÄ± Merkezi (Print Center) KullanÄ±mÄ±",
+              "title": "Baskı Merkezi (Print Center) Kullanımı",
               "path": "docs/tr/app-guide/print-center-guide.md",
-              "summary": "TÃ¼m yazÄ±cÄ±larÄ±n aktif iÅŸlerini, kalan sÃ¼relerini ve durumlarÄ±nÄ± tek ekrandan izleme.",
+              "summary": "Tüm yazıcıların aktif işlerini, kalan sürelerini ve durumlarını tek ekrandan izleme.",
               "screenshots": [
                 "assets/screenshots/app/app-print-center-desktop.png",
                 "assets/screenshots/app/app-print-center-tablet.png",
@@ -571,9 +597,9 @@
             },
             {
               "id": "app-gcode-sending",
-              "title": "G-code GÃ¶nderme & Dilimleme Entegrasyonu",
+              "title": "G-code Gönderme & Dilimleme Entegrasyonu",
               "path": "docs/tr/app-guide/gcode-sending.md",
-              "summary": "Dilimlenen modelleri yazÄ±cÄ±ya aktarma, Safe-Mode gÃ¼venlik kurallarÄ± ve baskÄ± baÅŸlatma.",
+              "summary": "Dilimlenen modelleri yazıcıya aktarma, Safe-Mode güvenlik kuralları ve baskı başlatma.",
               "tags": [
                 "gcode",
                 "slicing",
@@ -584,9 +610,9 @@
             },
             {
               "id": "app-printer-controls",
-              "title": "Cihaz Denetim Panosu (Kamera, SÄ±caklÄ±k, Eksenler)",
+              "title": "Cihaz Denetim Panosu (Kamera, Sıcaklık, Eksenler)",
               "path": "docs/tr/app-guide/printer-controls.md",
-              "summary": "Nozul ve tabla sÄ±caklÄ±klarÄ±nÄ± ayarlama, fan hÄ±zlarÄ±, kamera izleme ve eksen hareketi.",
+              "summary": "Nozul ve tabla sıcaklıklarını ayarlama, fan hızları, kamera izleme ve eksen hareketi.",
               "screenshots": [
                 "assets/screenshots/app/app-printer-controls-desktop.png",
                 "assets/screenshots/app/app-printer-controls-tablet.png",
@@ -603,9 +629,9 @@
             },
             {
               "id": "app-multicolor",
-              "title": "Ã‡ok Renkli BaskÄ± ve Filament (CFS / AMS) YÃ¶netimi",
+              "title": "Çok Renkli Baskı ve Filament (CFS / AMS) Yönetimi",
               "path": "docs/tr/app-guide/multicolor-printing.md",
-              "summary": "Ã‡ok renkli sistemlerde bobin yuvalarÄ±nÄ± gÃ¶rme, model renkleriyle eÅŸleÅŸtirme ve harici makara.",
+              "summary": "Çok renkli sistemlerde bobin yuvalarını görme, model renkleriyle eşleştirme ve harici makara.",
               "tags": [
                 "filament",
                 "cfs",
@@ -616,9 +642,9 @@
             },
             {
               "id": "app-model-viewer",
-              "title": "3D Model GÃ¶rÃ¼ntÃ¼leyici & Boyama AracÄ±",
+              "title": "3D Model Görüntüleyici & Boyama Aracı",
               "path": "docs/tr/app-guide/model-viewer.md",
-              "summary": "3D modelleri inceleme, tabla yerleÅŸimi, dÃ¶ndÃ¼rme, Ã¶lÃ§ekleme ve Ã§ok renkli boyama fÄ±rÃ§asÄ±.",
+              "summary": "3D modelleri inceleme, tabla yerleşimi, döndürme, ölçekleme ve çok renkli boyama fırçası.",
               "tags": [
                 "viewer",
                 "3d",
@@ -629,9 +655,9 @@
             },
             {
               "id": "app-slicing-preferences",
-              "title": "Dilimleme AyarlarÄ± & Tercihler KÄ±lavuzu",
+              "title": "Dilimleme Ayarları & Tercihler Kılavuzu",
               "path": "docs/tr/app-guide/slicing-and-preferences.md",
-              "summary": "OrcaSlicer profil ayarlarÄ±, dolgu desenleri ve aÄŸaÃ§ destek yapÄ±landÄ±rmasÄ±.",
+              "summary": "OrcaSlicer profil ayarları, dolgu desenleri ve ağaç destek yapılandırması.",
               "tags": [
                 "slicing",
                 "orcaslicer",
@@ -641,9 +667,9 @@
             },
             {
               "id": "app-library-downloads",
-              "title": "Model KÃ¼tÃ¼phanesi & Ä°ndirme YÃ¶neticisi",
+              "title": "Model Kütüphanesi & İndirme Yöneticisi",
               "path": "docs/tr/app-guide/library-and-downloads.md",
-              "summary": "Ä°ndirilen 3D modelleri organize etme, koleksiyonlar ve arÅŸiv ayÄ±klama.",
+              "summary": "İndirilen 3D modelleri organize etme, koleksiyonlar ve arşiv ayıklama.",
               "tags": [
                 "library",
                 "downloads",
@@ -653,9 +679,9 @@
             },
             {
               "id": "app-shop-hub-orders",
-              "title": "Pazaryeri SipariÅŸ Merkezi (Shop Hub)",
+              "title": "Pazaryeri Sipariş Merkezi (Shop Hub)",
               "path": "docs/tr/app-guide/shop-hub-orders.md",
-              "summary": "Trendyol ve pazaryeri sipariÅŸlerini takip etme ve tek tÄ±kla yazÄ±cÄ±ya gÃ¶nderme.",
+              "summary": "Trendyol ve pazaryeri siparişlerini takip etme ve tek tıkla yazıcıya gönderme.",
               "tags": [
                 "shop-hub",
                 "ecommerce",
@@ -665,9 +691,9 @@
             },
             {
               "id": "app-printer-profiles-manager",
-              "title": "Topluluk YazÄ±cÄ± Profili YÃ¶neticisi & DÃ¼zenleyici",
+              "title": "Topluluk Yazıcı Profili Yöneticisi & Düzenleyici",
               "path": "docs/tr/app-guide/printer-profiles-manager.md",
-              "summary": "HazÄ±r sÃ¼rÃ¼cÃ¼ profillerini indirme, dÃ¼zenleme ve Ã¶zel donanÄ±m tanÄ±mlama.",
+              "summary": "Hazır sürücü profillerini indirme, düzenleme ve özel donanım tanımlama.",
               "tags": [
                 "profiles",
                 "editor",
@@ -676,9 +702,9 @@
             },
             {
               "id": "app-settings-accounts",
-              "title": "Uygulama AyarlarÄ±, Bildirimler & Hesaplar",
+              "title": "Uygulama Ayarları, Bildirimler & Hesaplar",
               "path": "docs/tr/app-guide/settings-and-accounts.md",
-              "summary": "Tarama aralÄ±ÄŸÄ±, kamera kalitesi, dil seÃ§imi, tema ve baskÄ± bitti bildirimleri.",
+              "summary": "Tarama aralığı, kamera kalitesi, dil seçimi, tema ve baskı bitti bildirimleri.",
               "tags": [
                 "settings",
                 "notifications",
@@ -690,7 +716,7 @@
               "id": "app-community-forum",
               "title": "Topluluk Forumu ve Teknik Destek",
               "path": "docs/tr/app-guide/community-forum.md",
-              "summary": "Entegre foruma mobil eriÅŸim, kategoriler, hata bildirimi ve Ã¶zellik talepleri.",
+              "summary": "Entegre foruma mobil erişim, kategoriler, hata bildirimi ve özellik talepleri.",
               "tags": [
                 "forum",
                 "topluluk",
@@ -702,15 +728,15 @@
         },
         {
           "id": "web-guide",
-          "title": "Web Platformu KullanÄ±m KÄ±lavuzu",
+          "title": "Web Platformu Kullanım Kılavuzu",
           "icon": "globe",
-          "description": "MakerSpell web sitesinde (makerspell.com) model arama, fÄ±rsatlar ve yarÄ±ÅŸma takibi rehberleri.",
+          "description": "MakerSpell web sitesinde (makerspell.com) model arama, fırsatlar ve yarışma takibi rehberleri.",
           "pages": [
             {
               "id": "web-overview",
-              "title": "Web Platformu Genel TanÄ±tÄ±mÄ±",
+              "title": "Web Platformu Genel Tanıtımı",
               "path": "docs/tr/web-guide/README.md",
-              "summary": "makerspell.com ekosistemine genel bakÄ±ÅŸ ve sunulan ana hizmetler.",
+              "summary": "makerspell.com ekosistemine genel bakış ve sunulan ana hizmetler.",
               "tags": [
                 "web",
                 "overview",
@@ -721,7 +747,7 @@
               "id": "web-model-search",
               "title": "26 Platformda 3D Model Arama & Filtreleme",
               "path": "docs/tr/web-guide/model-search.md",
-              "summary": "TÃ¼m platformlardaki milyonlarca 3D modeli tek arama Ã§ubuÄŸundan bulma ve filtreleme.",
+              "summary": "Tüm platformlardaki milyonlarca 3D modeli tek arama çubuğundan bulma ve filtreleme.",
               "tags": [
                 "search",
                 "models",
@@ -761,9 +787,9 @@
             },
             {
               "id": "web-deals",
-              "title": "3D Ä°ndirimler, Filament & YazÄ±cÄ± KuponlarÄ±",
+              "title": "3D İndirimler, Filament & Yazıcı Kuponları",
               "path": "docs/tr/web-guide/deals-and-coupons.md",
-              "summary": "3D yazÄ±cÄ± ve filament fÄ±rsatlarÄ±nÄ± yakalama ve indirim kuponlarÄ±nÄ± kullanma.",
+              "summary": "3D yazıcı ve filament fırsatlarını yakalama ve indirim kuponlarını kullanma.",
               "tags": [
                 "deals",
                 "coupons",
@@ -774,9 +800,9 @@
             },
             {
               "id": "web-contests",
-              "title": "Topluluk TasarÄ±m YarÄ±ÅŸmalarÄ± & Ã–dÃ¼ller",
+              "title": "Topluluk Tasarım Yarışmaları & Ödüller",
               "path": "docs/tr/web-guide/community-contests.md",
-              "summary": "KÃ¼resel 3D model yarÄ±ÅŸmalarÄ±nÄ±, Ã¶dÃ¼l havuzlarÄ±nÄ± ve baÅŸvuru tarihlerini takip etme.",
+              "summary": "Küresel 3D model yarışmalarını, ödül havuzlarını ve başvuru tarihlerini takip etme.",
               "tags": [
                 "contests",
                 "competitions",
@@ -786,9 +812,9 @@
             },
             {
               "id": "web-pricing-founder",
-              "title": "FiyatlandÄ±rma, Kurucu Ãœyelik & Paketler",
+              "title": "Fiyatlandırma, Kurucu Üyelik & Paketler",
               "path": "docs/tr/web-guide/pricing-and-founder.md",
-              "summary": "Free, Maker Pro, Shop Pro ve ilk 200 kiÅŸiye Ã¶zel Lifetime Founder's Pass avantajlarÄ±.",
+              "summary": "Free, Maker Pro, Shop Pro ve ilk 200 kişiye özel Lifetime Founder's Pass avantajları.",
               "tags": [
                 "pricing",
                 "founder",
@@ -798,9 +824,9 @@
             },
             {
               "id": "web-community-printers",
-              "title": "AÃ§Ä±k Protokol DonanÄ±m SÃ¼rÃ¼cÃ¼leri PortalÄ±",
+              "title": "Açık Protokol Donanım Sürücüleri Portalı",
               "path": "docs/tr/web-guide/community-printers-portal.md",
-              "summary": "Klipper, Creality, Bambu, Snapmaker sÃ¼rÃ¼cÃ¼ vitrini ve topluluk oylamalarÄ±.",
+              "summary": "Klipper, Creality, Bambu, Snapmaker sürücü vitrini ve topluluk oylamaları.",
               "tags": [
                 "community-printers",
                 "hardware",
@@ -809,9 +835,9 @@
             },
             {
               "id": "web-roadmap-manifesto",
-              "title": "CanlÄ± Yol HaritasÄ± & AÃ§Ä±k Ekosistem Manifestosu",
+              "title": "Canlı Yol Haritası & Açık Ekosistem Manifestosu",
               "path": "docs/tr/web-guide/roadmap-and-manifesto.md",
-              "summary": "AÃ§Ä±k ekosistem felsefesi ve canlÄ± Ã¼rÃ¼n geliÅŸtirme yol haritasÄ±.",
+              "summary": "Açık ekosistem felsefesi ve canlı ürün geliştirme yol haritası.",
               "tags": [
                 "roadmap",
                 "manifesto",
@@ -820,9 +846,9 @@
             },
             {
               "id": "web-wiki-portal",
-              "title": "MakerSpell Wiki Bilgi PortalÄ±",
+              "title": "MakerSpell Wiki Bilgi Portalı",
               "path": "docs/tr/web-guide/wiki-subdomain-portal.md",
-              "summary": "wiki.makerspell.com Ã¼zerinde 3D yazÄ±cÄ±lar, CFS/AMS sistemleri ve donanÄ±m rehberleri iÃ§in Ã¶zel 3 kolonlu portal.",
+              "summary": "wiki.makerspell.com üzerinde 3D yazıcılar, CFS/AMS sistemleri ve donanım rehberleri için özel 3 kolonlu portal.",
               "tags": [
                 "wiki",
                 "subdomain",
@@ -835,15 +861,15 @@
         },
         {
           "id": "printers",
-          "title": "3D YazÄ±cÄ± Entegrasyonu & BaÄŸlantÄ± ArayÃ¼zleri",
+          "title": "3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri",
           "icon": "printer",
-          "description": "Desteklenen yazÄ±cÄ± protokolleri, donanÄ±m gÃ¼venlik kuralÄ± ve aÄŸ keÅŸif prensipleri.",
+          "description": "Desteklenen yazıcı protokolleri, donanım güvenlik kuralı ve ağ keşif prensipleri.",
           "pages": [
             {
               "id": "printers-overview",
-              "title": "YazÄ±cÄ± Entegrasyon Mimarisi Genel BakÄ±ÅŸ",
+              "title": "Yazıcı Entegrasyon Mimarisi Genel Bakış",
               "path": "docs/tr/printers/README.md",
-              "summary": "MakerSpell baÄŸlantÄ± katmanlarÄ± ve desteklenen donanÄ±m ekosistemi.",
+              "summary": "MakerSpell bağlantı katmanları ve desteklenen donanım ekosistemi.",
               "tags": [
                 "printers",
                 "overview",
@@ -853,9 +879,9 @@
             },
             {
               "id": "printers-safe-mode",
-              "title": "Safe-Mode DonanÄ±m GÃ¼venlik ProtokolÃ¼",
+              "title": "Safe-Mode Donanım Güvenlik Protokolü",
               "path": "docs/tr/printers/safe-mode-protocol.md",
-              "summary": "DoÄŸrulanmÄ±ÅŸ vs topluluk donanÄ±mlarÄ±, UPLOAD_ONLY zorunluluÄŸu ve fiziksel gÃ¼venlik.",
+              "summary": "Doğrulanmış vs topluluk donanımları, UPLOAD_ONLY zorunluluğu ve fiziksel güvenlik.",
               "tags": [
                 "safety",
                 "hardware",
@@ -865,9 +891,9 @@
             },
             {
               "id": "printers-discovery",
-              "title": "AÄŸ KeÅŸfi & KararlÄ± Kimlik MantÄ±ÄŸÄ±",
+              "title": "Ağ Keşfi & Kararlı Kimlik Mantığı",
               "path": "docs/tr/printers/network-discovery.md",
-              "summary": "Dinamik IP deÄŸiÅŸimlerinde yazÄ±cÄ±larÄ±n kararlÄ± kimlikle hatÄ±rlanmasÄ± ve izolasyon.",
+              "summary": "Dinamik IP değişimlerinde yazıcıların kararlı kimlikle hatırlanması ve izolasyon.",
               "tags": [
                 "network",
                 "discovery",
@@ -877,7 +903,7 @@
             },
             {
               "id": "printers-transports",
-              "title": "TaÅŸÄ±ma KatmanlarÄ± (Transports) & Protokoller",
+              "title": "Taşıma Katmanları (Transports) & Protokoller",
               "path": "docs/tr/printers/transport-adapters.md",
               "summary": "Moonraker, Creality Local, OctoPrint v2 Bridge, Bambu LAN ve Elegoo SDCP protokolleri.",
               "tags": [
@@ -890,9 +916,9 @@
             },
             {
               "id": "printers-cfs-ams",
-              "title": "Ã‡ok Renkli Sistemler (Creality CFS, Snapmaker AMS)",
+              "title": "Çok Renkli Sistemler (Creality CFS, Snapmaker AMS)",
               "path": "docs/tr/printers/filament-ams-cfs.md",
-              "summary": "Ã‡ok renkli filament yuvalarÄ±, malzeme eÅŸleÅŸtirme ve hata yÃ¶netimi.",
+              "summary": "Çok renkli filament yuvaları, malzeme eşleştirme ve hata yönetimi.",
               "tags": [
                 "filament",
                 "cfs",
@@ -904,15 +930,15 @@
         },
         {
           "id": "schemas",
-          "title": "AÃ§Ä±k Topluluk JSON SÃ¼rÃ¼cÃ¼ ÅemasÄ± (v2)",
+          "title": "Açık Topluluk JSON Sürücü Şeması (v2)",
           "icon": "code",
-          "description": "Topluluk Ã¼yelerinin yeni yazÄ±cÄ± profilleri eklemesini saÄŸlayan aÃ§Ä±k deklaratif ÅŸema.",
+          "description": "Topluluk üyelerinin yeni yazıcı profilleri eklemesini sağlayan açık deklaratif şema.",
           "pages": [
             {
               "id": "schemas-overview",
-              "title": "profile-v2 JSON ÅemasÄ± Genel BakÄ±ÅŸ",
+              "title": "profile-v2 JSON Şeması Genel Bakış",
               "path": "docs/tr/schemas/README.md",
-              "summary": "Dinamik sÃ¼rÃ¼cÃ¼ yapÄ±sÄ±, yetki modeli ve Ã§alÄ±ÅŸma zamanÄ± gÃ¼venlik sÄ±nÄ±rlarÄ±.",
+              "summary": "Dinamik sürücü yapısı, yetki modeli ve çalışma zamanı güvenlik sınırları.",
               "tags": [
                 "schema",
                 "json",
@@ -922,9 +948,9 @@
             },
             {
               "id": "schemas-v2-spec",
-              "title": "profile-v2 Tam Åema Spesifikasyonu",
+              "title": "profile-v2 Tam Şema Spesifikasyonu",
               "path": "docs/tr/schemas/profile-v2-specification.md",
-              "summary": "AÃ§Ä±k JSON sÃ¼rÃ¼cÃ¼ dosyasÄ±nda yer alan tÃ¼m bloklarÄ±n detaylÄ± referansÄ±.",
+              "summary": "Açık JSON sürücü dosyasında yer alan tüm blokların detaylı referansı.",
               "tags": [
                 "spec",
                 "reference",
@@ -938,15 +964,15 @@
         },
         {
           "id": "guides",
-          "title": "GeliÅŸtirici & Topluluk Rehberleri",
+          "title": "Geliştirici & Topluluk Rehberleri",
           "icon": "book-open",
-          "description": "Yeni yazÄ±cÄ± ekleme ve yapay zeka ajanlarÄ± iÃ§in dokÃ¼mantasyon kurallarÄ±.",
+          "description": "Yeni yazıcı ekleme ve yapay zeka ajanları için dokümantasyon kuralları.",
           "pages": [
             {
               "id": "guides-adding-printer",
-              "title": "Yeni Bir YazÄ±cÄ± Profili Ekleme ve Test Etme Rehberi",
+              "title": "Yeni Bir Yazıcı Profili Ekleme ve Test Etme Rehberi",
               "path": "docs/tr/guides/adding-new-printer.md",
-              "summary": "Uygulama Ã¼zerinden profil seÃ§me, otomatik ÅŸema doÄŸrulama, canlÄ± cihaz testi ve etkinleÅŸtirme adÄ±mlarÄ±.",
+              "summary": "Uygulama üzerinden profil seçme, otomatik şema doğrulama, canlı cihaz testi ve etkinleştirme adımları.",
               "tags": [
                 "guide",
                 "contribution",
@@ -955,9 +981,9 @@
             },
             {
               "id": "guides-editor-feature-feedback",
-              "title": "EditÃ¶r Ã–zelliklerini Puanlama: \"Bu Ã–zelliÄŸi Puanla\" Ã‡ubuÄŸu",
+              "title": "Editör Özelliklerini Puanlama: \"Bu Özelliği Puanla\" Çubuğu",
               "path": "docs/tr/guides/editor-feature-feedback.md",
-              "summary": "Destek/dikiÅŸ boyama, kesme/boolean ve mesh teÅŸhis panellerini puanlama, geri bildirimin nerede saklandÄ±ÄŸÄ± ve gÃ¼nde tek puan kuralÄ±.",
+              "summary": "Destek/dikiş boyama, kesme/boolean ve mesh teşhis panellerini puanlama, geri bildirimin nerede saklandığı ve günde tek puan kuralı.",
               "tags": [
                 "guide",
                 "editor",
@@ -967,9 +993,9 @@
             },
             {
               "id": "guides-editor-debug-test-hub",
-              "title": "EditÃ¶r Hata AyÄ±klama Test Merkezi (Debug SÃ¼rÃ¼mleri)",
+              "title": "Editör Hata Ayıklama Test Merkezi (Debug Sürümleri)",
               "path": "docs/tr/guides/editor-debug-test-hub.md",
-              "summary": "Debug sÃ¼rÃ¼mlerinde 43 vakalÄ±k manuel test listesini yÃ¼rÃ¼tme, ilerleme baÅŸlÄ±ÄŸÄ±nÄ± okuma ve markdown raporunu kopyalama.",
+              "summary": "Debug sürümlerinde 43 vakalık manuel test listesini yürütme, ilerleme başlığını okuma ve markdown raporunu kopyalama.",
               "tags": [
                 "guide",
                 "editor",
@@ -979,9 +1005,9 @@
             },
             {
               "id": "guides-editor-keyboard-shortcuts",
-              "title": "3D EditÃ¶r Klavye KÄ±sayollarÄ± (OrcaSlicer TarzÄ±)",
+              "title": "3D Editör Klavye Kısayolları (OrcaSlicer Tarzı)",
               "path": "docs/tr/guides/editor-keyboard-shortcuts.md",
-              "summary": "BeÅŸ kategoride 50 editÃ¶r atamasÄ±, F1 kÄ±sayol kartÄ±, metin alanÄ± gÃ¼venliÄŸi ve hangi tarayÄ±cÄ± tuÅŸlarÄ±nÄ±n asla yakalanmadÄ±ÄŸÄ±.",
+              "summary": "Beş kategoride 50 editör ataması, F1 kısayol kartı, metin alanı güvenliği ve hangi tarayıcı tuşlarının asla yakalanmadığı.",
               "tags": [
                 "guide",
                 "editor",
@@ -1000,6 +1026,32 @@
                 "fuzzy-skin",
                 "painting",
                 "surface"
+              ]
+            },
+            {
+              "id": "guides-volume-types",
+              "title": "Hacim Türleri: Parça, Negatif Parça, Değiştirici ve Destek Bölgeleri",
+              "path": "docs/tr/guides/volume-types.md",
+              "summary": "Beş hacim türü ve her birinin baskıya etkisi, hacim ekleme ve tür değiştirme, reddetme kuralları ve türlerin henüz proje kaydında korunmadığı Beta sınırı.",
+              "tags": [
+                "guide",
+                "editor",
+                "volume-types",
+                "negative-part",
+                "modifier"
+              ]
+            },
+            {
+              "id": "guides-height-range",
+              "title": "Yükseklik Aralığı: Bir Z Bandına Ayar Uygulama",
+              "path": "docs/tr/guides/height-range.md",
+              "summary": "Kendi dilimleyici ayarlarını taşıyan nesne seviyesi Z bantları: Min Z / Maks Z aralığı ekleme, dört reddetme kuralı, çakışma yönetimi ve aralıkların yalnızca oturumda geçerli olduğu sınır.",
+              "tags": [
+                "guide",
+                "editor",
+                "height-range",
+                "settings",
+                "z-band"
               ]
             }
           ]
