@@ -6,19 +6,33 @@ MakerSpell masaüstü (Windows, macOS, Linux) ve mobil (Android, iOS) uygulamas�
 
 ## Duyarlı (Responsive) Çoklu Platform Deneyimi
 
-MakerSpell arayüzü kullandığınız ekran boyutuna dinamik olarak uyarlanır; masaüstü monitörler, atölye tabletleri ve mobil cihazlar için kusursuz bir deneyim sunar:
+MakerSpell arayüzü ekran boyutunuza göre uyarlanır. Karşılaştırmak için bir cihaz seçin:
 
-### Masaüstü Görünümü (1280px+)
-Genişletilmiş çok sütunlu model keşfi, sağ gezinme paneli ve filo telemetri genel bakışı.
-![MakerSpell Masaüstü Görünümü](../../assets/screenshots/app/app-overview-desktop.png)
-
-### Tablet Çalışma İstasyonu (768px - 1024px)
-Dokunmatik kullanıma uygun dikey simge gezinme çubuğu ve 3 sütunlu duyarlı kart ızgarası.
-![MakerSpell Tablet Görünümü](../../assets/screenshots/app/app-overview-tablet.png)
-
-### Mobil Cihaz Görünümü (400px - 768px)
-Atölyede tek elle rahat kullanım sağlayan alt gezinme çubuğu ve kompakt kart tasarımı.
-![MakerSpell Mobil Görünümü](../../assets/screenshots/app/app-overview-mobile.png)
+<div class="device-viewer">
+<input class="dv-input" type="radio" name="dv-overview" id="dv-overview-desktop" checked>
+<input class="dv-input" type="radio" name="dv-overview" id="dv-overview-tablet">
+<input class="dv-input" type="radio" name="dv-overview" id="dv-overview-mobile">
+<div class="dv-tabs">
+<label for="dv-overview-desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg><span class="dv-label">Masaüstü</span><span class="dv-size">1280 px</span></label>
+<label for="dv-overview-tablet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></svg><span class="dv-label">Tablet</span><span class="dv-size">768 px</span></label>
+<label for="dv-overview-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span class="dv-label">Mobil</span><span class="dv-size">412 px</span></label>
+</div>
+<div class="dv-panels">
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-overview-desktop.png" alt="MakerSpell Ana Sayfa — Masaüstü" loading="lazy">
+<figcaption><strong>Masaüstü</strong> — Çok sütunlu model keşfi, tam gezinme paneli ve canlı filo takibi.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-overview-tablet.png" alt="MakerSpell Ana Sayfa — Tablet" loading="lazy">
+<figcaption><strong>Tablet</strong> — Dokunma öncelikli gezinme paneli ve duyarlı üç sütunlu keşif ızgarası.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-overview-mobile.png" alt="MakerSpell Ana Sayfa — Mobil" loading="lazy">
+<figcaption><strong>Mobil</strong> — Tek elle kullanım: alt gezinme çubuğu ve atölyede hareket için kompakt kartlar.</figcaption>
+</figure>
+</div>
+<div class="dv-hint">Yerleşimler 1280 px, 768 px ve 412 px genişlikte alınmıştır.</div>
+</div>
 
 ---
 

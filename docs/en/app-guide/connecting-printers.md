@@ -8,17 +8,35 @@ MakerSpell leverages zero-configuration local network discovery to automatically
 
 ### Network Printers on Every Screen
 
-On a desktop workstation the discovered printers fill the width of the window:
+The same discovered printer fleet adapts to the screen you are holding. Pick a form factor to compare:
 
-![Network Printers Screen — Desktop](../../assets/screenshots/app/app-connecting-printers-desktop.png)
+<div class="device-viewer">
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-desktop" checked>
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-tablet">
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-mobile">
+<div class="dv-tabs">
+<label for="dv-printers-desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg><span class="dv-label">Desktop</span><span class="dv-size">1280 px</span></label>
+<label for="dv-printers-tablet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></svg><span class="dv-label">Tablet</span><span class="dv-size">768 px</span></label>
+<label for="dv-printers-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span class="dv-label">Mobile</span><span class="dv-size">412 px</span></label>
+</div>
+<div class="dv-panels">
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-desktop.png" alt="Network Printers — Desktop" loading="lazy">
+<figcaption><strong>Desktop</strong> — Discovered network printers fill the full width of the window.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-tablet.png" alt="Network Printers — Tablet" loading="lazy">
+<figcaption><strong>Tablet</strong> — Each printer row keeps its status button within easy thumb reach.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-mobile.png" alt="Network Printers — Mobile" loading="lazy">
+<figcaption><strong>Mobile</strong> — The list becomes full-width cards you can scan while walking to the machine.</figcaption>
+</figure>
+</div>
+<div class="dv-hint">Layouts captured at 1280 px, 768 px and 412 px width.</div>
+</div>
 
-On a tablet each printer row keeps its status button within easy thumb reach:
-
-![Network Printers Screen — Tablet](../../assets/screenshots/app/app-connecting-printers-tablet.png)
-
-On a phone the list turns into full-width cards you can scan while walking to the machine:
-
-![Network Printers Screen — Mobile](../../assets/screenshots/app/app-connecting-printers-mobile.png)
+---
 
 1. Ensure your 3D printer is powered on and connected to the **same Wi-Fi or Ethernet network** as your computer or smartphone.
 2. In MakerSpell, open the **"Network Printers"** screen from the navigation menu.

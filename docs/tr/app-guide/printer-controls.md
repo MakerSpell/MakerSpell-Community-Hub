@@ -4,17 +4,33 @@ Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Pa
 
 ### Cihaz Denetim Panosu Her Ekranda
 
-Masaüstü monitörde kamera ve hareket pedi yan yana kalır:
+Aynı kumanda masası cihazınıza göre yeniden düzenlenir. Karşılaştırmak için bir cihaz seçin:
 
-![Cihaz Denetim Panosu ve Canlı Kamera — Masaüstü](../../assets/screenshots/app/app-printer-controls-desktop.png)
-
-Tablette iki bölüm de görünür kalır, ancak daha uzun ve dokunma öncelikli bir düzene geçer:
-
-![Cihaz Denetim Panosu ve Canlı Kamera — Tablet](../../assets/screenshots/app/app-printer-controls-tablet.png)
-
-Telefonda paneller tek parmakla kaydırılan tek kolona dönüşür:
-
-![Cihaz Denetim Panosu ve Canlı Kamera — Mobil](../../assets/screenshots/app/app-printer-controls-mobile.png)
+<div class="device-viewer">
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-desktop" checked>
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-tablet">
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-mobile">
+<div class="dv-tabs">
+<label for="dv-controls-desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg><span class="dv-label">Masaüstü</span><span class="dv-size">1280 px</span></label>
+<label for="dv-controls-tablet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></svg><span class="dv-label">Tablet</span><span class="dv-size">768 px</span></label>
+<label for="dv-controls-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span class="dv-label">Mobil</span><span class="dv-size">412 px</span></label>
+</div>
+<div class="dv-panels">
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-desktop.png" alt="Cihaz Denetim Panosu — Masaüstü" loading="lazy">
+<figcaption><strong>Masaüstü</strong> — Canlı kamera ve hareket pedi geniş bir monitörde yan yana durur.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-tablet.png" alt="Cihaz Denetim Panosu — Tablet" loading="lazy">
+<figcaption><strong>Tablet</strong> — İki bölüm de görünür kalır, ancak daha uzun ve dokunma öncelikli bir düzene geçer.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-mobile.png" alt="Cihaz Denetim Panosu — Mobil" loading="lazy">
+<figcaption><strong>Mobil</strong> — Paneller tek parmakla kaydırılan tek kolona dönüşür.</figcaption>
+</figure>
+</div>
+<div class="dv-hint">Yerleşimler 1280 px, 768 px ve 412 px genişlikte alınmıştır.</div>
+</div>
 
 ---
 

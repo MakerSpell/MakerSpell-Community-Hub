@@ -4,17 +4,33 @@ Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard
 
 ### Device Control Panel on Every Screen
 
-The control panel keeps the camera and the motion pad side by side on a desktop monitor:
+The same control cockpit rearranges itself for your device. Pick a form factor to compare:
 
-![Device Control Panel and Live Camera — Desktop](../../assets/screenshots/app/app-printer-controls-desktop.png)
-
-On a tablet both halves stay visible but stack into a taller, touch-first arrangement:
-
-![Device Control Panel and Live Camera — Tablet](../../assets/screenshots/app/app-printer-controls-tablet.png)
-
-On a phone the panels become a single column you can scroll with one thumb:
-
-![Device Control Panel and Live Camera — Mobile](../../assets/screenshots/app/app-printer-controls-mobile.png)
+<div class="device-viewer">
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-desktop" checked>
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-tablet">
+<input class="dv-input" type="radio" name="dv-controls" id="dv-controls-mobile">
+<div class="dv-tabs">
+<label for="dv-controls-desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg><span class="dv-label">Desktop</span><span class="dv-size">1280 px</span></label>
+<label for="dv-controls-tablet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></svg><span class="dv-label">Tablet</span><span class="dv-size">768 px</span></label>
+<label for="dv-controls-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span class="dv-label">Mobile</span><span class="dv-size">412 px</span></label>
+</div>
+<div class="dv-panels">
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-desktop.png" alt="Device Control Panel — Desktop" loading="lazy">
+<figcaption><strong>Desktop</strong> — The live camera and the motion pad sit side by side on a wide monitor.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-tablet.png" alt="Device Control Panel — Tablet" loading="lazy">
+<figcaption><strong>Tablet</strong> — Both halves stay visible but stack into a taller, touch-first arrangement.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-printer-controls-mobile.png" alt="Device Control Panel — Mobile" loading="lazy">
+<figcaption><strong>Mobile</strong> — The panels become a single column you can scroll with one thumb.</figcaption>
+</figure>
+</div>
+<div class="dv-hint">Layouts captured at 1280 px, 768 px and 412 px width.</div>
+</div>
 
 ---
 

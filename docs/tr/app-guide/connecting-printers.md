@@ -8,17 +8,35 @@ MakerSpell uygulaması, yerel ağınızda açık olan yazıcıları bulmak için
 
 ### Ağ Yazıcıları Her Ekranda
 
-Masaüstünde bulunan yazıcılar pencerenin tüm genişliğini kullanır:
+Bulunan aynı yazıcı filosu, elinizdeki ekrana uyum sağlar. Karşılaştırmak için bir cihaz seçin:
 
-![Ağ Yazıcıları Ekranı — Masaüstü](../../assets/screenshots/app/app-connecting-printers-desktop.png)
+<div class="device-viewer">
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-desktop" checked>
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-tablet">
+<input class="dv-input" type="radio" name="dv-printers" id="dv-printers-mobile">
+<div class="dv-tabs">
+<label for="dv-printers-desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg><span class="dv-label">Masaüstü</span><span class="dv-size">1280 px</span></label>
+<label for="dv-printers-tablet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></svg><span class="dv-label">Tablet</span><span class="dv-size">768 px</span></label>
+<label for="dv-printers-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span class="dv-label">Mobil</span><span class="dv-size">412 px</span></label>
+</div>
+<div class="dv-panels">
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-desktop.png" alt="Ağ Yazıcıları — Masaüstü" loading="lazy">
+<figcaption><strong>Masaüstü</strong> — Bulunan ağ yazıcıları pencerenin tüm genişliğini kullanır.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-tablet.png" alt="Ağ Yazıcıları — Tablet" loading="lazy">
+<figcaption><strong>Tablet</strong> — Her yazıcı satırı durum düğmesini başparmak menzilinde tutar.</figcaption>
+</figure>
+<figure class="dv-panel">
+<img src="../../assets/screenshots/app/app-connecting-printers-mobile.png" alt="Ağ Yazıcıları — Mobil" loading="lazy">
+<figcaption><strong>Mobil</strong> — Liste, makinenin başına yürürken bakabileceğiniz tam genişlikte kartlara dönüşür.</figcaption>
+</figure>
+</div>
+<div class="dv-hint">Yerleşimler 1280 px, 768 px ve 412 px genişlikte alınmıştır.</div>
+</div>
 
-Tablette her yazıcı satırı durum düğmesini başparmak menzilinde tutar:
-
-![Ağ Yazıcıları Ekranı — Tablet](../../assets/screenshots/app/app-connecting-printers-tablet.png)
-
-Telefonda liste, makinenin başına yürürken bakabileceğiniz tam genişlikte kartlara dönüşür:
-
-![Ağ Yazıcıları Ekranı — Mobil](../../assets/screenshots/app/app-connecting-printers-mobile.png)
+---
 
 1. 3D yazıcınızın açık ve bilgisayarınız/telefonunuz ile **aynı Wi-Fi veya Ethernet ağına** bağlı olduğundan emin olun.
 2. Uygulamanın üst menüsünden veya yan panelinden **"Ağ Yazıcıları"** sekmesini açın.
