@@ -2,7 +2,19 @@
 
 The **Print Center** is designed for makers, print farm operators, and workshops managing multiple 3D printers simultaneously.
 
-![Print Center and Fleet Telemetry](../../assets/screenshots/app/app-print-center.png)
+### Print Center on Every Screen
+
+The same live fleet dashboard rearranges itself for your device. The screenshots below show the **Production Farm** tab, where quantity-based production orders are queued; the other tabs (Active, Ready, History, Care Farm, Progress) use the same layout. On a desktop workstation the panels sit side by side in a wide grid:
+
+![Print Center and Fleet Telemetry — Desktop](../../assets/screenshots/app/app-print-center-desktop.png)
+
+On a tablet the panels reflow into a comfortable touch-friendly grid:
+
+![Print Center and Fleet Telemetry — Tablet](../../assets/screenshots/app/app-print-center-tablet.png)
+
+On a phone the dashboard becomes a single scrolling column that fits in one hand:
+
+![Print Center and Fleet Telemetry — Mobile](../../assets/screenshots/app/app-print-center-mobile.png)
 
 ---
 

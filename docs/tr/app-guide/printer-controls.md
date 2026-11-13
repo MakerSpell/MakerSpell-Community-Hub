@@ -2,7 +2,19 @@
 
 Bir yazıcının detayına girdiğinizde karşınıza çıkan **Cihaz Denetim Panosu**, masaüstünde 2 kolonlu optimize edilmiş bir kumanda masası sunar.
 
-![Cihaz Denetim Panosu ve Canlı Kamera](../../assets/screenshots/app/app-printer-controls.png)
+### Cihaz Denetim Panosu Her Ekranda
+
+Masaüstü monitörde kamera ve hareket pedi yan yana kalır:
+
+![Cihaz Denetim Panosu ve Canlı Kamera — Masaüstü](../../assets/screenshots/app/app-printer-controls-desktop.png)
+
+Tablette iki bölüm de görünür kalır, ancak daha uzun ve dokunma öncelikli bir düzene geçer:
+
+![Cihaz Denetim Panosu ve Canlı Kamera — Tablet](../../assets/screenshots/app/app-printer-controls-tablet.png)
+
+Telefonda paneller tek parmakla kaydırılan tek kolona dönüşür:
+
+![Cihaz Denetim Panosu ve Canlı Kamera — Mobil](../../assets/screenshots/app/app-printer-controls-mobile.png)
 
 ---
 

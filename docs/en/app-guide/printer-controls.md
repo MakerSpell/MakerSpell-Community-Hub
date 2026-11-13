@@ -2,7 +2,19 @@
 
 Opening a printer from the fleet list reveals the **Two-Column Desktop Dashboard**, optimized for 1100px+ displays (and responsive single-column on mobile).
 
-![Device Control Panel and Live Camera](../../assets/screenshots/app/app-printer-controls.png)
+### Device Control Panel on Every Screen
+
+The control panel keeps the camera and the motion pad side by side on a desktop monitor:
+
+![Device Control Panel and Live Camera — Desktop](../../assets/screenshots/app/app-printer-controls-desktop.png)
+
+On a tablet both halves stay visible but stack into a taller, touch-first arrangement:
+
+![Device Control Panel and Live Camera — Tablet](../../assets/screenshots/app/app-printer-controls-tablet.png)
+
+On a phone the panels become a single column you can scroll with one thumb:
+
+![Device Control Panel and Live Camera — Mobile](../../assets/screenshots/app/app-printer-controls-mobile.png)
 
 ---
 

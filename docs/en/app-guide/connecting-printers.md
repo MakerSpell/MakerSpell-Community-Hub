@@ -6,7 +6,19 @@ MakerSpell leverages zero-configuration local network discovery to automatically
 
 ## 1. Automatic Discovery
 
-![Network Printers Screen](../../assets/screenshots/app/sample-widget.png)
+### Network Printers on Every Screen
+
+On a desktop workstation the discovered printers fill the width of the window:
+
+![Network Printers Screen — Desktop](../../assets/screenshots/app/app-connecting-printers-desktop.png)
+
+On a tablet each printer row keeps its status button within easy thumb reach:
+
+![Network Printers Screen — Tablet](../../assets/screenshots/app/app-connecting-printers-tablet.png)
+
+On a phone the list turns into full-width cards you can scan while walking to the machine:
+
+![Network Printers Screen — Mobile](../../assets/screenshots/app/app-connecting-printers-mobile.png)
 
 1. Ensure your 3D printer is powered on and connected to the **same Wi-Fi or Ethernet network** as your computer or smartphone.
 2. In MakerSpell, open the **"Network Printers"** screen from the navigation menu.

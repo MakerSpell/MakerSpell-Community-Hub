@@ -4,6 +4,24 @@ MakerSpell masaüstü (Windows, macOS, Linux) ve mobil (Android, iOS) uygulamas�
 
 ---
 
+## Duyarlı (Responsive) Çoklu Platform Deneyimi
+
+MakerSpell arayüzü kullandığınız ekran boyutuna dinamik olarak uyarlanır; masaüstü monitörler, atölye tabletleri ve mobil cihazlar için kusursuz bir deneyim sunar:
+
+### Masaüstü Görünümü (1280px+)
+Genişletilmiş çok sütunlu model keşfi, sağ gezinme paneli ve filo telemetri genel bakışı.
+![MakerSpell Masaüstü Görünümü](../../assets/screenshots/app/app-overview-desktop.png)
+
+### Tablet Çalışma İstasyonu (768px - 1024px)
+Dokunmatik kullanıma uygun dikey simge gezinme çubuğu ve 3 sütunlu duyarlı kart ızgarası.
+![MakerSpell Tablet Görünümü](../../assets/screenshots/app/app-overview-tablet.png)
+
+### Mobil Cihaz Görünümü (400px - 768px)
+Atölyede tek elle rahat kullanım sağlayan alt gezinme çubuğu ve kompakt kart tasarımı.
+![MakerSpell Mobil Görünümü](../../assets/screenshots/app/app-overview-mobile.png)
+
+---
+
 ## Öne Çıkan Özellikler
 
 - **🔍 Otomatik Ağ Keşfi:** Yerel ağınızdaki (Wi-Fi / Ethernet) Creality K1, Snapmaker U1, Voron, Ender (Klipper/Moonraker) ve OctoPrint cihazlarını otomatik olarak bulur.

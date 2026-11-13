@@ -4,6 +4,24 @@ The MakerSpell desktop (Windows, macOS, Linux) and mobile (Android, iOS) client�
 
 ---
 
+## Responsive Multi-Platform Interface
+
+MakerSpell automatically adapts its user interface to your screen geometry—offering seamless workflows on desktop workstations, touch tablet panels, and mobile phones:
+
+### Desktop Experience (1280px+)
+Full multi-column model discovery, dedicated navigation rail, and multi-printer telemetry overview.
+![MakerSpell Desktop Experience](../../assets/screenshots/app/app-overview-desktop.png)
+
+### Tablet Workstation (768px - 1024px)
+Optimized touch navigation rail with a responsive 3-column discovery layout.
+![MakerSpell Tablet Workstation](../../assets/screenshots/app/app-overview-tablet.png)
+
+### Mobile Companion (400px - 768px)
+Single-hand navigation with a bottom bar and compact cards for workshop mobility.
+![MakerSpell Mobile Companion](../../assets/screenshots/app/app-overview-mobile.png)
+
+---
+
 ## Key Capabilities
 
 - **🔍 Automatic Local Discovery:** Instantly discovers Creality K1, Snapmaker U1, Voron, Ender (Klipper/Moonraker), and OctoPrint devices on your local Wi-Fi or Ethernet.

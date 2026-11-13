@@ -6,7 +6,19 @@ MakerSpell uygulaması, yerel ağınızda açık olan yazıcıları bulmak için
 
 ## 1. Otomatik Ağ Taraması ile Yazıcı Ekleme
 
-![Ağ Yazıcıları Ekranı](../../assets/screenshots/app/sample-widget.png)
+### Ağ Yazıcıları Her Ekranda
+
+Masaüstünde bulunan yazıcılar pencerenin tüm genişliğini kullanır:
+
+![Ağ Yazıcıları Ekranı — Masaüstü](../../assets/screenshots/app/app-connecting-printers-desktop.png)
+
+Tablette her yazıcı satırı durum düğmesini başparmak menzilinde tutar:
+
+![Ağ Yazıcıları Ekranı — Tablet](../../assets/screenshots/app/app-connecting-printers-tablet.png)
+
+Telefonda liste, makinenin başına yürürken bakabileceğiniz tam genişlikte kartlara dönüşür:
+
+![Ağ Yazıcıları Ekranı — Mobil](../../assets/screenshots/app/app-connecting-printers-mobile.png)
 
 1. 3D yazıcınızın açık ve bilgisayarınız/telefonunuz ile **aynı Wi-Fi veya Ethernet ağına** bağlı olduğundan emin olun.
 2. Uygulamanın üst menüsünden veya yan panelinden **"Ağ Yazıcıları"** sekmesini açın.
