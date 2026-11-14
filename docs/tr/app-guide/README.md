@@ -1,4 +1,4 @@
-# MakerSpell Masaüstü & Mobil Uygulama Kullanım Kılavuzu
+﻿# MakerSpell Masaüstü & Mobil Uygulama Kullanım Kılavuzu
 
 MakerSpell masaüstü (Windows, macOS, Linux) ve mobil (Android, iOS) uygulaması; tüm 3D yazıcılarınızı tek bir ekrandan kontrol etmenizi, baskılarınızı gerçek zamanlı izlemenizi ve dilimlenen modellerinizi doğrudan yazıcınıza göndermenizi sağlayan modern bir kontrol merkezidir.
 
@@ -49,8 +49,8 @@ MakerSpell arayüzü ekran boyutunuza göre uyarlanır. Karşılaştırmak için
 
 ## Kılavuz Başlıkları
 
-1. [Yazıcıları Ağa Bağlama ve Eşleştirme](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/connecting-printers.md)
-2. [Baskı Merkezi (Print Center) Kullanımı](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/print-center-guide.md)
-3. [G-code Gönderme ve Dilimleme Entegrasyonu](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/gcode-sending.md)
-4. [Cihaz Denetim Panosu (Kamera, Sıcaklık ve Eksenler)](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/printer-controls.md)
-5. [Çok Renkli Baskı ve Filament (CFS / AMS) Yönetimi](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/app-guide/multicolor-printing.md)
+1. [Yazıcıları Ağa Bağlama ve Eşleştirme](connecting-printers.md)
+2. [Baskı Merkezi (Print Center) Kullanımı](print-center-guide.md)
+3. [G-code Gönderme ve Dilimleme Entegrasyonu](gcode-sending.md)
+4. [Cihaz Denetim Panosu (Kamera, Sıcaklık ve Eksenler)](printer-controls.md)
+5. [Çok Renkli Baskı ve Filament (CFS / AMS) Yönetimi](multicolor-printing.md)

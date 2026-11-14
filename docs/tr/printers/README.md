@@ -1,4 +1,4 @@
-# 3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri Mimarisi
+﻿# 3D Yazıcı Entegrasyonu & Bağlantı Arayüzleri Mimarisi
 
 MakerSpell ekosistemi, farklı marka ve üreticilere ait yüzlerce 3D yazıcı modelini tek bir merkezden keşfetmek, telemetrisini izlemek, dosyalarını yönetmek ve baskı süreçlerini güvenle yürütmek üzere tasarlanmış **hibrit ve genişletilebilir bir bağlantı mimarisine** sahiptir.
 
@@ -72,8 +72,8 @@ Bir yazıcı MakerSpell ağına dahil olduğunda şu aşamalardan geçer:
 
 ## 3. Doküman Bölümleri
 
-- [Safe-Mode Güvenlik Protokolü](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/safe-mode-protocol.md)
-- [Ağ Keşfi ve Kararlı Kimlik (stableId) Mantığı](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/network-discovery.md)
-- [Taşıma Katmanları (Transports) & Protokoller](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/transport-adapters.md)
-- [Çok Renkli Sistemler (Creality CFS, Snapmaker AMS)](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/printers/filament-ams-cfs.md)
-- [JSON Sürücü Spesifikasyonu (profile-v2)](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md)
+- [Safe-Mode Güvenlik Protokolü](safe-mode-protocol.md)
+- [Ağ Keşfi ve Kararlı Kimlik (stableId) Mantığı](network-discovery.md)
+- [Taşıma Katmanları (Transports) & Protokoller](transport-adapters.md)
+- [Çok Renkli Sistemler (Creality CFS, Snapmaker AMS)](filament-ams-cfs.md)
+- [JSON Sürücü Spesifikasyonu (profile-v2)](../schemas/profile-v2-specification.md)

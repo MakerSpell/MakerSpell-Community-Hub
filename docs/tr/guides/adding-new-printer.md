@@ -14,7 +14,7 @@ Yazıcınızı tanıtan profil, standart bir `.json` metin dosyasıdır. Dosya i
 4. **Telemetri Haritalaması (State):** Nozul ve tabla sıcaklıkları gibi canlı değerlerin JSON yanıtından okunacağı anahtarlar.
 
 > [!TIP]
-> Profilinizin yapısını oluştururken [profile-v2 Şartnamesi](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md) sayfasındaki açık şemayı ve örnek profilleri inceleyebilirsiniz.
+> Profilinizin yapısını oluştururken [profile-v2 Şartnamesi](../schemas/profile-v2-specification.md) sayfasındaki açık şemayı ve örnek profilleri inceleyebilirsiniz.
 
 ---
 

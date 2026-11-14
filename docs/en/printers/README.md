@@ -1,4 +1,4 @@
-# 3D Printer Connectivity & Integration Architecture
+﻿# 3D Printer Connectivity & Integration Architecture
 
 The MakerSpell ecosystem features a modular, hybrid connection architecture designed to discover, monitor, and stream G-code to hundreds of 3D printer models across all major manufacturers.
 
@@ -57,7 +57,7 @@ flowchart TD
 
 ## 2. Documentation Directory
 
-- [Safe-Mode Hardware Safety Protocol](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/safe-mode-protocol.md)
-- [Network Discovery & Stable Hardware Identity](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/network-discovery.md)
-- [Transport Adapters & Network Protocols](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/transport-adapters.md)
-- [Multi-Color Systems (Creality CFS, Snapmaker AMS)](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/en/printers/filament-ams-cfs.md)
+- [Safe-Mode Hardware Safety Protocol](safe-mode-protocol.md)
+- [Network Discovery & Stable Hardware Identity](network-discovery.md)
+- [Transport Adapters & Network Protocols](transport-adapters.md)
+- [Multi-Color Systems (Creality CFS, Snapmaker AMS)](filament-ams-cfs.md)

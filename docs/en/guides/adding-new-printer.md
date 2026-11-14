@@ -1,4 +1,4 @@
-# How to Add and Test a New Printer Profile
+﻿# How to Add and Test a New Printer Profile
 
 MakerSpell uses an open, declarative driver specification (`profile-v2`) to connect with hundreds of 3D printer models across different manufacturers. This guide walks you through importing, verifying, and testing a custom driver profile **directly from the MakerSpell Desktop or Mobile app**—with zero coding or terminal tools required.
 
@@ -14,7 +14,7 @@ A printer driver profile is a standard `.json` configuration file that contains:
 4. **Normalized State:** Keys for reading live hotend and bed temperatures from the printer telemetry response.
 
 > [!TIP]
-> For schema details and example configurations, refer to the [profile-v2 Specification](file:///d:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md).
+> For schema details and example configurations, refer to the [profile-v2 Specification](../schemas/profile-v2-specification.md).
 
 ---
 

@@ -1,4 +1,4 @@
-# JSON Sürücü & Profil Şeması (v2) Genel Bakış
+﻿# JSON Sürücü & Profil Şeması (v2) Genel Bakış
 
 MakerSpell'in dinamik yazıcı sürücü mimarisinin temel taşı **`profile-v2.schema.json`** spesifikasyonudur.
 
@@ -37,7 +37,7 @@ Bir `profile-v2` dosyası aşağıdaki temel bloklardan oluşur:
 
 ## 3. Belgeler ve Referanslar
 
-- [Tam profile-v2 Spesifikasyon Kılavuzu](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2-specification.md)
-- [Resmi JSON Şema Dosyası (`profile-v2.schema.json`)](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/schemas/profile-v2.schema.json)
-- [Örnek Creality K1 v2 Profili](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/examples/creality-k1-v2.json)
-- [Örnek Snapmaker U1 v2 Profili](file:///D:/YazilimProgramlama/3DEticaretOtomasyon/community-hub/docs/examples/snapmaker-u1-v2.json)
+- [Tam profile-v2 Spesifikasyon Kılavuzu](profile-v2-specification.md)
+- [Resmi JSON Şema Dosyası (`profile-v2.schema.json`)](profile-v2.schema.json)
+- [Örnek Creality K1 v2 Profili](../../examples/creality-k1-v2.json)
+- [Örnek Snapmaker U1 v2 Profili](../../examples/snapmaker-u1-v2.json)
