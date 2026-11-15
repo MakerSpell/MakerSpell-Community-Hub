@@ -36,15 +36,21 @@ Yalnızca dahili şablonlarla sınırlı değilsiniz. MakerSpell üzerinde **Dü
 1. Desteklenen herhangi bir model sayfasında **3B Stüdyoda Kişiselleştir** butonuna tıklayın.
 2. Stüdyo, platform rozeti, model başlığı ve orijinal model bağlantısını içeren özel bir **Harici Model Kartı** açar.
 3. Sol tarafta genişlik, yükseklik, et kalınlığı, metin alanları ve diğer tüm parametreler kaydırıcı kontrol olarak listelenir.
-4. **Kabartmalı 3B Yazı Desteği**: Gelişmiş ve klasik yazı tipi motorları (`Write.scad` ve DXF vektör fontları) tam desteklenir; böylece evcil hayvan mama kaplarındaki kavisli isim kabartmaları, anahtarlıklar ve etiketler eksiksiz üretilir.
+4. **Standart Kütüphaneler & 3B Kabartma Yazı Desteği**: Popüler OpenSCAD kütüphaneleri hiçbir ek kuruluma gerek kalmadan doğrudan kullanılabilir:
+   - **MCAD**: Dişliler, rulmanlar, step motor yuvaları, standart kutular ve montaj donanımları.
+   - **threads.scad**: Yüksek hassasiyetli metrik vida dişleri, cıvatalar ve kavanoz kapakları.
+   - **Round-Anything**: Yumuşak kavisli köşeler (fillet), pahlar ve ergonomik yuvarlatmalar.
+   - **Write.scad & DXF Tipografi**: Silindirler, evcil hayvan mama kapları ve etiketler üzerine kavisli 3B kabartma yazılar.
+   - **Çoklu Parça İçe Aktarma**: Modele eşlik eden harici bileşenler (`import("part.stl")` veya vektör çizimler) otomatik olarak algılanıp derleme ortamına bağlanır.
 5. Dahili parametrik şablonları denemek isterseniz **Dahili Şablonlar** butonuna basarak geçiş yapabilir, dilediğiniz an harici modelinize geri dönebilirsiniz.
 
-## 4. Donanım Hızlandırmalı Tarayıcı Motoru & Taslak Modu
+## 4. Hızlandırılmış Manifold Tarayıcı Motoru & Taslak Modu
 
-MakerSpell Stüdyo, hibrit bir derleme mimarisiyle çalışır:
+MakerSpell Stüdyo, yüksek performanslı hibrit bir derleme mimarisiyle çalışır:
 
-- **İstemci Tarafında WebAssembly (WASM)**: Geometrik hesaplamalar doğrudan cihazınızın tarayıcısında çalıştırılır. İlk ziyarette 3 MB altına sıkıştırılan motor bileşenleri Service Worker ile kalıcı olarak önbelleğe alınır ve sonraki girişlerde sıfır ağ gecikmesi sunar.
-- **Gerçek Zamanlı Taslak (Draft) Modu**: Kaydırıcıları sürüklerken stüdyo hızlı taslak moduna (`Taslak`) geçerek geometriyi 200 milisaniye altında anlık olarak önizletir. Parmağınızı kaydırıcıdan çektiğinizde model tam çözünürlüklü detayla son haline getirilir.
+- **Manifold CSG Motoru (10x-50x Daha Hızlı)**: Geometrik hesaplamalar modern Manifold boolean motoruyla çalıştırılır; karmaşık modeller doğrudan tarayıcınızda onlarca milisaniye içinde derlenir. Manifold uyumsuz eski şekillerde sistem kesintisiz olarak CGAL motoruna geri çekilerek %100 derleme garantisi sunar.
+- **Doğrudan İkili STL Üretimi**: Bellek şişmesine yol açan metin dönüşümleri atlanarak doğrudan saf ikili STL üretilir; yüz binlerce üçgen içeren modellerde dahi anlık akıcılık korunur.
+- **Gerçek Zamanlı Taslak (Draft) Modu**: Kaydırıcıları sürüklerken stüdyo hızlı taslak moduna (`Taslak`) geçerek geometriyi 100 milisaniye altında anlık olarak önizletir. Parmağınızı kaydırıcıdan çektiğinizde model tam çözünürlüklü detayla son haline getirilir.
 - **Otomatik Bulut Geri Çekilme (Fallback)**: Düşük bellekli mobil cihazlarda veya eski tarayıcılarda sistem kesinti yaşatmadan otomatik olarak güvenli bulut derleyicisine geçiş yapar.
 
 ## 5. 3B Baskı İçin Dışa Aktarma & Uygulamada Dilimleme

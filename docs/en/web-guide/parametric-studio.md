@@ -36,15 +36,21 @@ You are not limited to built-in presets. When browsing models on MakerSpell with
 1. Click **Customize in 3D Studio** on any supported model page.
 2. The studio loads a dedicated **External Model Card** showing the source repository or platform badge, full model title, and a link to the original design.
 3. Form controls appear in the sidebar for every detected dimension, wall thickness, custom text field, and toggle.
-4. **Embossed 3D Typography**: Full support for legacy and modern font engines (including HarlanDMii `Write.scad` and DXF typography) ensures customized curved text, embossed pet names on food bowls, and label tags render accurately in 3D.
+4. **Standard Libraries & 3D Typography**: Full out-of-the-box support for the most popular OpenSCAD libraries:
+   - **MCAD**: Gears, bearings, stepper motor mounts, standard boxes, and hardware fasteners.
+   - **threads.scad**: High-precision metric screw threads, bolt profiles, and jar lids.
+   - **Round-Anything**: Polyround fillets, soft rounded corners, and ergonomic bevels.
+   - **Write.scad & DXF Typography**: Curved embossed lettering on cylinders, food bowls, and name tags.
+   - **Multi-File Imports**: Accompanying component meshes (`import("part.stl")` or vector files) are automatically recognized and mounted for multi-part assemblies.
 5. If you wish to test procedural templates, click **Built-in Presets** to switch between templates and return to your external model at any time.
 
-## 4. Accelerated In-Browser Engine & Draft Mode
+## 4. Accelerated Manifold In-Browser Engine & Draft Mode
 
-MakerSpell Studio features a hybrid computing architecture:
+MakerSpell Studio features a high-performance hybrid computing architecture:
 
-- **Hardware-Accelerated Client Engine**: Models are compiled directly inside your browser via WebAssembly (WASM). Initial assets are compressed to under 3 MB and permanently cached offline via Service Worker, resulting in zero network delays on subsequent visits.
-- **Real-Time Draft Mode**: As you drag sliders, the studio evaluates geometries in high-speed draft mode (`Draft`), providing immediate visual feedback in under 200 milliseconds. When you release the slider, the model compiles into full high-resolution precision.
+- **Manifold CSG Engine (10x-50x Faster)**: Models are evaluated using the modern Manifold boolean engine, compiling complex geometries in tens of milliseconds directly inside your browser. If non-manifold legacy shapes are encountered, the engine seamlessly falls back to CGAL to guarantee 100% render reliability.
+- **Direct Binary STL Generation**: Clean binary meshes are exported natively without browser memory bloat, providing instant updates for models with hundreds of thousands of triangles.
+- **Real-Time Draft Mode**: As you drag sliders, the studio evaluates geometries in high-speed draft mode (`Draft`), providing immediate visual feedback in under 100 milliseconds. When you release the slider, the model compiles into full high-resolution precision.
 - **Automatic Cloud Fallback**: On low-memory devices or older browsers, the studio seamlessly switches to cloud computing without interrupting your design flow.
 
 ## 5. Exporting & Slicing for 3D Printing
