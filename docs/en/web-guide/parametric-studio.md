@@ -19,22 +19,25 @@ The studio comes equipped with ready-to-use parametric templates across several 
 
 ## 2. Using the 3D Interactive Viewport
 
-The interactive viewport renders real 3D geometry with realistic lighting and physical dimensions:
+The interactive viewport renders real 3D geometry with realistic lighting, true-to-life bed leveling, and physical dimensions:
 
+- **Build Plate Leveling**: All models automatically align upright with their base resting directly on top of the print grid ($Y = 0$), matching physical 3D printer slicing coordinates.
+- **Distraction-Free Full Viewport**: Entering the studio automatically minimizes the main navigation sidebar to maximize the interactive 3D canvas.
 - **Rotate (Orbit)**: Click and drag with your left mouse button (or swipe with one finger on mobile/touch screens).
 - **Zoom**: Scroll your mouse wheel (or pinch with two fingers on mobile devices).
 - **Wireframe Mode**: Click **Wireframe** in the top toolbar to inspect polygon density, mesh triangulation, and internal walls.
 - **Backlight Preview**: For lithophanes, toggle **Light On / Light Off** to simulate how light shines through the translucent filament layers.
-- **HUD Telemetry**: The bottom HUD displays live polygon counts (triangles), calculated bounding box dimensions in millimeters ($X \times Y \times Z$), and server compilation time.
+- **HUD Telemetry**: The bottom HUD displays live polygon counts (triangles), calculated bounding box dimensions in millimeters ($X \times Y \times Z$), and compilation time.
 
-## 3. Customizing External Models (Thingiverse, Printables, GitHub)
+## 3. Customizing External Models & 3D Typography (Thingiverse, GitHub)
 
 You are not limited to built-in presets. When browsing models on MakerSpell with the **Editable (Parametric)** filter:
 
 1. Click **Customize in 3D Studio** on any supported model page.
-2. The studio automatically downloads the project's source code and analyzes its configurable options.
-3. Form controls appear in the left sidebar for every detected dimension, wall thickness, and toggle.
-4. Changing any slider compiles an updated 3D mesh in seconds.
+2. The studio loads a dedicated **External Model Card** showing the source repository or platform badge, full model title, and a link to the original design.
+3. Form controls appear in the sidebar for every detected dimension, wall thickness, custom text field, and toggle.
+4. **Embossed 3D Typography**: Full support for legacy and modern font engines (including HarlanDMii `Write.scad` and DXF typography) ensures customized curved text, embossed pet names on food bowls, and label tags render accurately in 3D.
+5. If you wish to test procedural templates, click **Built-in Presets** to switch between templates and return to your external model at any time.
 
 ## 4. Accelerated In-Browser Engine & Draft Mode
 

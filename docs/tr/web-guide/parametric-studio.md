@@ -19,22 +19,25 @@ Stüdyo, farklı kullanım senaryolarına yönelik hazır parametrik şablonlarl
 
 ## 2. 3B Etkileşimli Görünüm Alanı
 
-Görünüm alanı, modelinizi gerçek zamanlı aydınlatma ve fiziksel ölçülerle üç boyutlu olarak gösterir:
+Görünüm alanı, modelinizi gerçek zamanlı aydınlatma, tam tabla sıfırlama ve fiziksel ölçülerle üç boyutlu olarak gösterir:
 
+- **Baskı Tablası Hizalama**: Tüm modeller fiziksel 3B yazıcı koordinatlarıyla tam uyumlu şekilde dik açıyla konumlandırılır ve tabanı baskı ızgarasının ($Y = 0$) tam üzerine sıfırlanır.
+- **Genişletilmiş Çalışma Alanı**: Stüdyoya girildiğinde ana menü çubuğu otomatik olarak 72 piksellik kompakt simge moduna geçerek 3B tuval için maksimum ekran alanı açar.
 - **Döndürme (Yörünge)**: Sol fare tuşuna basılı tutarak sürükleyin (dokunmatik ekranlarda tek parmakla kaydırın).
 - **Yakınlaşma / Uzaklaşma**: Fare tekerleğini çevirin (dokunmatik ekranlarda iki parmakla kıstırma hareketi yapın).
 - **Tel Kafes (Wireframe) Modu**: Üst araç çubuğundaki **Tel Kafes** butonuna tıklayarak poligon yoğunluğunu, üçgen yapısını ve iç duvar örüntülerini inceleyin.
 - **Arkadan Işık Vurma**: Litofan modellerinde **Işık Açık / Işık Kapalı** butonunu kullanarak ışığın yarı saydam filament katmanlarından nasıl geçtiğini simüle edin.
 - **Canlı Bilgi Paneli (HUD)**: Sağ alt köşedeki panelde anlık üçgen (poligon) sayısı, milimetre cinsinden model boyutları ($X \times Y \times Z$) ve derleme süresi gösterilir.
 
-## 3. Harici Modelleri Kişiselleştirme (Thingiverse, Printables, GitHub)
+## 3. Harici Modeller & 3B Kabartma Yazılar (Thingiverse, GitHub)
 
 Yalnızca dahili şablonlarla sınırlı değilsiniz. MakerSpell üzerinde **Düzenlenebilir (Parametrik)** filtresiyle model ararken:
 
 1. Desteklenen herhangi bir model sayfasında **3B Stüdyoda Kişiselleştir** butonuna tıklayın.
-2. Stüdyo, modelin kaynak kodunu otomatik olarak çözümler ve yapılandırılabilir seçeneklerini okur.
-3. Sol tarafta genişlik, yükseklik, et kalınlığı gibi bulunan tüm parametreler kaydırıcı kontrol olarak listelenir.
-4. Kaydırıcıları değiştirdiğinizde güncel 3B geometri saniyeler içinde yeniden derlenir.
+2. Stüdyo, platform rozeti, model başlığı ve orijinal model bağlantısını içeren özel bir **Harici Model Kartı** açar.
+3. Sol tarafta genişlik, yükseklik, et kalınlığı, metin alanları ve diğer tüm parametreler kaydırıcı kontrol olarak listelenir.
+4. **Kabartmalı 3B Yazı Desteği**: Gelişmiş ve klasik yazı tipi motorları (`Write.scad` ve DXF vektör fontları) tam desteklenir; böylece evcil hayvan mama kaplarındaki kavisli isim kabartmaları, anahtarlıklar ve etiketler eksiksiz üretilir.
+5. Dahili parametrik şablonları denemek isterseniz **Dahili Şablonlar** butonuna basarak geçiş yapabilir, dilediğiniz an harici modelinize geri dönebilirsiniz.
 
 ## 4. Donanım Hızlandırmalı Tarayıcı Motoru & Taslak Modu
 
