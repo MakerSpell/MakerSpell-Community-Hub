@@ -63,5 +63,14 @@ When you are satisfied with your customized model:
 2. **Slice in App**: Click **Slice in App** to automatically launch MakerSync or OrcaSlicer via deep-link integration. Your customized file is prepped and ready for slicing without manual drag-and-drop steps.
 3. Open the file in your preferred slicer (MakerSync, Bambu Studio, OrcaSlicer, PrusaSlicer, or Creality Print) to start printing.
 
+## 6. Saving to Cloud Vault & Mobile Sync
+
+MakerSpell features an integrated **Parametric Cloud Vault**:
+
+- **Save to Vault**: Click **Save to Vault** in the studio top bar to save your exact dimensions, divider configurations, and lid styles directly to your cloud profile.
+- **Pure Recipe Synchronization**: Instead of uploading heavy 3D files, your design is saved as a lightweight parameter recipe. It synchronizes instantly to your **MakerSync mobile and desktop application**.
+- **Accessing Your Vault**: Visit your **Profile** (`/profile`) and navigate to the **Customized Designs** tab to view your saved organizers, review dimensions, re-open them in 3D Studio with one click, or export print-ready STLs directly.
+- **Community Remix**: When saving, you can choose to make your design public, allowing fellow makers to view and remix your dimensions.
+
 > [!IMPORTANT]
 > The exported STL files use standard binary encoding with optimized surface normals, making them compatible with every desktop slicer and 3D printer without requiring mesh repair or repair tools.

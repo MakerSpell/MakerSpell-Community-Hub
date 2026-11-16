@@ -63,5 +63,14 @@ Modelinizi istediğiniz ölçülere getirdikten sonra:
 2. **Uygulamada Dilimle**: **Uygulamada Dilimle** butonuna tıkladığınızda model otomatik olarak MakerSync veya OrcaSlicer masaüstü uygulamanıza köprü bağlantıyla aktarılır.
 3. Dosyayı dilimleme yazılımınızda (MakerSync, Bambu Studio, OrcaSlicer, PrusaSlicer, Creality Print vb.) açıp baskıya başlayabilirsiniz.
 
+## 6. Bulut Kasasına Kaydetme & Mobil Senkronizasyon
+
+MakerSpell entegre bir **Parametrik Bulut Kasası** içerir:
+
+- **Kasaya Kaydet**: Stüdyo üst menüsündeki **Kasaya Kaydet** butonuna tıklayarak belirlediğiniz ölçüleri, bölme düzenini ve kapak tipini doğrudan bulut profilinize kaydedin.
+- **Saf Reçete Senkronizasyonu**: Ağır 3B modeller yerine tasarımınız hafif bir parametre reçetesi olarak saklanır. Böylece anında **MakerSync mobil ve masaüstü uygulamanızla** senkronize olur.
+- **Kasanıza Erişim**: **Profilim** (`/profile`) sayfasına gidip **Özelleştirilmiş Tasarımlar** sekmesine tıklayarak kayıtlı kutularınızı listeleyebilir, ölçüleri inceleyebilir, tek tıkla stüdyoda yeniden açabilir veya baskıya hazır STL dosyasını indirebilirsiniz.
+- **Toplulukla Paylaşım**: Tasarımınızı kaydederken herkese açık yapmayı seçebilir, diğer üreticilerin sizin ölçülerinizi incelemesine ve remikslemesine olanak sağlayabilirsiniz.
+
 > [!IMPORTANT]
 > İndirilen dosyalar standart ikili STL formatında ve doğru yüzey normalleriyle üretildiğinden ek bir ağ onarımı gerektirmeden tüm masaüstü dilimleyicilerde sorunsuz çalışır.
