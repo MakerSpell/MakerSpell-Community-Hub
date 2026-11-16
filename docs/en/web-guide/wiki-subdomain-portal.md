@@ -18,3 +18,9 @@ The **MakerSpell Wiki** ([wiki.makerspell.com](https://wiki.makerspell.com)) is 
 
 3. **Subdomain Independence:**
    - Completely independent from the main storefront and search UI, offering a clutter-free, fast-loading reading experience for workshops and maker benches.
+
+4. **Search Engine Discoverability:**
+   - The wiki publishes its own sitemap at [wiki.makerspell.com/sitemap.xml](https://wiki.makerspell.com/sitemap.xml), listing every guide in every supported language.
+   - Each guide declares its language alternates (`hreflang`), so English and Turkish versions of the same page are linked for search engines and readers alike.
+   - Every page includes structured data (`TechArticle` + breadcrumbs), which helps search engines show the guide's title, category and update time directly in results.
+   - Old bookmark links to `/docs/...` are permanently redirected to their wiki page, so existing search results keep working.

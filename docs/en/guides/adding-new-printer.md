@@ -2,6 +2,8 @@
 
 MakerSpell uses an open, declarative driver specification (`profile-v2`) to connect with hundreds of 3D printer models across different manufacturers. This guide walks you through importing, verifying, and testing a custom driver profile **directly from the MakerSpell Desktop or Mobile app**—with zero coding or terminal tools required.
 
+![Add and Test Printer Profile](../../assets/screenshots/web/viewer-adding-printer.png)
+
 ---
 
 ## 1. Prerequisites: Driver Profile File (.json)

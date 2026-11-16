@@ -16,8 +16,8 @@ MakerSpell masaüstü ve mobil uygulaması, indirdiğiniz veya yerel diskinizdek
 ## 2. Model Ölçekleme, Döndürme ve Yerleşim
 
 Sol taraftaki dönüşüm araç çubuğunu kullanarak:
-- **Konumlandırma:** Modeli tablanın merkezine taşıyın veya birden fazla model varsa aralarındaki mesafeyi ayarlayın.
-- **Ölçekleme (Scale):** Modeli yüzde (%) cinsinden büyütebilir veya doğrudan milimetre ölçüsü girebilirsiniz.
+- **Hassas Taşıma & Döndürme:** Modeli tabla üzerinde milimetrik olarak taşıyın (X, Y) veya eksenler etrafında döndürün (X, Y, Z). Giriş kutuları CAD/OrcaSlicer standardı renkli eksen rozetlerine (Kırmızı = X, Yeşil = Y, Mavi = Z) sahiptir ve mobil, tablet ve masaüstü ekranlarına taşma veya yatay kaydırma yapmadan otomatik uyum sağlar.
+- **Ölçekleme (Scale):** Tekdüze ölçekleme kilidiyle orantılı büyütebilir veya her eksen için bağımsız milimetre ölçüsü girebilirsiniz.
 - **Yüzeye Oturtma:** Modelin en düz yüzeyini seçerek tek tıkla tablaya yapışmasını sağlayın.
 
 ---

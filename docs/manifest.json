@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MakerSpell Community Hub Documentation Manifest",
   "version": "2.0.0",
@@ -7,7 +7,7 @@
     "en",
     "tr"
   ],
-  "lastUpdated": "2026-11-13T15:30:00.000Z",
+  "lastUpdated": "2026-11-14T11:24:00.700Z",
   "locales": {
     "en": {
       "categories": [
@@ -262,6 +262,22 @@
               "screenshots": []
             },
             {
+              "id": "web-parametric-studio",
+              "title": "Parametric 3D Model Studio & Generator",
+              "path": "docs/en/web-guide/parametric-studio.md",
+              "summary": "Interactive procedural modeling in your browser: lithophanes, parametric boxes, Gridfinity bins, custom keychains, and print-ready STL exports.",
+              "tags": [
+                "web",
+                "studio",
+                "parametric",
+                "openscad",
+                "lithophane",
+                "gridfinity",
+                "stl"
+              ],
+              "screenshots": []
+            },
+            {
               "id": "web-deals",
               "title": "3D Deals, Filament & Printer Coupons",
               "path": "docs/en/web-guide/deals-and-coupons.md",
@@ -453,6 +469,9 @@
                 "guide",
                 "contribution",
                 "new-printer"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-adding-printer.png"
               ]
             },
             {
@@ -465,6 +484,9 @@
                 "editor",
                 "feedback",
                 "rating"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-feature-feedback.png"
               ]
             },
             {
@@ -477,6 +499,9 @@
                 "editor",
                 "testing",
                 "debug"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-debug-test-hub.png"
               ]
             },
             {
@@ -489,6 +514,9 @@
                 "editor",
                 "shortcuts",
                 "keyboard"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-keyboard-shortcuts.png"
               ]
             },
             {
@@ -502,6 +530,9 @@
                 "fuzzy-skin",
                 "painting",
                 "surface"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-fuzzy-skin-paint.png"
               ]
             },
             {
@@ -515,6 +546,9 @@
                 "volume-types",
                 "negative-part",
                 "modifier"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-volume-types.png"
               ]
             },
             {
@@ -528,6 +562,147 @@
                 "height-range",
                 "settings",
                 "z-band"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-height-range.png"
+              ]
+            },
+            {
+              "id": "guides-text-and-svg-emboss",
+              "title": "3D Text & SVG Emboss: Adding Raised and Carved Details",
+              "path": "docs/en/guides/text-and-svg-emboss.md",
+              "summary": "Generating 3D typography using 6 OFL fonts and projecting SVG vector artwork: Raised, Carved, and Modifier modes, curved surface projection, and 3MF persistence.",
+              "tags": [
+                "guide",
+                "editor",
+                "text-emboss",
+                "svg-emboss",
+                "deboss",
+                "typography"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-text-emboss.png"
+              ]
+            },
+            {
+              "id": "guides-drill-and-hole-cutting",
+              "title": "Drill Tool: Axis-Aligned Hole Cutting and Placement",
+              "path": "docs/en/guides/drill-and-hole-cutting.md",
+              "summary": "Adding precision cylinder, box, and triangle holes: surface normal, plate parallel, and camera view alignments, blind vs through holes, and Boolean subtraction.",
+              "tags": [
+                "guide",
+                "editor",
+                "drill",
+                "holes",
+                "boolean",
+                "cutting"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-drill-tool.png"
+              ]
+            },
+            {
+              "id": "guides-model-hollowing-and-drain-holes",
+              "title": "Model Hollowing & Drain Holes: Saving Material and Weight",
+              "path": "docs/en/guides/model-hollowing-and-drain-holes.md",
+              "summary": "Carving interior cavities to save filament and resin: wall thickness, quality, closing distance, automatic mesh simplification guard, and essential drain holes.",
+              "tags": [
+                "guide",
+                "editor",
+                "hollowing",
+                "drain-holes",
+                "resin",
+                "mesh"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-hollowing-drain-holes.png"
+              ]
+            },
+            {
+              "id": "guides-slicing-parameters-and-settings-search",
+              "title": "Slicing Parameters & Settings Search: The 8-Tab Parameters Panel",
+              "path": "docs/en/guides/slicing-parameters-and-settings-search.md",
+              "summary": "Mastering the 8-tab parameters panel (Quality, Strength, Speed, Support, Others, Multimaterial, Cooling, Search): Global vs Object vs Part scopes, local overrides, and instant search.",
+              "tags": [
+                "guide",
+                "editor",
+                "parameters",
+                "slicing",
+                "settings-search",
+                "overrides"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-slicing-parameters.png"
+              ]
+            },
+            {
+              "id": "guides-clipboard-and-multi-plate-management",
+              "title": "Clipboard, Cloning & Multi-Plate Management",
+              "path": "docs/en/guides/clipboard-and-multi-plate-management.md",
+              "summary": "Deep-copy clipboard workflow (Copy, Paste, Clone): automatic offsets, preserving modifiers and height ranges, batch cloning, Fill bed with copies, and organizing multi-plate projects.",
+              "tags": [
+                "guide",
+                "editor",
+                "clipboard",
+                "copy-paste",
+                "clone",
+                "plates"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-multi-plate-instances.png"
+              ]
+            },
+            {
+              "id": "guides-auto-brim-and-mouse-ears",
+              "title": "Auto Brim & Mouse Ears: First-Layer Adhesion and Warping Prevention",
+              "path": "docs/en/guides/auto-brim-and-mouse-ears.md",
+              "summary": "First-layer bed adhesion strategies: the 6 brim types, intelligent auto-brim footprint analysis, localized corner mouse ears, and tuning brim-object gap for clean detachment.",
+              "tags": [
+                "guide",
+                "editor",
+                "brim",
+                "auto-brim",
+                "mouse-ears",
+                "adhesion",
+                "warping"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-auto-brim-ears.png"
+              ]
+            },
+            {
+              "id": "guides-section-view-and-measurement-tools",
+              "title": "Section View & Measurement Tools: Inspecting the Inside of a Model",
+              "path": "docs/en/guides/section-view-and-measurement-tools.md",
+              "summary": "Cutting the model with an adjustable section plane to see inside, and measuring edges, distances, diameters, angles and volumes with snapping guides.",
+              "tags": [
+                "guide",
+                "editor",
+                "section-view",
+                "measurement",
+                "inspection",
+                "cross-section"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-section-view.png",
+                "assets/screenshots/web/viewer-measure-mode.png"
+              ]
+            },
+            {
+              "id": "guides-auto-orientation-options",
+              "title": "Auto Orientation Options: Optimizing Print Angle and Support",
+              "path": "docs/en/guides/auto-orientation-options.md",
+              "summary": "Intelligent auto orientation options: Default balanced adhesion, Minimize support volume, Minimize print time, and instant orientation reset.",
+              "tags": [
+                "guide",
+                "editor",
+                "auto-orient",
+                "rotation",
+                "support-optimization",
+                "print-time"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-auto-orient-options.png"
               ]
             }
           ]
@@ -786,6 +961,22 @@
               "screenshots": []
             },
             {
+              "id": "web-parametric-studio",
+              "title": "Parametrik 3B Model Stüdyosu & Üreteç",
+              "path": "docs/tr/web-guide/parametric-studio.md",
+              "summary": "Tarayıcınızda etkileşimli parametrik modelleme: litofan lambalar, parametrik kutular, Gridfinity modülleri, isimlikler ve doğrudan STL indirme.",
+              "tags": [
+                "web",
+                "stüdyo",
+                "parametrik",
+                "openscad",
+                "litofan",
+                "gridfinity",
+                "stl"
+              ],
+              "screenshots": []
+            },
+            {
               "id": "web-deals",
               "title": "3D İndirimler, Filament & Yazıcı Kuponları",
               "path": "docs/tr/web-guide/deals-and-coupons.md",
@@ -977,6 +1168,9 @@
                 "guide",
                 "contribution",
                 "new-printer"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-adding-printer.png"
               ]
             },
             {
@@ -989,6 +1183,9 @@
                 "editor",
                 "feedback",
                 "rating"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-feature-feedback.png"
               ]
             },
             {
@@ -1001,6 +1198,9 @@
                 "editor",
                 "testing",
                 "debug"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-debug-test-hub.png"
               ]
             },
             {
@@ -1013,6 +1213,9 @@
                 "editor",
                 "shortcuts",
                 "keyboard"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-keyboard-shortcuts.png"
               ]
             },
             {
@@ -1026,6 +1229,9 @@
                 "fuzzy-skin",
                 "painting",
                 "surface"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-fuzzy-skin-paint.png"
               ]
             },
             {
@@ -1039,6 +1245,9 @@
                 "volume-types",
                 "negative-part",
                 "modifier"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-volume-types.png"
               ]
             },
             {
@@ -1052,6 +1261,147 @@
                 "height-range",
                 "settings",
                 "z-band"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-height-range.png"
+              ]
+            },
+            {
+              "id": "guides-text-and-svg-emboss",
+              "title": "3D Metin ve SVG Kabartma: Kabartma ve Oyma Detaylar Ekleme",
+              "path": "docs/tr/guides/text-and-svg-emboss.md",
+              "summary": "6 OFL yazı tipiyle 3D tipografi üretme ve SVG vektör çizimlerini izdüşürme: Kabartma, Oyma ve Değiştirici modları, kavisli yüzey izdüşümü ve 3MF kalıcılığı.",
+              "tags": [
+                "guide",
+                "editor",
+                "text-emboss",
+                "svg-emboss",
+                "deboss",
+                "typography"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-text-emboss.png"
+              ]
+            },
+            {
+              "id": "guides-drill-and-hole-cutting",
+              "title": "Matkap Aracı: Eksene Duyarlı Delik Delme ve Yerleştirme",
+              "path": "docs/tr/guides/drill-and-hole-cutting.md",
+              "summary": "Hassas silindir, kutu ve üçgen delikler ekleme: yüzey normali, plaka paralel ve kamera bakış açısı hizalamaları, boydan boya veya kör delikler ve Boolean kesimi.",
+              "tags": [
+                "guide",
+                "editor",
+                "drill",
+                "holes",
+                "boolean",
+                "cutting"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-drill-tool.png"
+              ]
+            },
+            {
+              "id": "guides-model-hollowing-and-drain-holes",
+              "title": "Model İçi Boşaltma ve Tahliye Delikleri: Malzeme ve Ağırlık Tasarrufu",
+              "path": "docs/tr/guides/model-hollowing-and-drain-holes.md",
+              "summary": "Filament ve reçine tasarrufu için iç boşluk açma: duvar kalınlığı, kalite, kapatma mesafesi, otomatik ağ basitleştirme koruması ve hayati tahliye delikleri.",
+              "tags": [
+                "guide",
+                "editor",
+                "hollowing",
+                "drain-holes",
+                "resin",
+                "mesh"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-hollowing-drain-holes.png"
+              ]
+            },
+            {
+              "id": "guides-slicing-parameters-and-settings-search",
+              "title": "Dilimleme Parametreleri ve Ayar Arama: 8 Sekmeli Parametreler Paneli",
+              "path": "docs/tr/guides/slicing-parameters-and-settings-search.md",
+              "summary": "8 sekmeli parametreler panelinde uzmanlaşma (Kalite, Mukavemet, Hız, Destek, Diğerleri, Çoklu Malzeme, Soğutma, Ayar Ara): Genel, Nesne ve Parça kapsamları, yerel geçersiz kılmalar ve anlık arama.",
+              "tags": [
+                "guide",
+                "editor",
+                "parameters",
+                "slicing",
+                "settings-search",
+                "overrides"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-slicing-parameters.png"
+              ]
+            },
+            {
+              "id": "guides-clipboard-and-multi-plate-management",
+              "title": "Pano, Klonlama ve Çoklu Plaka Yönetimi",
+              "path": "docs/tr/guides/clipboard-and-multi-plate-management.md",
+              "summary": "Derin kopyalama pano akışı (Kopyala, Yapıştır, Klonla): otomatik ofsetler, değiştiricileri ve Z bantlarını koruma, toplu klonlama, yatağı kopyalarla doldurma ve çoklu plaka projeleri.",
+              "tags": [
+                "guide",
+                "editor",
+                "clipboard",
+                "copy-paste",
+                "clone",
+                "plates"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-multi-plate-instances.png"
+              ]
+            },
+            {
+              "id": "guides-auto-brim-and-mouse-ears",
+              "title": "Otomatik Kenarlık ve Fare Kulağı: İlk Katman Yapışması ve Kalkmayı Önleme",
+              "path": "docs/tr/guides/auto-brim-and-mouse-ears.md",
+              "summary": "İlk katman tabla yapışma stratejileri: 6 kenarlık tipi, akıllı otomatik kenarlık taban analizi, köşelere özel fare kulakları ve temiz ayrılma için kenarlık-nesne boşluğu ayarı.",
+              "tags": [
+                "guide",
+                "editor",
+                "brim",
+                "auto-brim",
+                "mouse-ears",
+                "adhesion",
+                "warping"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-auto-brim-ears.png"
+              ]
+            },
+            {
+              "id": "guides-section-view-and-measurement-tools",
+              "title": "Kesit Görünümü ve Ölçüm Araçları: Modelin İçini İnceleme",
+              "path": "docs/tr/guides/section-view-and-measurement-tools.md",
+              "summary": "Ayarlanabilir kesit düzlemiyle modeli keserek içini görme ve kenetlenme kılavuzlarıyla kenar, mesafe, çap, açı ve hacim ölçümü.",
+              "tags": [
+                "guide",
+                "editor",
+                "section-view",
+                "measurement",
+                "inspection",
+                "cross-section"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-section-view.png",
+                "assets/screenshots/web/viewer-measure-mode.png"
+              ]
+            },
+            {
+              "id": "guides-auto-orientation-options",
+              "title": "Otomatik Yönlendirme Seçenekleri: Baskı Açısı ve Destek Optimizasyonu",
+              "path": "docs/tr/guides/auto-orientation-options.md",
+              "summary": "Akıllı otomatik yönlendirme seçenekleri: Dengeli varsayılan mod, Destek hacmini en aza indir, Baskı süresini en aza indir ve anında yönelim sıfırlama.",
+              "tags": [
+                "guide",
+                "editor",
+                "auto-orient",
+                "rotation",
+                "support-optimization",
+                "print-time"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-auto-orient-options.png"
               ]
             }
           ]

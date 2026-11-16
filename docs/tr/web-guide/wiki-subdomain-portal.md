@@ -18,3 +18,9 @@
 
 3. **Bağımsız Subdomain Deneyimi:**
    - Ana arama motoru ve mağaza karmaşasından tamamen arındırılmış; atölyelerde ve baskı tezgahlarında en hızlı referans kılavuzu olarak çalışacak şekilde optimize edilmiştir.
+
+4. **Arama Motoru Keşfedilebilirliği:**
+   - Wiki, kendi site haritasını [wiki.makerspell.com/sitemap.xml](https://wiki.makerspell.com/sitemap.xml) adresinde yayınlar; desteklenen her dildeki tüm kılavuzları listeler.
+   - Her kılavuz, dil alternatiflerini (`hreflang`) bildirir; böylece aynı sayfanın İngilizce ve Türkçe sürümleri hem arama motorları hem okuyucular için birbirine bağlanır.
+   - Her sayfa yapılandırılmış veri (`TechArticle` + breadcrumb) içerir; arama motorları sonuçlarda kılavuzun başlığını, kategorisini ve güncelleme zamanını doğrudan gösterebilir.
+   - `/docs/...` adresindeki eski bağlantılar kalıcı olarak wiki sayfalarına yönlendirilir; mevcut arama sonuçları çalışmaya devam eder.

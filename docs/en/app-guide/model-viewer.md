@@ -16,7 +16,8 @@ The MakerSpell desktop and mobile client features a high-performance 3D canvas s
 ## 2. Transforming & Plate Placement
 
 - **Auto-Center:** Quickly centers the model on the build volume.
-- **Scaling:** Scale uniformly by percentage (`100%`) or enter exact millimeter dimensions for X, Y, or Z.
+- **Precision Move & Rotate:** Use the responsive transform toolbar to translate (X, Y) and rotate (X, Y, Z). Input fields feature OrcaSlicer and CAD-standard color-coded axis badges (Red = X, Green = Y, Blue = Z) and auto-adapt to mobile, tablet, and desktop screens without horizontal clipping.
+- **Scaling:** Scale uniformly with the lock toggle or enter exact millimeter dimensions for X, Y, or Z independently.
 - **Lay Flat:** Click any planar surface of your model to immediately snap it flat against the print bed for optimal bed adhesion.
 
 ---

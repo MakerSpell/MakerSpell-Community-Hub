@@ -2,6 +2,9 @@
 
 MakerSpell, farklı marka ve modeldeki 3D yazıcıları sisteme dahil etmek için açık ve deklaratif bir sürücü profili (`profile-v2`) mimarisi kullanır. Bu rehber; yeni bir yazıcı modelini MakerSpell Masaüstü veya Mobil uygulaması üzerinden **herhangi bir kodlama veya geliştirici aracına ihtiyaç duymadan**, doğrudan uygulama arayüzünden nasıl içe aktaracağınızı, test edeceğinizi ve kullanıma alacağınızı adım adım açıklamaktadır.
 
+
+![Yeni Yazıcı Profili Ekleme ve Test Etme](../../assets/screenshots/web/viewer-adding-printer.png)
+
 ---
 
 ## 1. Hazırlık: Profil Dosyası (.json)
