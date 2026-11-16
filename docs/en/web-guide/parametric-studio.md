@@ -9,7 +9,7 @@ The studio comes equipped with ready-to-use parametric templates across several 
 | Generator | Best For | Key Parameters |
 | --- | --- | --- |
 | **Lithophane Photo & Lamp** | Personalized photo panels, curved lamps, nightlights | Image upload, shape (curved, flat, cylinder, nightlight), width, min/max layer thickness, curve angle |
-| **Parametric Box & Lid** | Millimetric hardware organizers, parts trays, boxes | Width, length, height, corner radius, wall thickness, lid style (sliding, snap-fit, open), internal dividers |
+| **Custom Box & Organizers** | Millimetric hardware organizers, parts trays, boxes | Inner dimensions focus, dual-axis $N \times M$ compartments, lid style (snap-fit, sliding, none), stackable interlocking foot, clearance control |
 | **Gridfinity Standard Bin** | Modular workshop and drawer organization systems | Grid units (42mm multiples in X and Y), height units (7mm multiples), scoop lip, label shelf, magnet holes |
 | **3D Embossed Keychain** | Name tags, two-color keychains, custom badges | Text content, font size, text relief height, base thickness, keyring hole toggle |
 | **OpenSCAD Code Playground** | Custom algorithmic designs and experiments | Direct code editor with automatic parameter extraction (sliders, toggles, dropdowns) |
@@ -27,7 +27,9 @@ The interactive viewport renders real 3D geometry with realistic lighting, true-
 - **Zoom**: Scroll your mouse wheel (or pinch with two fingers on mobile devices).
 - **Wireframe Mode**: Click **Wireframe** in the top toolbar to inspect polygon density, mesh triangulation, and internal walls.
 - **Backlight Preview**: For lithophanes, toggle **Light On / Light Off** to simulate how light shines through the translucent filament layers.
-- **HUD Telemetry**: The bottom HUD displays live polygon counts (triangles), calculated bounding box dimensions in millimeters ($X \times Y \times Z$), and compilation time.
+- **HUD Telemetry & Live Dimensions Callout**: The bottom HUD displays live polygon counts, compilation time, and a real-time dimension badge showing exact **Outside dimensions ($W \times D \times H$)**, **Inside capacity**, and calculated **Internal Volume in $cm^3$**.
+- **Instant Procedural Responsiveness**: When adjusting box organizers, sliders respond with sub-millisecond 60 FPS live feedback, updating both box and lid geometries instantly without compilation waiting.
+- **Support-Free Print Plate Layout**: Choosing the "Box + Lid" layout places both components side-by-side on the build grid with the lid oriented flat-top down, ready for 100% support-free 3D printing.
 
 ## 3. Customizing External Models & 3D Typography (Thingiverse, GitHub)
 

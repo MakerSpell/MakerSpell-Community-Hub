@@ -9,7 +9,7 @@ Stüdyo, farklı kullanım senaryolarına yönelik hazır parametrik şablonlarl
 | Şablon | En Uygun Kullanım | Temel Parametreler |
 | --- | --- | --- |
 | **Litofan Fotoğraf & Gece Lambası** | Kişiye özel kabartmalı tablolar, kavisli gece lambaları | Görsel yükleme, şekil (kavisli, düz, silindir, priz aparatı), genişlik, min/maks katman kalınlığı, kavis açısı |
-| **Parametrik Kutu & Kapak** | Donanım ve parça saklama kutuları, milimetrik çekmeceler | Genişlik, uzunluk, yükseklik, köşe yuvarlama, duvar kalınlığı, kapak tipi (raylı sürgülü, geçmeli, kapaksız), iç bölmeler |
+| **Özel Kutu & Organizatör** | Donanım ve parça saklama kutuları, milimetrik çekmeceler | İç ölçü odaklı tasarım, iki eksenli $N \times M$ bölmeler, kapak tipi (geçmeli, kızaklı raylı, kapaksız), istiflenebilir kilit ayağı, tolerans kontrolü |
 | **Gridfinity Modüler Kutu** | Atölye ve çekmece düzenleme modülleri | Grid birimleri (42 mm katları), yükseklik birimleri (7 mm katları), alma dudağı eğimi, etiket rafı, mıknatıs yuvaları |
 | **3B Kabartma İsimlik & Anahtarlık** | Çift renk baskıya uygun anahtarlık ve etiketler | Metin içeriği, yazı boyutu, kabartma yüksekliği, taban kalınlığı, anahtarlık halka deliği |
 | **Açık Kaynak Kod Düzenleyici** | Kendi algoritmik tasarımlarınızı deneme | Doğrudan kod yazımı ve parametrelerin (kaydırıcılar, kutucuklar, listeler) arayüze otomatik çıkarımı |
@@ -27,7 +27,9 @@ Görünüm alanı, modelinizi gerçek zamanlı aydınlatma, tam tabla sıfırlam
 - **Yakınlaşma / Uzaklaşma**: Fare tekerleğini çevirin (dokunmatik ekranlarda iki parmakla kıstırma hareketi yapın).
 - **Tel Kafes (Wireframe) Modu**: Üst araç çubuğundaki **Tel Kafes** butonuna tıklayarak poligon yoğunluğunu, üçgen yapısını ve iç duvar örüntülerini inceleyin.
 - **Arkadan Işık Vurma**: Litofan modellerinde **Işık Açık / Işık Kapalı** butonunu kullanarak ışığın yarı saydam filament katmanlarından nasıl geçtiğini simüle edin.
-- **Canlı Bilgi Paneli (HUD)**: Sağ alt köşedeki panelde anlık üçgen (poligon) sayısı, milimetre cinsinden model boyutları ($X \times Y \times Z$) ve derleme süresi gösterilir.
+- **Canlı Bilgi Paneli (HUD) & Anlık Boyut Rozeti**: Sağ alt köşedeki panelde anlık üçgen sayısı, derleme süresi ve ekranın altında net **Dış Ölçüler ($G \times D \times Y$)**, **İç Kapasite** ve hesaplanan **İç Hacim ($cm^3$)** rozeti yer alır.
+- **Saliseler İçinde Anlık Tepki**: Kutu düzenleyicide kaydırıcıları çekerken model 60 FPS hızında (<1 ms) anında yenilenir; derleme beklemesi olmadan hem kutu hem kapak anlık olarak şekil alır.
+- **Desteksiz Baskı Yerleşimi**: "Kutu + Kapak" modu seçildiğinde, kapak düz yüzeyi tablaya oturacak şekilde 180° ters çevrilerek kutunun yanına yerleştirilir; böylece sıfır destekle doğrudan baskı alınabilir.
 
 ## 3. Harici Modeller & 3B Kabartma Yazılar (Thingiverse, GitHub)
 
