@@ -59,8 +59,16 @@ If your router blocks multicast traffic (mDNS) or your printer is on a different
      - Klipper / Moonraker default: `7125`
      - CrealityOS (K1, Ender-3 V3, Hi): `80`
      - OctoPrint: `80` or `5000`
-   - **Driver / Protocol:** Select the matching driver (e.g. *Creality Local v2*, *Moonraker*, *OctoPrint*).
+     - Bambu Lab LAN mode: `8883` (Password: 8-digit LAN Access Code from printer screen)
+     - Anycubic Kobra (Signed LAN): `18910`
+     - Elegoo SDCP (Centauri Carbon, Neptune 4): `3030` or `80`
+     - FlashForge Adventurer 5M: `8898` / `8899` (with CheckCode)
+     - PrusaLink (MK4, XL, MINI+): `80`
+   - **Driver / Protocol:** Select the matching driver (e.g. *Creality Local v2*, *Bambu Lab LAN*, *Anycubic LAN*, *Moonraker*, *OctoPrint*).
 3. Click **"Test Connection & Save"**. Once confirmed, your printer is saved permanently.
+
+> [!NOTE]
+> **Hardware Safety Protocol (Safe-Mode):** To protect your physical hardware, printers outside the fully verified tier (Creality K1, Snapmaker U1) operate in Safe-Mode (`UPLOAD_ONLY`) by default. Print execution must be confirmed on the physical machine panel.
 
 ---
 

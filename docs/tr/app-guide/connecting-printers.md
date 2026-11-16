@@ -59,8 +59,16 @@ Eğer modeminiz ağ içi cihaz keşif paketlerini (mDNS) kısıtlıyorsa, cihaz�
      - Klipper / Moonraker için varsayılan: `7125`
      - CrealityOS (K1, Ender-3 V3, Hi) için: `80`
      - OctoPrint için: `80` veya `5000`
-   - **Protokol / Sürücü:** Cihaz tipinize uygun sürücüyü seçin (Örn: *Creality Local v2*, *Moonraker*, *OctoPrint*).
+     - Bambu Lab LAN modu için: `8883` (Şifre: Yazıcı ekranındaki 8 haneli Access Code)
+     - Anycubic Kobra (Signed LAN) için: `18910`
+     - Elegoo SDCP (Centauri Carbon, Neptune 4) için: `3030` veya `80`
+     - FlashForge Adventurer 5M için: `8898` / `8899` (CheckCode ile)
+     - PrusaLink (MK4, XL, MINI+) için: `80`
+   - **Protokol / Sürücü:** Cihaz tipinize uygun sürücüyü seçin (Örn: *Creality Local v2*, *Bambu Lab LAN*, *Anycubic LAN*, *Moonraker*, *OctoPrint*).
 3. **"Bağlantıyı Test Et ve Kaydet"** butonuna basın. Başarılı onay mesajından sonra cihaz listenize eklenecektir.
+
+> [!NOTE]
+> **Donanım Güvenlik Protokolü (Safe-Mode):** Fiziksel donanımınızı korumak amacıyla, doğrulanmış K1 ve U1 dışındaki yazıcılar (Bambu Lab, Anycubic vb.) varsayılan olarak güvenli izleme ve dosya yükleme modunda çalışır. Yazdırma işlemi fiziksel makine üzerinden başlatılır.
 
 ---
 
