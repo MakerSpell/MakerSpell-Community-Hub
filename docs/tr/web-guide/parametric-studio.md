@@ -72,5 +72,14 @@ MakerSpell entegre bir **Parametrik Bulut Kasası** içerir:
 - **Kasanıza Erişim**: **Profilim** (`/profile`) sayfasına gidip **Özelleştirilmiş Tasarımlar** sekmesine tıklayarak kayıtlı kutularınızı listeleyebilir, ölçüleri inceleyebilir, tek tıkla stüdyoda yeniden açabilir veya baskıya hazır STL dosyasını indirebilirsiniz.
 - **Toplulukla Paylaşım**: Tasarımınızı kaydederken herkese açık yapmayı seçebilir, diğer üreticilerin sizin ölçülerinizi incelemesine ve remikslemesine olanak sağlayabilirsiniz.
 
+## 7. Bağımsız Topluluk Vitrini & Tek Tıkla Remiksleme (`/studio/parametric/community`)
+
+**Topluluk Vitrini**, maker'ların paylaştığı Gridfinity kutularını, koruma kılıflarını, anahtarlıkları ve atölye düzenleyicilerini sergileyen bağımsız bir galeridir:
+
+- **Keşfet & Filtrele**: Modelleri kategorilere göre (Gridfinity, Parametrik Kutu, Anahtarlık, Litofan) filtreleyin veya arama kutusundan istediğiniz ölçüyü, aleti veya yazarı anında bulun.
+- **Tek Tıkla Stüdyoda Remiksle**: Beğendiğiniz herhangi bir karttaki **Stüdyoda Remiksle** butonuna bastığınızda, modelin tüm milimetrik parametreleri doğrudan 3B Stüdyo sahnenize yüklenir. İster ölçüleri genişletin, ister ek bölmeler ekleyin; beklemeden düzenleyin.
+- **Parametre Kopyalama & Paylaşma**: Tasarımın parametre reçetesini tek tıkla JSON olarak panoya kopyalayabilir veya doğrudan arkadaşlarınızla bağlantı paylaşabilirsiniz.
+- **Sıfır Depolama Maliyeti**: Tüm topluluk modelleri yalnızca ~350 baytlık hafif JSON reçeteleri olarak depolanır; sunucu şişkinliği yaratmadan sınırsız remiks imkanı sunar.
+
 > [!IMPORTANT]
 > İndirilen dosyalar standart ikili STL formatında ve doğru yüzey normalleriyle üretildiğinden ek bir ağ onarımı gerektirmeden tüm masaüstü dilimleyicilerde sorunsuz çalışır.

@@ -72,5 +72,14 @@ MakerSpell features an integrated **Parametric Cloud Vault**:
 - **Accessing Your Vault**: Visit your **Profile** (`/profile`) and navigate to the **Customized Designs** tab to view your saved organizers, review dimensions, re-open them in 3D Studio with one click, or export print-ready STLs directly.
 - **Community Remix**: When saving, you can choose to make your design public, allowing fellow makers to view and remix your dimensions.
 
+## 7. Community Showcase & One-Click Remixing (`/studio/parametric/community`)
+
+The **Community Showcase** is a dedicated public gallery where makers share customized Gridfinity bins, toolboxes, name tags, and parametric organizers:
+
+- **Browse & Filter**: Filter designs by category (Gridfinity, Parametric Box, Keychains, Lithophanes) or search by exact dimensions, author, or workshop tools.
+- **One-Click Studio Remix**: Click **Remix in Studio** on any design card to immediately load its exact millimetric parameters into your 3D Studio workspace. You can tweak dimensions, add extra dividers, or change text with zero delay.
+- **Copy Parameters & Share**: Copy parameter JSON recipes to your clipboard with a single click or share deep-links with friends.
+- **Zero Storage Overhead**: Every shared model is stored strictly as a compact recipe (~350 bytes), ensuring zero cloud bloat while enabling infinite community remixes.
+
 > [!IMPORTANT]
 > The exported STL files use standard binary encoding with optimized surface normals, making them compatible with every desktop slicer and 3D printer without requiring mesh repair or repair tools.
