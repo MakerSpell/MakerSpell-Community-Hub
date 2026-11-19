@@ -33,8 +33,20 @@ Drag the **Plane Offset** slider (-150 mm to +150 mm) to move the clipping plane
 ### Flip Direction (Reverse Cut)
 Toggle **Flip Direction** to reverse the viewing normal by 180 degrees, hiding the front half and displaying the opposite interior half of the model.
 
+### Vertical Dual-Range Z Slider
+Directly along the right edge of the 3D viewport (beneath the orientation ViewCube), a vertical dual-thumb slider allows interactive Z-axis section viewing across all models on the build plate:
+- **Top thumb:** Slide downwards from maximum height to inspect horizontal cross-sections and inner hollows layer-by-layer.
+- **Bottom thumb:** Slide upwards from the build plate to clip from the bottom up.
+- **Boundary protection:** Boundary faces on the opposite side remain completely solid with zero z-fighting or moiré artifacts.
+- **Full bounds:** When both handles are at full bounds (`0.0 mm` and maximum height), cross-section clipping automatically turns off.
+
+### Orientation ViewCube & Home Button
+The interactive 3D ViewCube at the top-right corner provides standard orthographic and isometric viewing angles:
+- **Faces, Edges, and Corners:** Click any face (`T`, `F`, `R`, `B`, `L`, `D`), edge, or corner to orient the camera to that exact vantage point.
+- **Home (House) button:** A dedicated Home button is located in the upper-left corner of the ViewCube. Clicking it smoothly resets the camera back to the default three-quarter isometric perspective framing.
+
 ### Non-destructive inspection
-Section View is **strictly a visualization tool**. It does not cut, carve, or split your model, and turning it on has zero effect on your exported G-code toolpaths. Tap **Clear Section Plane** at any time to remove the cross-section and return to the complete model view.
+Section View is **strictly a visualization tool**. It does not cut, carve, or split your model, and turning it on has zero effect on your exported G-code toolpaths. Tap **Clear Section Plane** or slide the vertical handles to full bounds at any time to remove the cross-section and return to the complete model view.
 
 ---
 

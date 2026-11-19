@@ -33,8 +33,20 @@ Kesit düzlemini modelin içinde ileri veya geri hareket ettirmek için **Düzle
 ### Yönü Ters Çevir
 Görüş normalini 180 derece tersine çevirmek, ön yarıyı gizleyip modelin karşıt iç yarısını görüntülemek için **Yönü Ters Çevir** seçeneğini açıp kapatın.
 
+### Dikey Çift Tutamaçlı Z Kaydırıcısı
+3D görünüm alanının sağ kenarında (yönlendirme ViewCube küpünün hemen altında), tabladaki tüm modelleri kapsayan dikey çift uçlu bir Z kesit kaydırıcısı yer alır:
+- **Üst tutamaç:** Maksimum model yüksekliğinden aşağı doğru kaydırarak modelin yatay kesitlerini ve iç boşluklarını katman katman inceleyin.
+- **Alt tutamaç:** Baskı tablasından yukarı doğru kaydırarak tabandan yukarı kesit alın.
+- **Sınır koruma mekanizması:** Yalnızca tek bir tutamaç hareket ettirildiğinde, karşıt yüzey (örn. Z = 0.0 tabla yüzeyi) bozulmaz ve sıfır z-fighting / moiré gürültüsü ile tamamen pürüzsüz kalır.
+- **Tam sınırlar:** Her iki tutamaç da uç sınırlara (`0.0 mm` ve tavan yükseklik) getirildiğinde kesit modu otomatik olarak devre dışı kalır.
+
+### Yön Küpü (ViewCube) ve Ev (Home) Butonu
+Sağ üst köşedeki interaktif 3D yön küpü standart dik ve izometrik bakış açıları sunar:
+- **Yüzeyler, Kenarlar ve Köşeler:** Kamerayı o bakış açısına kilitlemek için herhangi bir yüze (`T`, `F`, `R`, `B`, `L`, `D`), kenara veya köşeye dokunun.
+- **Ev (Home) butonu:** Yön küpünün sol üst köşesinde bir Ev (Home) ikonu bulunur. Tıklandığında kamerayı akıcı bir geçişle varsayılan 3/4 izometrik perspektif açısına sıfırlar.
+
 ### Tahribatsız canlı inceleme
-Kesit Görünümü **kesinlikle bir görselleştirme aracıdır**. Modelinizi kesmez, oymaz veya parçalara bölmez; açık bırakılmasının üretilen G-code takım yolları üzerinde sıfır etkisi vardır. Kesiti kaldırmak ve modelin tamamını tekrar görmek için dilediğiniz zaman **Kesit Düzlemini Sıfırla** düğmesine dokunun.
+Kesit Görünümü **kesinlikle bir görselleştirme aracıdır**. Modelinizi kesmez, oymaz veya parçalara bölmez; açık bırakılmasının üretilen G-code takım yolları üzerinde sıfır etkisi vardır. Kesiti kaldırmak ve modelin tamamını tekrar görmek için dilediğiniz zaman **Kesit Düzlemini Sıfırla** düğmesine dokunun veya dikey Z kaydırıcısını tam sınırlara çekin.
 
 ---
 
