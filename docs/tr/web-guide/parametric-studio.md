@@ -88,5 +88,10 @@ Dilimleme yapıp filament harcamadan önce tasarladığınız kutunun içine ger
 - **Gerçek Zamanlı Çarpışma Analizi**: 3B motoru kutunun iç hacmini anlık olarak hesaplar, yan yana baskı tablası (`both_plate`) kaydırmasını otomatik hesaba katar ve sığma durumunu yeşil tolerans paylarıyla, taşma durumunu ise X, Y ve Z eksenlerindeki milimetrik farklarla kırmızı uyarı şeklinde gösterir.
 - **Yatış Şekli & Çoklu Paket Testi**: Nesneleri dik veya yatay olarak konumlandırabilir, 1'li, 2'li, 4'lü veya 6'lı paket halinde aralarında 2 mm boşluk bırakılarak kutuya dizilişini 3B sahnede görebilirsiniz.
 
+## 9. Çoklu Format Çıktısı (STL & 3MF) ve Gerçek Zamanlı Filament Rengi
+
+- **STL & 3MF Çift Format Çıktısı**: Üst araç çubuğundaki indirme düğmesinde yer alan açılır menüden **İkili STL** veya **Üretim 3MF** formatını seçebilirsiniz. 3MF formatı modelin milimetre ölçeğini, yüzey normallerini ve sahne rengini içerir; Bambu Studio, OrcaSlicer, PrusaSlicer ve Cura tarafından doğrudan renklendirilmiş olarak açılır.
+- **3B Model & Filament Rengi Değiştirici**: Üst menüdeki **Renk** butonuna tıklayarak modelinizi popüler maker renklerine (Maker Mavisi, Saf Beyaz, Mat Siyah, Yakut Kırmızı, Prusa Turuncu, Bambu Yeşil, vb.) büründürebilir veya özel renk paletinden dilediğiniz rengi seçebilirsiniz. Seçilen renk anında 3B sahnede güncellenir, tarayıcıda hatırlanır ve 3MF dosyasına gömülür.
+
 > [!IMPORTANT]
-> İndirilen dosyalar standart ikili STL formatında ve doğru yüzey normalleriyle üretildiğinden ek bir ağ onarımı gerektirmeden tüm masaüstü dilimleyicilerde sorunsuz çalışır.
+> İndirilen STL ve 3MF dosyaları standart ikili formatta ve doğru yüzey normalleriyle üretildiğinden ek bir ağ onarımı gerektirmeden tüm masaüstü dilimleyicilerde sorunsuz çalışır.

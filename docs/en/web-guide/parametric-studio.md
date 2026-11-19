@@ -88,5 +88,10 @@ Before slicing and spending filament, verify if your physical tools and componen
 - **Physical Collision Analysis**: The 3D engine calculates exact cavity dimensions in real-time, automatically accounts for side-by-side print plate offsets, and highlights remaining clearance in green or flags overflows in red with exact millimeter deltas on the X, Y, and Z axes.
 - **Orientation & Multi-Pack**: Test components placed upright or flat, and simulate 1x, 2x, 4x, or 6x packs packed side-by-side with automatic 2mm spacing.
 
+## 9. Multi-Format Export (STL & 3MF) and Real-Time Filament Color Customizer
+
+- **Dual STL & 3MF Export**: Use the split-button dropdown in the top navigation bar to choose between **Binary STL** and **Production 3MF**. The 3MF package includes millimeter scaling, face normals, metadata, and embedded filament color; opening seamlessly inside Bambu Studio, OrcaSlicer, PrusaSlicer, and Cura with pre-applied colors.
+- **3D Model & Filament Color Customizer**: Click the **Color** button in the header toolbar to preview your model in popular filament shades (Maker Blue, Pure White, Matte Black, Ruby Red, Prusa Orange, Bambu Green, etc.) or choose any custom HEX color. The selected hue updates the 3D scene at 60 FPS, persists in browser storage, and embeds into 3MF exports.
+
 > [!IMPORTANT]
-> The exported STL files use standard binary encoding with optimized surface normals, making them compatible with every desktop slicer and 3D printer without requiring mesh repair or repair tools.
+> Both exported STL and 3MF files use standard binary encoding with optimized surface normals, making them compatible with every desktop slicer and 3D printer without requiring mesh repair or repair tools.
