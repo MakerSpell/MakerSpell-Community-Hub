@@ -81,5 +81,12 @@ The **Community Showcase** is a dedicated public gallery where makers share cust
 - **Copy Parameters & Share**: Copy parameter JSON recipes to your clipboard with a single click or share deep-links with friends.
 - **Zero Storage Overhead**: Every shared model is stored strictly as a compact recipe (~350 bytes), ensuring zero cloud bloat while enabling infinite community remixes.
 
+## 8. Virtual Staging & Real-Time Fit Simulator
+
+Before slicing and spending filament, verify if your physical tools and components fit inside the designed container:
+- **Instant Item Staging**: Click **Virtual Staging** in the toolbar or sidebar to open the dedicated simulator modal. Choose from everyday makerspace items (18650 cells, AA/AAA batteries, USB flash drives, SD cards, hex bits, M3 screws).
+- **Physical Collision Analysis**: The 3D engine calculates exact cavity dimensions in real-time, automatically accounts for side-by-side print plate offsets, and highlights remaining clearance in green or flags overflows in red with exact millimeter deltas on the X, Y, and Z axes.
+- **Orientation & Multi-Pack**: Test components placed upright or flat, and simulate 1x, 2x, 4x, or 6x packs packed side-by-side with automatic 2mm spacing.
+
 > [!IMPORTANT]
 > The exported STL files use standard binary encoding with optimized surface normals, making them compatible with every desktop slicer and 3D printer without requiring mesh repair or repair tools.

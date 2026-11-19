@@ -81,5 +81,12 @@ MakerSpell entegre bir **Parametrik Bulut Kasası** içerir:
 - **Parametre Kopyalama & Paylaşma**: Tasarımın parametre reçetesini tek tıkla JSON olarak panoya kopyalayabilir veya doğrudan arkadaşlarınızla bağlantı paylaşabilirsiniz.
 - **Sıfır Depolama Maliyeti**: Tüm topluluk modelleri yalnızca ~350 baytlık hafif JSON reçeteleri olarak depolanır; sunucu şişkinliği yaratmadan sınırsız remiks imkanı sunar.
 
+## 8. Kutu İçi Sanal Nesne Testi & Fiziksel Uyum Simülatörü
+
+Dilimleme yapıp filament harcamadan önce tasarladığınız kutunun içine gerçek fiziksel eşyalarınızın sığıp sığmadığını test edin:
+- **Anında Nesne Yerleştirme**: Üst araç çubuğundaki veya sol paneldeki **Sanal Nesne Testi** butonuna tıklayarak simülatör penceresini açın. Popüler atölye nesnelerinden (18650 piller, AA/AAA piller, USB bellekler, SD kartlar, alyan uçları, M3 vidalar) birini seçin.
+- **Gerçek Zamanlı Çarpışma Analizi**: 3B motoru kutunun iç hacmini anlık olarak hesaplar, yan yana baskı tablası (`both_plate`) kaydırmasını otomatik hesaba katar ve sığma durumunu yeşil tolerans paylarıyla, taşma durumunu ise X, Y ve Z eksenlerindeki milimetrik farklarla kırmızı uyarı şeklinde gösterir.
+- **Yatış Şekli & Çoklu Paket Testi**: Nesneleri dik veya yatay olarak konumlandırabilir, 1'li, 2'li, 4'lü veya 6'lı paket halinde aralarında 2 mm boşluk bırakılarak kutuya dizilişini 3B sahnede görebilirsiniz.
+
 > [!IMPORTANT]
 > İndirilen dosyalar standart ikili STL formatında ve doğru yüzey normalleriyle üretildiğinden ek bir ağ onarımı gerektirmeden tüm masaüstü dilimleyicilerde sorunsuz çalışır.
