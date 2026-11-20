@@ -27,7 +27,7 @@ MakerSpell offers flexible membership tiers tailored to hobbyists, makers, and p
 
 Exclusively available to our first 200 early backers:
 - One-time payment with **lifetime Maker Pro access** (no recurring subscriptions).
-- Exclusive Founder badge on your profile and access to private Discord engineering channels.
+- Exclusive Founder badge on your profile and access to private Founder channels in our Community Forum (forum.makerspell.com).
 - Guaranteed day-one access to future AI vision diagnostics and slicing innovations.
 
 ---

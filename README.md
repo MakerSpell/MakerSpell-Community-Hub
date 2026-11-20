@@ -72,7 +72,7 @@ Ayrıntılı adımlar için [Yeni Yazıcı Ekleme Kılavuzunu](docs/guides/addin
 - **Topluluk Yazıcıları:** [makerspell.com/community-printers](https://www.makerspell.com/community-printers)
 - **3D İndirimler & Kuponlar:** [makerspell.com/deals](https://www.makerspell.com/deals)
 - **Fiyatlandırma & Üyelik:** [makerspell.com/pricing](https://www.makerspell.com/pricing)
-- **Discord Topluluğu & Destek:** [makerspell.com/contact](https://www.makerspell.com/contact)
+- **Topluluk Forumu & Destek:** [forum.makerspell.com](https://forum.makerspell.com)
 
 ---
 

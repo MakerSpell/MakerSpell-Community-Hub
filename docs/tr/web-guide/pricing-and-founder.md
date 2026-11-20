@@ -27,7 +27,7 @@ MakerSpell, her seviyedeki üretici için adil ve esnek üyelik planları sunar.
 
 Erken aşamada projemize güvenen ilk 200 destekçiye özel tek seferlik ömür boyu lisans:
 - Aylık veya yıllık abonelik ödemesi yok; bir kere ödeyip ömür boyu Pro özelliklerine sahip olun.
-- Kurucu üye rozeti ve Discord özel geliştirici kanallarına erişim.
+- Kurucu üye rozeti ve Topluluk Forumumuzdaki (forum.makerspell.com) özel Kurucu kanallarına erişim.
 - Yeni çıkacak tüm yapay zeka ve kamera özelliklerine ilk gün ücretsiz erişim hakkı.
 
 ---
