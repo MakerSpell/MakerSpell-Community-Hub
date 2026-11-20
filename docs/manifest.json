@@ -689,6 +689,25 @@
               ]
             },
             {
+              "id": "guides-model-transform-controls",
+              "title": "Model Transform Controls: Move, Rotate, and Scale",
+              "path": "docs/en/guides/model-transform-controls.md",
+              "summary": "Streamlined OrcaSlicer-style transform controls: Move with XYZ world coordinates and Bed Center, Rotate with XYZ degrees and Reset, and Scale with dual percentage and millimeter dimensions.",
+              "tags": [
+                "guide",
+                "editor",
+                "transform",
+                "move",
+                "rotate",
+                "scale",
+                "dimensions",
+                "coordinates"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-transform-move.png"
+              ]
+            },
+            {
               "id": "guides-auto-orientation-options",
               "title": "Auto Orientation Options: Optimizing Print Angle and Support",
               "path": "docs/en/guides/auto-orientation-options.md",
@@ -1385,6 +1404,25 @@
               "screenshots": [
                 "assets/screenshots/web/viewer-section-view.png",
                 "assets/screenshots/web/viewer-measure-mode.png"
+              ]
+            },
+            {
+              "id": "guides-model-transform-controls",
+              "title": "Model Dönüştürme Kontrolleri: Taşıma, Döndürme ve Ölçekleme",
+              "path": "docs/tr/guides/model-transform-controls.md",
+              "summary": "OrcaSlicer tarzı pratik dönüştürme kontrolleri: XYZ dünya koordinatları ve Tablayı Ortala ile Taşıma, XYZ derece ve Sıfırla ile Döndürme, hem yüzde hem milimetre boyutlarıyla Ölçekleme.",
+              "tags": [
+                "guide",
+                "editor",
+                "transform",
+                "move",
+                "rotate",
+                "scale",
+                "dimensions",
+                "coordinates"
+              ],
+              "screenshots": [
+                "assets/screenshots/web/viewer-transform-move.png"
               ]
             },
             {
